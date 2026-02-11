@@ -340,9 +340,18 @@ class ActuarialToolsStack(Stack):
         )
 
         actuarial_lambda.node.add_dependency(memory_resource)
+        
+        # Allow bedrock-agentcore service to invoke
         actuarial_lambda.add_permission(
             "AllowAgentCoreInvoke",
             principal=iam.ServicePrincipal("bedrock-agentcore.amazonaws.com"),
+            action="lambda:InvokeFunction",
+        )
+        
+        # Also allow the gateway execution role (created by bedrock-agentcore toolkit)
+        actuarial_lambda.add_permission(
+            "AllowGatewayRoleInvoke",
+            principal=iam.ArnPrincipal(f"arn:aws:iam::{self.account}:role/AgentCoreGatewayExecutionRole"),
             action="lambda:InvokeFunction",
         )
 
@@ -440,9 +449,18 @@ class ActuarialToolsStack(Stack):
         )
 
         data_query_lambda.node.add_dependency(memory_resource)
+        
+        # Allow bedrock-agentcore service to invoke
         data_query_lambda.add_permission(
             "AllowAgentCoreInvokeDataQuery",
             principal=iam.ServicePrincipal("bedrock-agentcore.amazonaws.com"),
+            action="lambda:InvokeFunction",
+        )
+        
+        # Also allow the gateway execution role (created by bedrock-agentcore toolkit)
+        data_query_lambda.add_permission(
+            "AllowGatewayRoleInvokeDataQuery",
+            principal=iam.ArnPrincipal(f"arn:aws:iam::{self.account}:role/AgentCoreGatewayExecutionRole"),
             action="lambda:InvokeFunction",
         )
 
