@@ -1,0 +1,18 @@
+[project]
+name = "compliance-assistant-mcp"
+version = "1.0.0"
+description = "Multi-agent compliance analysis exposed as MCP server to Amazon Quick Suite via AgentCore Gateway and Bedrock AgentCore Runtime"
+requires-python = ">=3.10"
+license = {text = "MIT-0"}
+
+dependencies = [
+    "bedrock-agentcore",
+    "boto3>=1.37.6",
+    "crewai[tools]>=0.105.0,<1.0.0",
+]
+
+[project.scripts]
+compliance-assistant = "src.compliance_assistant.main:run"
+
+[tool.crewai]
+type = "crew"

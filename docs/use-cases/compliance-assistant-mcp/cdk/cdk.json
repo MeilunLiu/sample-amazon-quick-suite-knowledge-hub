@@ -1,0 +1,13 @@
+{
+  "app": "python3 app.py",
+  "watch": {
+    "include": ["**"],
+    "exclude": ["cdk.out", "**/__pycache__", ".venv"]
+  },
+  "context": {
+    "projectName": "compliance-assistant-v2",
+    "runtimeArn": "",
+    "agentId": "",
+    "agentAliasId": ""
+  }
+}

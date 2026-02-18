@@ -72,7 +72,7 @@ nav:
   - Integration:
     - Knowledge Base:
       - Confluence Cloud: integration/knowledge base/confluence-cloud-knowledge-only-setup-guide/README.md
-    - Actions: 
+    - Actions:
       - MCP:
         - Amazon Bedrock KB Retrieval MCP: integration/actions/MCP/bedrock-kb-retrieval-mcp/README.md
         - Amazon Redshift Data Query MCP: integration/actions/MCP/redshift-data-query-mcp/README.md
@@ -95,6 +95,7 @@ nav:
   - Use Cases:
     - Actuarial Analysis Solution: use-cases/actuarial-analysis-solution/README.md
     - Quick Chat Agent Embedding Demo: use-cases/quick-chat-agent-embedding-demo/README.md
+    - Compliance Assistant MCP: use-cases/compliance-assistant-mcp/README.md
   - How To Contribute: HOW-TO-CONTRIBUTE.md
 repo_url: https://github.com/aws-samples/sample-amazon-quick-suite-knowledge-hub
 edit_uri: edit/main/docs/

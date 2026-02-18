@@ -1,0 +1,18 @@
+# Generated files
+gateway_config.json
+gateway_config_v2.json
+.env
+*.pyc
+__pycache__/
+*.zip
+report.md
+.DS_Store
+
+# CDK
+cdk/cdk.out/
+cdk/.venv/
+cdk/__pycache__/
+
+# IDE
+.vscode/
+.idea/
