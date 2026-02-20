@@ -1,9 +1,9 @@
 ---
 category: Capability
-description: "Build your custom MCP Server in AgentCore Runtime and connect with Quick"
+description: "Build Your Custom MCP Server Using AgentCore Runtime and Connect with Quick"
 ---
 
-# Build your custom MCP Server in AgentCore Runtime and connect with Quick
+# Build Your Custom MCP Server Using AgentCore Runtime and Connect with Quick
 
 Customers build AI agents and automations in Amazon Quick to analyze data, search enterprise knowledge, and run workflows across their business. Amazon Quick is a unified agentic AI workspace that empowers teams to analyze data, build intelligent agents, discover enterprise knowledge, and automate workflows, all in one place. Quick Suite supports Model Context Protocol (MCP) integrations for action execution, data access, and AI agent integration. MCP provides a standard way for AI applications and agents to discover and invoke tools exposed by external services.
 
