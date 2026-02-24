@@ -1,0 +1,141 @@
+openapi: "3.0.3"
+info:
+  title: Document Skills MCP Tools
+  description: |
+    MCP tools for document creation skills exposed via AgentCore Gateway.
+    These tools implement an async submit/poll pattern to work within
+    Amazon Quick Suite's 60-second MCP request-response timeout.
+
+    USAGE PATTERN (important for the calling agent):
+    1. Call create_document to submit a document creation job
+    2. You will receive a job_id immediately — ALWAYS tell the user their job_id
+    3. Wait a few seconds, then call get_document_job_result with the job_id
+    4. If status is "SUBMITTED" or "PROCESSING", wait and poll again
+    5. If status is "COMPLETED", you'll get a download_url for the document
+    6. If status is "FAILED", inform the user and suggest they try again
+
+    IMPORTANT: Always share the job_id with the user after submission so they
+    can ask "check status of job <job_id>" later if they leave and come back.
+  version: "1.0.0"
+
+paths:
+  /create_document:
+    post:
+      operationId: create_document
+      summary: Submit a document creation job (docx, pdf, pptx, xlsx, or HTML)
+      description: |
+        Starts an asynchronous document creation job. Returns a job_id immediately.
+        The document is generated in the background using AI-powered code execution.
+        Use get_document_job_result to check status and retrieve the download link.
+
+        IMPORTANT: Always tell the user their job_id after submission. They may want
+        to check status later by saying "check status of job <job_id>".
+
+        Supported document types:
+        - docx: Professional Word documents with formatting, tables, headers
+        - pdf: PDF documents with professional layout and typography
+        - pptx: PowerPoint presentations with slides, charts, themes
+        - xlsx: Excel spreadsheets with formulas, charts, formatting
+        - frontend-design: Production-quality HTML/CSS/JS web pages
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - skill_type
+                - prompt
+              properties:
+                skill_type:
+                  type: string
+                  enum: [docx, pdf, pptx, xlsx, frontend-design]
+                  description: The type of document to create
+                prompt:
+                  type: string
+                  description: |
+                    Detailed description of the document to create. Be specific about
+                    content, structure, styling, and any data to include.
+                  example: "Create a professional Q4 2025 earnings report with executive summary, revenue breakdown by region, and year-over-year comparison charts"
+                filename:
+                  type: string
+                  description: Desired filename for the output (optional, auto-generated if omitted)
+                  example: "Q4_2025_Earnings_Report.docx"
+                user_id:
+                  type: string
+                  description: User identifier for tracking (optional)
+      responses:
+        "200":
+          description: Job submitted successfully
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  job_id:
+                    type: string
+                    description: Unique job identifier — use this with get_document_job_result
+                  status:
+                    type: string
+                    enum: [SUBMITTED]
+                  message:
+                    type: string
+
+  /get_document_job_result:
+    post:
+      operationId: get_document_job_result
+      summary: Check document creation job status and get download link
+      description: |
+        Polls the status of a document creation job. Call this after create_document.
+
+        Possible statuses:
+        - SUBMITTED: Job is queued, not yet started. Poll again in 3-5 seconds.
+        - PROCESSING: Document is being generated. Poll again in 5-10 seconds.
+        - COMPLETED: Document is ready. Response includes a download_url (presigned S3 URL, valid for 1 hour).
+        - FAILED: Generation failed. Response includes error details.
+
+        IMPORTANT: If status is SUBMITTED or PROCESSING, you MUST call this tool again
+        after a short wait. Do not give up after one poll.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required:
+                - job_id
+              properties:
+                job_id:
+                  type: string
+                  description: The job_id returned by create_document
+      responses:
+        "200":
+          description: Job status and result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  job_id:
+                    type: string
+                  status:
+                    type: string
+                    enum: [SUBMITTED, PROCESSING, COMPLETED, FAILED]
+                  filename:
+                    type: string
+                    description: Name of the generated file (only when COMPLETED)
+                  file_type:
+                    type: string
+                    description: File extension (only when COMPLETED)
+                  download_url:
+                    type: string
+                    description: Presigned S3 download URL, valid for 1 hour (only when COMPLETED)
+                  expires_in_seconds:
+                    type: integer
+                    description: Seconds until the download URL expires (only when COMPLETED)
+                  error:
+                    type: string
+                    description: Error message (only when FAILED)
+                  message:
+                    type: string
+                    description: Human-readable status message
