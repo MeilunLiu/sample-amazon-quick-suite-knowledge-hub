@@ -1,0 +1,7 @@
+# Root requirements — install these in your venv before deploying
+# Usage: pip install -r requirements.txt
+
+# AgentCore CLI (provides the `agentcore` command for deploying the agent)
+bedrock-agentcore[starter-toolkit]>=0.1.0
+
+# CDK dependencies are managed separately via cdk/package.json (npm)

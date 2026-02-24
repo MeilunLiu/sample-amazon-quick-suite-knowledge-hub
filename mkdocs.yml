@@ -96,6 +96,7 @@ nav:
     - Actuarial Analysis Solution: use-cases/actuarial-analysis-solution/README.md
     - Quick Chat Agent Embedding Demo: use-cases/quick-chat-agent-embedding-demo/README.md
     - Compliance Assistant MCP: use-cases/compliance-assistant-mcp/README.md
+    - Document Generation MCP AgentCore Runtime: use-cases/document-generation-mcp-agentcore-runtime/README.md
   - How To Contribute: HOW-TO-CONTRIBUTE.md
 repo_url: https://github.com/aws-samples/sample-amazon-quick-suite-knowledge-hub
 edit_uri: edit/main/docs/
