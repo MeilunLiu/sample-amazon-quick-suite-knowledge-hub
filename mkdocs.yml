@@ -84,6 +84,7 @@ nav:
       - Box: integration/actions/box-action-setup-guide/README.md
       - Confluence Cloud: integration/actions/confluence-cloud-knowledge-action-setup-guide/README.md
       - Jira Cloud: integration/actions/jira-cloud-action-setup-guide/README.md
+      - HubSpot: integration/actions/hubspot-action-setup-guide/README.md
       - MS Outlook: integration/actions/ms-outlook-action-setup-guide/README.md
       - MS SharePoint: integration/actions/ms-sharepoint-action-setup-guide/README.md
       - MS Teams: integration/actions/ms-teams-action-setup-guide/README.md
