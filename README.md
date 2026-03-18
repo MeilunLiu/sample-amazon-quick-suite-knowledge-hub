@@ -49,6 +49,7 @@ The structure is divided by integration type:
     * Bedrock KB Retrieval MCP
     * Redshift Data Query MCP
     * Gateway AgentCore Lambda S3 CRUD MCP
+    * Remote MCP OAuth tester (supports 2LO, 3LO and DCR)
   * ServiceNow (2LO)
   * Asana
   * Box
