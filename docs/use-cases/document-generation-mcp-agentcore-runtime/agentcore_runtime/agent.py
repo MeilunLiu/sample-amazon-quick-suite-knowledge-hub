@@ -15,29 +15,31 @@ agent continues processing in the background. This avoids any Lambda
 timeout issues — the agent runs as long as it needs.
 """
 
-import base64
 import json
 import logging
 import os
-import re
 import threading
 import time
 
 from bedrock_agentcore.runtime import BedrockAgentCoreApp
-from strands import Agent
-from strands.agent.conversation_manager import SlidingWindowConversationManager
-from strands.hooks.events import AfterToolCallEvent, BeforeToolCallEvent
-from strands.hooks.registry import HookProvider, HookRegistry
-from strands.models.bedrock import BedrockModel
-from strands_tools.code_interpreter import AgentCoreCodeInterpreter
 
 os.environ["BYPASS_TOOL_CONSENT"] = "true"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Heavy imports deferred to first invocation to stay within 30s init limit.
+# strands, strands_tools, base64, re are imported inside create_agent() / _extract_file().
 
-class MaxToolCallsHook(HookProvider):
+
+def _get_hook_classes():
+    """Lazily import and return hook base classes."""
+    from strands.hooks.events import AfterToolCallEvent, BeforeToolCallEvent
+    from strands.hooks.registry import HookProvider, HookRegistry
+    return HookProvider, HookRegistry, BeforeToolCallEvent, AfterToolCallEvent
+
+
+class MaxToolCallsHook:
     """Hard-stops the agent event loop after a maximum number of tool calls.
 
     Three-phase approach:
@@ -52,10 +54,11 @@ class MaxToolCallsHook(HookProvider):
         self.max_calls = max_calls
         self._call_count = 0
 
-    def register_hooks(self, registry: HookRegistry, **kwargs) -> None:
+    def register_hooks(self, registry, **kwargs) -> None:
+        _, _, BeforeToolCallEvent, _ = _get_hook_classes()
         registry.add_callback(BeforeToolCallEvent, self._before_tool_call)
 
-    def _before_tool_call(self, event: BeforeToolCallEvent) -> None:
+    def _before_tool_call(self, event) -> None:
         self._call_count += 1
 
         if self._call_count > self.max_calls:
@@ -92,7 +95,7 @@ class MaxToolCallsHook(HookProvider):
         logger.info("Tool call %d/%d", self._call_count, self.max_calls)
 
 
-class Base64CaptureHook(HookProvider):
+class Base64CaptureHook:
     """Captures base64 file output from tool results before conversation trimming.
 
     The SlidingWindowConversationManager trims old messages between turns,
@@ -104,10 +107,11 @@ class Base64CaptureHook(HookProvider):
     def __init__(self):
         self.captured_bytes: bytes | None = None
 
-    def register_hooks(self, registry: HookRegistry, **kwargs) -> None:
+    def register_hooks(self, registry, **kwargs) -> None:
+        _, _, _, AfterToolCallEvent = _get_hook_classes()
         registry.add_callback(AfterToolCallEvent, self._after_tool_call)
 
-    def _after_tool_call(self, event: AfterToolCallEvent) -> None:
+    def _after_tool_call(self, event) -> None:
         if self.captured_bytes is not None:
             return  # Already captured
 
@@ -132,6 +136,8 @@ class Base64CaptureHook(HookProvider):
 
         full_text = "".join(text_parts)
         if "BASE64_FILE_START" in full_text and "BASE64_FILE_END" in full_text:
+            import base64 as b64mod
+            import re
             start = full_text.index("BASE64_FILE_START") + len("BASE64_FILE_START")
             end = full_text.index("BASE64_FILE_END", start)
             raw = full_text[start:end].strip()
@@ -145,7 +151,7 @@ class Base64CaptureHook(HookProvider):
                 return
             if cleaned:
                 try:
-                    decoded = base64.b64decode(cleaned)
+                    decoded = b64mod.b64decode(cleaned)
                     if len(decoded) < 50:
                         logger.warning(
                             "Base64CaptureHook: decoded too small (%d bytes) — ignoring",
@@ -384,17 +390,19 @@ def _direct_persist(
     return s3_key
 
 
-def create_agent(skill_type: str) -> Agent:
+def create_agent(skill_type: str):
     """Create a Strands agent configured for the given skill type."""
+    from strands import Agent
+    from strands.agent.conversation_manager import SlidingWindowConversationManager
+    from strands.models.bedrock import BedrockModel
+    from strands_tools.code_interpreter import AgentCoreCodeInterpreter
+    import botocore.config
+
     system_prompt = SKILL_PROMPTS.get(skill_type)
     if not system_prompt:
         raise ValueError(f"Unknown skill_type: {skill_type}")
 
     # Configure boto3 with extended timeouts for large streaming responses.
-    # Complex documents (12+ section technical designs) can take 10+ minutes
-    # for the model to generate the full response.
-    import botocore.config
-
     bedrock_config = botocore.config.Config(
         read_timeout=600,  # 10 min read timeout for long streams
         connect_timeout=30,
@@ -415,11 +423,7 @@ def create_agent(skill_type: str) -> Agent:
         per_turn=True,
     )
 
-    # MaxToolCallsHook: 20 calls max. Warning at call 19, hard stop at call 21.
-    # Ideal: install(1) + generate(1) + base64(1) = 3, leaving 17 for retries.
     max_tool_calls_hook = MaxToolCallsHook(max_calls=20)
-
-    # Base64CaptureHook: grabs file output in real-time before conversation trimming.
     b64_capture_hook = Base64CaptureHook()
 
     agent = Agent(
@@ -429,7 +433,6 @@ def create_agent(skill_type: str) -> Agent:
         conversation_manager=conversation_manager,
         hooks=[max_tool_calls_hook, b64_capture_hook],
     )
-    # Attach capture hook to agent so invoke() can access captured bytes
     agent._b64_capture_hook = b64_capture_hook
     return agent
 
@@ -664,7 +667,7 @@ def _run_agent_sync(skill_type, prompt, filename):
             "status": "success",
             "filename": filename,
             "file_type": ext,
-            "file_base64": base64.b64encode(file_bytes).decode("utf-8"),
+            "file_base64": __import__('base64').b64encode(file_bytes).decode("utf-8"),
             "file_size": len(file_bytes),
         }
     except Exception as e:
@@ -674,6 +677,7 @@ def _run_agent_sync(skill_type, prompt, filename):
 
 def _clean_base64(raw: str) -> str:
     """Strip whitespace and non-base64 characters from extracted base64 string."""
+    import re
     cleaned = raw.strip()
     cleaned = re.sub(r"[^A-Za-z0-9+/=]", "", cleaned)
     cleaned = cleaned.rstrip("=")
@@ -693,6 +697,7 @@ def _safe_b64_decode(raw: str, source: str = "") -> bytes | None:
         )
         return None
     try:
+        import base64
         data = base64.b64decode(cleaned)
         if len(data) < 50:
             logger.warning(
@@ -735,6 +740,7 @@ def _extract_file(messages) -> bytes | None:
                     for item in tool_result.get("content", []):
                         if isinstance(item, dict):
                             if "file" in item:
+                                import base64
                                 data = item["file"].get("data", b"")
                                 if isinstance(data, str):
                                     return base64.b64decode(data)
