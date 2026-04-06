@@ -85,12 +85,25 @@ def lambda_handler(event, context):
         )
 
     else:
-        # SUBMITTED or PROCESSING — include elapsed time
+        # SUBMITTED or PROCESSING — long-poll: wait up to 50s checking every 10s
+        # before returning. This reduces the number of MCP calls the assistant
+        # needs to make (Quick Suite assistants have limited tool call budgets).
         import time as _time
 
+        poll_end = _time.time() + 50
+        while _time.time() < poll_end:
+            _time.sleep(10)
+            job = get_job(job_id)
+            if not job:
+                break
+            status = job["status"]
+            if status in ("COMPLETED", "FAILED"):
+                # Re-enter the handler logic for terminal states
+                return lambda_handler(event, context)
+
         elapsed_msg = ""
-        started_at = job.get("started_at")
-        created_at = job.get("created_at")
+        started_at = job.get("started_at") if job else None
+        created_at = job.get("created_at") if job else None
         if started_at:
             elapsed = int(_time.time()) - int(started_at)
             mins, secs = divmod(elapsed, 60)
@@ -107,7 +120,9 @@ def lambda_handler(event, context):
                 "status": status,
                 "message": (
                     f"Job {job_id} is still being generated (status: {status}).{elapsed_msg} "
-                    f'Call get_document_job_result again in a minute with job_id "{job_id}".'
+                    f"IMPORTANT: You MUST call get_document_job_result again immediately "
+                    f'with job_id "{job_id}". Do NOT stop polling until status is COMPLETED or FAILED. '
+                    f"The document typically takes 3-5 minutes to generate."
                 ),
             },
         )
