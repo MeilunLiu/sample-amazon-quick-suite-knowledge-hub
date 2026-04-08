@@ -1,0 +1,25 @@
+{
+  "name": "quick-sp-export-infra",
+  "version": "1.0.0",
+  "description": "CDK infrastructure for SharePoint List Export to Amazon QuickSight",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "synth": "cdk synth",
+    "deploy": "cdk deploy",
+    "destroy": "cdk destroy",
+    "format": "prettier --write \"**/*.{ts,js,json}\""
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "aws-cdk": "^2.1110.0",
+    "prettier": "^3.8.0",
+    "typescript": "~5.7.2"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.241.0",
+    "constructs": "^10.4.2",
+    "source-map-support": "^0.5.21"
+  }
+}
