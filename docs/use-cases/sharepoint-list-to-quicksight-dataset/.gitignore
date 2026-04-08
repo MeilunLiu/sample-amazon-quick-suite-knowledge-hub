@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+htmlcov/
+.coverage
+*.egg-info/
+dist/
+*.lock
+
+# CDK
+infra/cdk.out/
+infra/node_modules/
+infra/dist/
+infra/package-lock.json
+
+# Environment
+.env
+.env.*
+
+# OS
+.DS_Store
+
+# Backups
+tmp/

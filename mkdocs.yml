@@ -100,6 +100,7 @@ nav:
     - Compliance Assistant MCP: use-cases/compliance-assistant-mcp/README.md
     - Document Generation MCP AgentCore Runtime: use-cases/document-generation-mcp-agentcore-runtime/README.md
     - Embed Quick Chat Agent in Salesforce: use-cases/salesforce-chat-embed/README.md
+    - Export SharePoint Lists to Quick Sight: use-cases/sharepoint-list-to-quicksight-dataset/README.md
   - How To Contribute: HOW-TO-CONTRIBUTE.md
 repo_url: https://github.com/aws-samples/sample-amazon-quick-suite-knowledge-hub
 edit_uri: edit/main/docs/

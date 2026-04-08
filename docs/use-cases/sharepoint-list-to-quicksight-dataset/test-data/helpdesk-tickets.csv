@@ -1,0 +1,1001 @@
+Title,TicketId,Category,Priority,Status,AssignedTo,Requester,Department,DateSubmitted,DateResolved,SlaTargetHours,ActualResolutionHours,SlaMetYesNo,Notes
+Cannot connect to VDI,HD-1001,Network,Critical,New,<agent-5>,<requester-1>,Sales,2025-02-03,,2,,No,Scheduled for next maintenance window
+Office 365 activation error,HD-1002,Software,Critical,Closed,<agent-4>,<requester-2>,Sales,2025-03-11,2025-03-11,2,2.8,No,Reinstalled application
+MFA setup for new phone,HD-1003,Access & Permissions,High,Resolved,<agent-7>,<requester-3>,Marketing,2025-02-10,2025-02-10,4,4.7,No,Approved by manager; provisioned
+Email signature not displaying,HD-1004,Email,Low,In Progress,<agent-2>,<requester-4>,Finance,2025-01-16,,24,,No,Scheduled for next maintenance window
+Docking station USB ports dead,HD-1005,Hardware,High,Closed,<agent-4>,<requester-5>,Legal,2025-02-12,2025-02-12,4,4.9,No,Cleaned and tested
+IDE plugin compatibility issue,HD-1006,Software,Low,Closed,<agent-2>,<requester-6>,HR,2025-03-28,2025-03-28,24,43.3,No,Reset app configuration
+VPN split tunnel not routing correctly,HD-1007,Network,Medium,Closed,<agent-1>,<requester-7>,Sales,2025-01-10,2025-01-11,8,10.9,No,Flushed DNS cache
+Cannot connect to dev environment,HD-1008,Network,Medium,Closed,<agent-4>,<requester-8>,Operations,2025-03-18,2025-03-18,8,15.6,No,Updated firmware on switch
+Cannot connect to VDI,HD-1009,Network,High,Closed,<agent-1>,<requester-9>,Legal,2025-01-20,2025-01-20,4,7.2,No,Adjusted firewall rule
+Jira plugin not syncing,HD-1010,Software,Medium,Resolved,<agent-1>,<requester-10>,Operations,2025-01-20,2025-01-20,8,9.0,No,Reinstalled application
+Need standing desk converter,HD-1011,Other,Low,Resolved,<agent-5>,<requester-11>,HR,2025-01-28,2025-02-01,24,34.9,No,Resolved with vendor
+Parking gate not opening with badge,HD-1012,Other,Low,Closed,<agent-1>,<requester-12>,HR,2025-02-16,2025-02-19,24,28.7,No,Resolved with vendor
+Need standing desk converter,HD-1013,Other,High,Resolved,<agent-8>,<requester-13>,Legal,2025-01-14,2025-01-14,4,6.8,No,Coordinated with building ops
+Building access after hours,HD-1014,Other,Low,Resolved,<agent-4>,<requester-14>,Operations,2025-02-14,2025-02-17,24,30.2,No,Resolved with vendor
+Slow internet in building A,HD-1015,Network,Medium,New,<agent-1>,<requester-15>,Engineering,2025-03-27,,8,,No,Scheduled for next maintenance window
+Chrome tabs crashing repeatedly,HD-1016,Software,Medium,Closed,<agent-4>,<requester-16>,HR,2025-01-22,2025-01-23,8,5.3,Yes,Reinstalled application
+File share permissions error,HD-1017,Access & Permissions,Medium,Resolved,<agent-7>,<requester-17>,Finance,2025-01-12,2025-01-13,8,9.3,No,Fixed ACL inheritance
+Laptop fan running loud,HD-1018,Hardware,High,Resolved,<agent-8>,<requester-18>,Sales,2025-01-15,2025-01-16,4,2.9,Yes,Reimaged device
+Monitor flickering on dock,HD-1019,Hardware,Medium,In Progress,<agent-4>,<requester-19>,Legal,2025-02-26,,8,,No,
+Data loss prevention alert,HD-1020,Access & Permissions,Medium,Resolved,<agent-8>,<requester-20>,Sales,2025-01-30,2025-01-30,8,6.1,Yes,Re-enrolled MFA device
+Wi-Fi not connecting in conf room,HD-1021,Network,Low,Resolved,<agent-3>,<requester-21>,Engineering,2025-03-12,2025-03-12,24,34.6,No,Adjusted firewall rule
+PDF viewer not rendering correctly,HD-1022,Software,Medium,Closed,<agent-2>,<requester-22>,Finance,2025-03-21,2025-03-22,8,10.4,No,Reset app configuration
+Bandwidth throttled on guest network,HD-1023,Network,Medium,Closed,<agent-2>,<requester-23>,Engineering,2025-03-05,2025-03-06,8,9.4,No,Rebooted access point
+Reply-all storm on DL,HD-1024,Email,Medium,Closed,<agent-3>,<requester-24>,Finance,2025-03-16,2025-03-17,8,6.6,Yes,Fixed DNS record
+Office 365 activation error,HD-1025,Software,Low,Closed,<agent-3>,<requester-25>,Marketing,2025-02-11,2025-02-12,24,21.4,Yes,Reinstalled application
+Projector not detected in room 234,HD-1026,Hardware,Medium,Closed,<agent-5>,<requester-26>,Engineering,2025-01-06,2025-01-06,8,6.1,Yes,Replaced component under warranty
+Conference phone echo issue,HD-1027,Hardware,Low,Resolved,<agent-3>,<requester-27>,HR,2025-01-10,2025-01-11,24,40.8,No,Replaced component under warranty
+Phishing email reported,HD-1028,Email,Medium,Resolved,<agent-4>,<requester-28>,Operations,2025-01-19,2025-01-21,8,0.6,Yes,Fixed DNS record
+Meeting room calendar double-booked,HD-1029,Email,Critical,Resolved,<agent-6>,<requester-29>,Legal,2025-02-27,2025-02-27,2,2.0,Yes,Cleared mailbox quota
+Cannot install approved software,HD-1030,Software,Low,Closed,<agent-8>,<requester-30>,Marketing,2025-02-14,2025-02-16,24,25.2,No,Updated to latest version
+Teams notifications not appearing,HD-1031,Software,Medium,Closed,<agent-6>,<requester-31>,Engineering,2025-01-20,2025-01-20,8,11.8,No,Applied hotfix from vendor
+Latency spike on video calls,HD-1032,Network,Medium,Resolved,<agent-7>,<requester-32>,HR,2025-01-30,2025-01-30,8,8.1,No,Flushed DNS cache
+Need standing desk converter,HD-1033,Other,Medium,Closed,<agent-2>,<requester-33>,Operations,2025-02-13,2025-02-13,8,6.5,Yes,Completed checklist
+Ergonomic equipment request,HD-1034,Other,Medium,Resolved,<agent-3>,<requester-34>,HR,2025-03-19,2025-03-19,8,9.0,No,Completed checklist
+Chrome tabs crashing repeatedly,HD-1035,Software,Medium,Closed,<agent-4>,<requester-35>,HR,2025-03-07,2025-03-09,8,11.6,No,Cleared cache and restarted
+Need admin rights for dev tool,HD-1036,Access & Permissions,Medium,Resolved,<agent-4>,<requester-36>,Sales,2025-01-09,2025-01-09,8,9.0,No,Re-enrolled MFA device
+Broken trackpad on laptop,HD-1037,Hardware,Medium,Resolved,<agent-8>,<requester-37>,Finance,2025-02-06,2025-02-07,8,2.5,Yes,Firmware updated
+Laptop fan running loud,HD-1038,Hardware,Medium,Closed,<agent-2>,<requester-38>,Finance,2025-01-23,2025-01-23,8,3.9,Yes,Ordered replacement; installed
+Python environment broken,HD-1039,Software,Low,Closed,<agent-8>,<requester-39>,Sales,2025-03-07,2025-03-08,24,16.1,Yes,Reinstalled application
+Password reset request,HD-1040,Access & Permissions,Medium,Resolved,<agent-6>,<requester-40>,Marketing,2025-03-16,2025-03-16,8,6.1,Yes,Fixed ACL inheritance
+App update failed,HD-1041,Software,Medium,Closed,<agent-1>,<requester-41>,Sales,2025-02-28,2025-02-28,8,8.3,No,Updated to latest version
+Badge access request for lab,HD-1042,Access & Permissions,Low,Closed,<agent-7>,<requester-42>,HR,2025-03-16,2025-03-20,24,23.2,Yes,Rotated secret and updated vault
+Service principal certificate expiring,HD-1043,Access & Permissions,Low,New,<agent-8>,<requester-43>,Sales,2025-03-26,,24,,No,Investigating root cause
+Latency spike on video calls,HD-1044,Network,High,Closed,<agent-8>,<requester-44>,Sales,2025-01-12,2025-01-12,4,2.0,Yes,Replaced faulty cable
+Excel macro throws error,HD-1045,Software,High,Resolved,<agent-1>,<requester-45>,Operations,2025-03-16,2025-03-16,4,0.5,Yes,Cleared cache and restarted
+Encrypted email cannot be opened,HD-1046,Email,Medium,Closed,<agent-4>,<requester-46>,Sales,2025-03-07,2025-03-08,8,5.3,Yes,Blocked malicious sender
+Whiteboard markers dried out in room 394,HD-1047,Other,Low,Closed,<agent-3>,<requester-47>,Marketing,2025-01-19,2025-01-19,24,30.8,No,Re-provisioned badge
+Bandwidth throttled on guest network,HD-1048,Network,Low,Closed,<agent-4>,<requester-48>,Engineering,2025-02-13,2025-02-15,24,18.5,Yes,Flushed DNS cache
+Browser extension causing crashes,HD-1049,Software,Low,Closed,<agent-8>,<requester-49>,Engineering,2025-03-02,2025-03-02,24,7.3,Yes,Applied hotfix from vendor
+Wi-Fi not connecting in conf room,HD-1050,Network,Low,Closed,<agent-5>,<requester-50>,Marketing,2025-02-06,2025-02-07,24,31.2,No,Reconfigured routing rule
+Docking station not charging laptop,HD-1051,Hardware,Medium,Resolved,<agent-5>,<requester-51>,Marketing,2025-02-10,2025-02-11,8,9.8,No,Firmware updated
+Proxy blocking legitimate site,HD-1052,Network,Medium,Resolved,<agent-8>,<requester-52>,Operations,2025-03-09,2025-03-09,8,11.2,No,Replaced faulty cable
+Latency spike on video calls,HD-1053,Network,Medium,Resolved,<agent-6>,<requester-53>,Marketing,2025-03-05,2025-03-05,8,12.0,No,Flushed DNS cache
+Printer offline on floor 5,HD-1054,Hardware,Medium,New,<agent-8>,<requester-54>,Marketing,2025-03-22,,8,,No,Awaiting manager approval
+Antivirus blocking dev tool,HD-1055,Software,High,Waiting on User,<agent-1>,<requester-55>,Operations,2025-03-15,,4,,No,Waiting for replacement part
+Firewall blocking API calls,HD-1056,Network,Low,Resolved,<agent-2>,<requester-56>,Legal,2025-01-07,2025-01-11,24,20.0,Yes,Replaced faulty cable
+Second monitor not extending display,HD-1057,Hardware,High,In Progress,<agent-8>,<requester-57>,Engineering,2025-03-20,,4,,No,Investigating root cause
+Whiteboard markers dried out in room 294,HD-1058,Other,High,Closed,<agent-7>,<requester-58>,HR,2025-03-23,2025-03-23,4,5.6,No,Coordinated with building ops
+Power BI desktop crashes on open,HD-1059,Software,Medium,Resolved,<agent-2>,<requester-59>,Legal,2025-02-01,2025-02-02,8,8.3,No,Reinstalled application
+Cannot install approved software,HD-1060,Software,Medium,Closed,<agent-8>,<requester-60>,Marketing,2025-01-10,2025-01-11,8,8.2,No,Updated to latest version
+Service principal certificate expiring,HD-1061,Access & Permissions,Medium,New,<agent-4>,<requester-61>,Finance,2025-01-20,,8,,No,Investigating root cause
+Laptop fan running loud,HD-1062,Hardware,Low,Waiting on User,<agent-5>,<requester-62>,Finance,2025-01-21,,24,,No,Scheduled for next maintenance window
+Bandwidth throttled on guest network,HD-1063,Network,High,Resolved,<agent-1>,<requester-63>,Finance,2025-02-16,2025-02-16,4,3.6,Yes,Reconfigured routing rule
+Proxy blocking legitimate site,HD-1064,Network,Low,Closed,<agent-3>,<requester-64>,Finance,2025-03-13,2025-03-18,24,19.5,Yes,Replaced faulty cable
+VS Code freezing on large files,HD-1065,Software,Medium,Waiting on User,<agent-3>,<requester-65>,Marketing,2025-02-27,,8,,No,Investigating root cause
+Packet loss on conference bridge,HD-1066,Network,Medium,Resolved,<agent-6>,<requester-66>,Engineering,2025-02-26,2025-02-27,8,10.0,No,Replaced faulty cable
+Cannot connect to VDI,HD-1067,Network,Low,Resolved,<agent-4>,<requester-67>,Marketing,2025-03-17,2025-03-22,24,19.4,Yes,Updated firmware on switch
+Password reset request,HD-1068,Access & Permissions,Medium,Waiting on User,<agent-1>,<requester-68>,HR,2025-02-27,,8,,No,
+External monitor no signal,HD-1069,Hardware,Low,Resolved,<agent-5>,<requester-69>,HR,2025-02-09,2025-02-09,24,36.1,No,Ordered replacement; installed
+Role assignment missing in app,HD-1070,Access & Permissions,High,Closed,<agent-2>,<requester-70>,Marketing,2025-02-28,2025-02-28,4,1.8,Yes,Rotated secret and updated vault
+Cannot connect to dev environment,HD-1071,Network,High,New,<agent-8>,<requester-71>,Marketing,2025-02-17,,4,,No,Awaiting user response
+Chrome tabs crashing repeatedly,HD-1072,Software,Medium,Resolved,<agent-7>,<requester-72>,Engineering,2025-02-15,2025-02-15,8,7.2,Yes,Renewed license
+Desk phone not ringing,HD-1073,Other,Medium,Closed,<agent-2>,<requester-73>,Legal,2025-03-03,2025-03-05,8,1.1,Yes,Re-provisioned badge
+Wi-Fi not connecting in conf room,HD-1074,Network,Low,Closed,<agent-6>,<requester-74>,HR,2025-02-25,2025-02-25,24,7.3,Yes,Replaced faulty cable
+Encrypted email cannot be opened,HD-1075,Email,Critical,Resolved,<agent-2>,<requester-75>,Sales,2025-03-27,2025-03-27,2,0.6,Yes,Rebuilt Outlook profile
+Excel macro throws error,HD-1076,Software,Medium,Resolved,<agent-1>,<requester-76>,Engineering,2025-02-16,2025-02-16,8,6.4,Yes,Cleared cache and restarted
+Keyboard not responding after sleep,HD-1077,Hardware,High,Closed,<agent-7>,<requester-77>,HR,2025-02-05,2025-02-05,4,4.2,No,Firmware updated
+Phishing email reported,HD-1078,Email,Medium,Waiting on User,<agent-3>,<requester-78>,Engineering,2025-03-03,,8,,No,Awaiting manager approval
+Guest Wi-Fi access for vendor,HD-1079,Network,Medium,Closed,<agent-7>,<requester-79>,Legal,2025-03-08,2025-03-09,8,7.1,Yes,Flushed DNS cache
+Zoom audio not working,HD-1080,Software,Critical,Resolved,<agent-1>,<requester-80>,HR,2025-03-10,2025-03-10,2,1.0,Yes,Reset app configuration
+Need admin rights for dev tool,HD-1081,Access & Permissions,Medium,Resolved,<agent-3>,<requester-81>,Operations,2025-01-18,2025-01-19,8,8.6,No,Rotated secret and updated vault
+Teams notifications not appearing,HD-1082,Software,Medium,In Progress,<agent-6>,<requester-82>,HR,2025-03-11,,8,,No,Awaiting user response
+Meeting room calendar double-booked,HD-1083,Email,Low,Closed,<agent-8>,<requester-83>,Engineering,2025-01-24,2025-01-30,24,18.1,Yes,Adjusted transport rule
+Laptop fan running loud,HD-1084,Hardware,Medium,Closed,<agent-5>,<requester-84>,HR,2025-01-21,2025-01-22,8,0.5,Yes,Replaced component under warranty
+Password reset request,HD-1085,Access & Permissions,Medium,Resolved,<agent-6>,<requester-85>,HR,2025-02-03,2025-02-05,8,13.2,No,Approved by manager; provisioned
+Building access after hours,HD-1086,Other,High,Waiting on User,<agent-4>,<requester-86>,HR,2025-01-23,,4,,No,Scheduled for next maintenance window
+Docker desktop not starting,HD-1087,Software,Low,Closed,<agent-3>,<requester-87>,Finance,2025-01-18,2025-01-21,24,31.8,No,Cleared cache and restarted
+Cannot send emails to external,HD-1088,Email,High,In Progress,<agent-6>,<requester-88>,HR,2025-02-20,,4,,No,Investigating root cause
+SSO login loop on internal app,HD-1089,Access & Permissions,Medium,Resolved,<agent-1>,<requester-89>,Engineering,2025-02-17,2025-02-17,8,4.2,Yes,Reset credentials via portal
+Antivirus blocking dev tool,HD-1090,Software,High,Resolved,<agent-1>,<requester-90>,Marketing,2025-01-24,2025-01-24,4,4.7,No,Cleared cache and restarted
+Site-to-site VPN tunnel down,HD-1091,Network,Critical,Closed,<agent-5>,<requester-91>,Engineering,2025-01-22,2025-01-22,2,0.9,Yes,Rebooted access point
+Wired connection not working at desk,HD-1092,Network,Medium,Closed,<agent-1>,<requester-92>,Operations,2025-03-13,2025-03-14,8,4.4,Yes,Rebooted access point
+Bandwidth throttled on guest network,HD-1093,Network,Low,Closed,<agent-2>,<requester-93>,Engineering,2025-02-16,2025-02-17,24,30.4,No,Reconfigured routing rule
+Cannot connect to dev environment,HD-1094,Network,Medium,In Progress,<agent-2>,<requester-94>,Legal,2025-01-20,,8,,No,Awaiting manager approval
+Phishing email reported,HD-1095,Email,Medium,Closed,<agent-2>,<requester-95>,Marketing,2025-03-01,2025-03-03,8,9.7,No,Rebuilt Outlook profile
+Slack not loading messages,HD-1096,Software,Low,Resolved,<agent-6>,<requester-96>,Legal,2025-01-22,2025-01-22,24,32.0,No,Applied hotfix from vendor
+Phishing email reported,HD-1097,Email,Low,Closed,<agent-5>,<requester-97>,HR,2025-02-14,2025-02-17,24,26.1,No,Blocked malicious sender
+Slack not loading messages,HD-1098,Software,Low,Resolved,<agent-4>,<requester-98>,Legal,2025-03-01,2025-03-01,24,12.7,Yes,Reset app configuration
+Outlook keeps crashing,HD-1099,Software,High,Resolved,<agent-5>,<requester-99>,Marketing,2025-02-19,2025-02-19,4,5.4,No,Reinstalled application
+Projector not detected in room 259,HD-1100,Hardware,Medium,Resolved,<agent-7>,<requester-100>,Finance,2025-03-05,2025-03-06,8,6.0,Yes,Ordered replacement; installed
+Keyboard not responding after sleep,HD-1101,Hardware,High,Resolved,<agent-8>,<requester-101>,Operations,2025-03-01,2025-03-01,4,4.2,No,Cleaned and tested
+AWS console access request,HD-1102,Access & Permissions,Medium,Resolved,<agent-5>,<requester-102>,Engineering,2025-02-03,2025-02-04,8,1.8,Yes,Approved by manager; provisioned
+App update failed,HD-1103,Software,Critical,Closed,<agent-7>,<requester-103>,Sales,2025-01-22,2025-01-22,2,2.5,No,Reinstalled application
+PDF viewer not rendering correctly,HD-1104,Software,Medium,Closed,<agent-2>,<requester-104>,Legal,2025-02-15,2025-02-15,8,10.4,No,Updated to latest version
+Docking station USB ports dead,HD-1105,Hardware,Low,Closed,<agent-8>,<requester-105>,Legal,2025-02-21,2025-02-22,24,20.2,Yes,Swapped with spare unit
+File share permissions error,HD-1106,Access & Permissions,Medium,In Progress,<agent-3>,<requester-106>,Engineering,2025-03-12,,8,,No,Awaiting manager approval
+MFA setup for new phone,HD-1107,Access & Permissions,Low,Resolved,<agent-3>,<requester-107>,Sales,2025-01-19,2025-01-23,24,36.4,No,Fixed ACL inheritance
+Bandwidth throttled on guest network,HD-1108,Network,Medium,Resolved,<agent-8>,<requester-108>,Operations,2025-03-19,2025-03-19,8,8.1,No,Reconfigured routing rule
+Proxy blocking legitimate site,HD-1109,Network,Medium,Resolved,<agent-2>,<requester-109>,Marketing,2025-03-06,2025-03-06,8,0.5,Yes,Rebooted access point
+Slow internet in building C,HD-1110,Network,Medium,Closed,<agent-8>,<requester-110>,HR,2025-03-17,2025-03-17,8,7.1,Yes,Replaced faulty cable
+Webcam not detected,HD-1111,Hardware,Low,Closed,<agent-6>,<requester-111>,Operations,2025-01-16,2025-01-16,24,19.6,Yes,Swapped with spare unit
+Jira plugin not syncing,HD-1112,Software,Medium,Closed,<agent-7>,<requester-112>,Legal,2025-02-18,2025-02-19,8,7.8,Yes,Reset app configuration
+PDF viewer not rendering correctly,HD-1113,Software,Medium,Waiting on User,<agent-3>,<requester-113>,Marketing,2025-01-16,,8,,No,Awaiting user response
+App update failed,HD-1114,Software,Medium,Waiting on User,<agent-2>,<requester-114>,Marketing,2025-03-18,,8,,No,Awaiting user response
+Cannot send emails to external,HD-1115,Email,High,In Progress,<agent-7>,<requester-115>,HR,2025-02-21,,4,,No,
+Wired connection not working at desk,HD-1116,Network,Medium,Resolved,<agent-3>,<requester-116>,Sales,2025-01-15,2025-01-15,8,1.6,Yes,Adjusted firewall rule
+Laptop battery draining fast,HD-1117,Hardware,Medium,Resolved,<agent-3>,<requester-117>,Sales,2025-03-26,2025-03-27,8,6.4,Yes,Cleaned and tested
+Bulk user provisioning request,HD-1118,Access & Permissions,Medium,In Progress,<agent-4>,<requester-118>,Marketing,2025-03-07,,8,,No,
+Office 365 activation error,HD-1119,Software,Medium,Closed,<agent-7>,<requester-119>,Sales,2025-01-31,2025-01-31,8,6.7,Yes,Renewed license
+Junk filter too aggressive,HD-1120,Email,Medium,Resolved,<agent-3>,<requester-120>,Marketing,2025-03-04,2025-03-05,8,1.1,Yes,Rebuilt Outlook profile
+Adobe Acrobat license issue,HD-1121,Software,Medium,Resolved,<agent-6>,<requester-121>,Sales,2025-02-24,2025-02-25,8,3.3,Yes,Cleared cache and restarted
+Printer offline on floor 4,HD-1122,Hardware,Medium,Resolved,<agent-8>,<requester-122>,Operations,2025-01-23,2025-01-24,8,7.5,Yes,Reimaged device
+Cannot reach internal wiki,HD-1123,Network,Low,Closed,<agent-7>,<requester-123>,Engineering,2025-02-11,2025-02-17,24,28.6,No,Replaced faulty cable
+Wired connection not working at desk,HD-1124,Network,Critical,Closed,<agent-4>,<requester-124>,Operations,2025-01-24,2025-01-24,2,2.9,No,Adjusted firewall rule
+Badge not working at entrance,HD-1125,Other,High,Closed,<agent-1>,<requester-125>,Finance,2025-03-07,2025-03-07,4,2.2,Yes,Completed checklist
+Cannot access CI/CD pipeline,HD-1126,Access & Permissions,High,Closed,<agent-6>,<requester-126>,Sales,2025-01-11,2025-01-11,4,3.4,Yes,Reset credentials via portal
+Calendar invites not syncing,HD-1127,Email,High,Closed,<agent-8>,<requester-127>,Engineering,2025-02-12,2025-02-12,4,3.1,Yes,Blocked malicious sender
+Slow internet in building B,HD-1128,Network,Critical,Closed,<agent-4>,<requester-128>,Marketing,2025-02-20,2025-02-20,2,1.0,Yes,Replaced faulty cable
+Teams notifications not appearing,HD-1129,Software,High,Resolved,<agent-8>,<requester-129>,Marketing,2025-03-13,2025-03-13,4,3.2,Yes,Reinstalled application
+IDE plugin compatibility issue,HD-1130,Software,Medium,Closed,<agent-8>,<requester-130>,HR,2025-03-01,2025-03-01,8,4.9,Yes,Reset app configuration
+Building access after hours,HD-1131,Other,Low,New,<agent-2>,<requester-131>,Operations,2025-03-28,,24,,No,Investigating root cause
+Docking station USB ports dead,HD-1132,Hardware,Medium,Resolved,<agent-8>,<requester-132>,Engineering,2025-01-22,2025-01-22,8,4.2,Yes,Swapped with spare unit
+App update failed,HD-1133,Software,Low,Resolved,<agent-3>,<requester-133>,HR,2025-02-21,2025-02-25,24,22.6,Yes,Renewed license
+VS Code freezing on large files,HD-1134,Software,Medium,Closed,<agent-5>,<requester-134>,Legal,2025-02-08,2025-02-09,8,8.8,No,Reinstalled application
+Cannot access cloud console from office,HD-1135,Network,Low,Closed,<agent-8>,<requester-135>,Engineering,2025-02-15,2025-02-19,24,9.4,Yes,Flushed DNS cache
+Cannot connect to VDI,HD-1136,Network,Low,Closed,<agent-4>,<requester-136>,Engineering,2025-01-31,2025-01-31,24,27.2,No,Updated firmware on switch
+Packet loss on conference bridge,HD-1137,Network,High,Closed,<agent-5>,<requester-137>,Finance,2025-03-08,2025-03-08,4,2.2,Yes,Flushed DNS cache
+Site-to-site VPN tunnel down,HD-1138,Network,High,Closed,<agent-3>,<requester-138>,Legal,2025-01-22,2025-01-22,4,4.8,No,Flushed DNS cache
+Teams notifications not appearing,HD-1139,Software,Low,Closed,<agent-5>,<requester-139>,Legal,2025-01-16,2025-01-18,24,18.8,Yes,Reset app configuration
+Touchscreen unresponsive,HD-1140,Hardware,Low,Resolved,<agent-3>,<requester-140>,Sales,2025-03-26,2025-03-28,24,33.0,No,Ordered replacement; installed
+Outlook keeps crashing,HD-1141,Software,Medium,Closed,<agent-7>,<requester-141>,HR,2025-03-28,2025-03-28,8,7.8,Yes,Reset app configuration
+Slow performance after patch,HD-1142,Software,Medium,Resolved,<agent-1>,<requester-142>,Sales,2025-03-03,2025-03-03,8,11.9,No,Reset app configuration
+Need standing desk converter,HD-1143,Other,Medium,Resolved,<agent-7>,<requester-143>,Sales,2025-02-22,2025-02-22,8,9.6,No,Re-provisioned badge
+Projector not detected in room 260,HD-1144,Hardware,Low,Resolved,<agent-7>,<requester-144>,Sales,2025-01-26,2025-01-26,24,21.7,Yes,Firmware updated
+Out-of-office not activating,HD-1145,Email,Medium,Resolved,<agent-2>,<requester-145>,Finance,2025-03-11,2025-03-11,8,11.4,No,Re-enabled auto-mapping
+GitHub org membership needed,HD-1146,Access & Permissions,Medium,Closed,<agent-1>,<requester-146>,Legal,2025-01-19,2025-01-19,8,9.6,No,Re-enrolled MFA device
+Packet loss on conference bridge,HD-1147,Network,Medium,Resolved,<agent-5>,<requester-147>,Engineering,2025-02-24,2025-02-25,8,8.2,No,Reconfigured routing rule
+Bulk user provisioning request,HD-1148,Access & Permissions,Medium,Resolved,<agent-6>,<requester-148>,Legal,2025-01-24,2025-01-26,8,8.4,No,Fixed ACL inheritance
+VPN split tunnel not routing correctly,HD-1149,Network,High,In Progress,<agent-3>,<requester-149>,Marketing,2025-03-25,,4,,No,Scheduled for next maintenance window
+Zoom audio not working,HD-1150,Software,Low,Resolved,<agent-8>,<requester-150>,Operations,2025-03-19,2025-03-24,24,20.0,Yes,Reset app configuration
+Mailbox over quota,HD-1151,Email,Medium,New,<agent-8>,<requester-151>,Marketing,2025-03-21,,8,,No,Scheduled for next maintenance window
+Slow internet in building C,HD-1152,Network,Medium,Closed,<agent-7>,<requester-152>,Sales,2025-02-06,2025-02-06,8,8.9,No,Flushed DNS cache
+VS Code freezing on large files,HD-1153,Software,Medium,Closed,<agent-8>,<requester-153>,Legal,2025-01-13,2025-01-13,8,6.8,Yes,Cleared cache and restarted
+Bandwidth throttled on guest network,HD-1154,Network,Medium,Closed,<agent-6>,<requester-154>,Operations,2025-02-08,2025-02-09,8,15.7,No,Reconfigured routing rule
+Cannot access CI/CD pipeline,HD-1155,Access & Permissions,Low,Closed,<agent-8>,<requester-155>,Marketing,2025-03-08,2025-03-12,24,15.7,Yes,Approved by manager; provisioned
+UPS battery replacement needed,HD-1156,Other,Low,Closed,<agent-5>,<requester-156>,Engineering,2025-02-11,2025-02-14,24,39.2,No,Replaced equipment
+UPS battery replacement needed,HD-1157,Other,Medium,Resolved,<agent-3>,<requester-157>,Engineering,2025-03-25,2025-03-25,8,6.4,Yes,Coordinated with building ops
+IDE plugin compatibility issue,HD-1158,Software,Medium,Resolved,<agent-3>,<requester-158>,Engineering,2025-03-17,2025-03-18,8,4.6,Yes,Updated to latest version
+Cannot reach internal wiki,HD-1159,Network,Low,New,<agent-2>,<requester-159>,Operations,2025-03-20,,24,,No,Waiting for replacement part
+Docker desktop not starting,HD-1160,Software,Low,Resolved,<agent-1>,<requester-160>,Legal,2025-02-25,2025-02-27,24,34.0,No,Updated to latest version
+Python environment broken,HD-1161,Software,Low,Closed,<agent-8>,<requester-161>,Sales,2025-03-11,2025-03-12,24,9.3,Yes,Reinstalled application
+AWS console access request,HD-1162,Access & Permissions,Low,Resolved,<agent-4>,<requester-162>,Sales,2025-03-25,2025-03-28,24,26.4,No,Approved by manager; provisioned
+Ergonomic equipment request,HD-1163,Other,Critical,Resolved,<agent-7>,<requester-163>,Sales,2025-03-04,2025-03-04,2,2.6,No,Submitted facilities request
+USB-C adapter not recognized,HD-1164,Hardware,High,Resolved,<agent-5>,<requester-164>,Sales,2025-02-26,2025-02-26,4,0.7,Yes,Swapped with spare unit
+Proxy blocking legitimate site,HD-1165,Network,Medium,Closed,<agent-3>,<requester-165>,Finance,2025-01-25,2025-01-26,8,1.4,Yes,Updated firmware on switch
+Need elevated permissions for deployment,HD-1166,Access & Permissions,Medium,Resolved,<agent-2>,<requester-166>,HR,2025-03-04,2025-03-04,8,6.4,Yes,Approved by manager; provisioned
+Out-of-office not activating,HD-1167,Email,Medium,In Progress,<agent-4>,<requester-167>,Operations,2025-03-21,,8,,No,Waiting for replacement part
+Wired connection not working at desk,HD-1168,Network,Medium,Resolved,<agent-1>,<requester-168>,HR,2025-03-06,2025-03-06,8,6.7,Yes,Reconfigured routing rule
+Need admin rights for dev tool,HD-1169,Access & Permissions,Medium,Closed,<agent-1>,<requester-169>,Engineering,2025-03-07,2025-03-07,8,12.0,No,Fixed ACL inheritance
+Shared mailbox not showing,HD-1170,Email,Low,In Progress,<agent-7>,<requester-170>,Engineering,2025-03-16,,24,,No,Scheduled for next maintenance window
+New hire laptop setup,HD-1171,Hardware,Low,Closed,<agent-1>,<requester-171>,Legal,2025-01-08,2025-01-11,24,15.1,Yes,Swapped with spare unit
+Docking station not charging laptop,HD-1172,Hardware,High,Resolved,<agent-2>,<requester-172>,Engineering,2025-02-28,2025-02-28,4,4.4,No,Replaced component under warranty
+SharePoint page won't load,HD-1173,Software,Critical,New,<agent-8>,<requester-173>,Sales,2025-03-16,,2,,No,
+Junk filter too aggressive,HD-1174,Email,Medium,Closed,<agent-6>,<requester-174>,Sales,2025-02-13,2025-02-13,8,11.2,No,Blocked malicious sender
+Cannot send emails to external,HD-1175,Email,Low,Closed,<agent-7>,<requester-175>,HR,2025-03-10,2025-03-12,24,12.3,Yes,Adjusted transport rule
+Zoom audio not working,HD-1176,Software,Low,Closed,<agent-8>,<requester-176>,Sales,2025-02-03,2025-02-04,24,19.8,Yes,Cleared cache and restarted
+Adobe Acrobat license issue,HD-1177,Software,Medium,Closed,<agent-2>,<requester-177>,Finance,2025-02-22,2025-02-22,8,3.3,Yes,Reinstalled application
+Projector not detected in room 208,HD-1178,Hardware,Low,Waiting on User,<agent-4>,<requester-178>,Finance,2025-02-01,,24,,No,Investigating root cause
+Bulk user provisioning request,HD-1179,Access & Permissions,Low,Closed,<agent-4>,<requester-179>,Operations,2025-03-24,2025-03-25,24,29.7,No,Approved by manager; provisioned
+Chrome tabs crashing repeatedly,HD-1180,Software,Medium,Closed,<agent-8>,<requester-180>,Finance,2025-01-18,2025-01-20,8,9.0,No,Reset app configuration
+Laptop screen cracked,HD-1181,Hardware,Medium,Resolved,<agent-7>,<requester-181>,Marketing,2025-01-25,2025-01-25,8,7.2,Yes,Cleaned and tested
+Python environment broken,HD-1182,Software,Low,Resolved,<agent-8>,<requester-182>,Operations,2025-03-09,2025-03-11,24,10.7,Yes,Renewed license
+Fire drill IT checklist,HD-1183,Other,Low,Resolved,<agent-1>,<requester-183>,Legal,2025-01-15,2025-01-19,24,23.9,Yes,Submitted facilities request
+VPN disconnects every 10 minutes,HD-1184,Network,Medium,Resolved,<agent-8>,<requester-184>,Operations,2025-03-09,2025-03-09,8,6.7,Yes,Reconfigured routing rule
+Laptop keyboard keys sticking,HD-1185,Hardware,Low,Closed,<agent-7>,<requester-185>,Legal,2025-01-28,2025-01-31,24,14.7,Yes,Firmware updated
+Laptop hinge loose,HD-1186,Hardware,Low,Resolved,<agent-8>,<requester-186>,HR,2025-02-06,2025-02-06,24,6.0,Yes,Replaced component under warranty
+Laptop won't boot after update,HD-1187,Hardware,Medium,Waiting on User,<agent-8>,<requester-187>,Engineering,2025-03-28,,8,,No,
+Cannot install approved software,HD-1188,Software,Low,Resolved,<agent-2>,<requester-188>,HR,2025-01-11,2025-01-16,24,14.9,Yes,Updated to latest version
+Cannot send emails to external,HD-1189,Email,Medium,Closed,<agent-1>,<requester-189>,Sales,2025-02-15,2025-02-16,8,6.0,Yes,Blocked malicious sender
+Software license expired,HD-1190,Software,Low,Waiting on User,<agent-7>,<requester-190>,Operations,2025-03-16,,24,,No,Awaiting user response
+External monitor no signal,HD-1191,Hardware,Low,Closed,<agent-6>,<requester-191>,Engineering,2025-01-18,2025-01-22,24,19.9,Yes,Cleaned and tested
+Slack not loading messages,HD-1192,Software,Low,Closed,<agent-8>,<requester-192>,Sales,2025-02-20,2025-02-25,24,28.4,No,Cleared cache and restarted
+MFA setup for new phone,HD-1193,Access & Permissions,High,Resolved,<agent-3>,<requester-193>,Finance,2025-03-28,2025-03-28,4,3.0,Yes,Approved by manager; provisioned
+Headset mic not working,HD-1194,Hardware,High,Closed,<agent-7>,<requester-194>,Finance,2025-03-18,2025-03-18,4,2.9,Yes,Swapped with spare unit
+Reply-all storm on DL,HD-1195,Email,Critical,Closed,<agent-7>,<requester-195>,Finance,2025-01-16,2025-01-16,2,2.4,No,Adjusted transport rule
+Wired connection not working at desk,HD-1196,Network,High,Resolved,<agent-7>,<requester-196>,Marketing,2025-02-28,2025-02-28,4,1.8,Yes,Adjusted firewall rule
+Projector not detected in room 268,HD-1197,Hardware,High,Closed,<agent-5>,<requester-197>,Engineering,2025-02-25,2025-02-25,4,0.7,Yes,Ordered replacement; installed
+Laptop battery draining fast,HD-1198,Hardware,Medium,Closed,<agent-4>,<requester-198>,Finance,2025-02-15,2025-02-17,8,6.1,Yes,Swapped with spare unit
+PDF viewer not rendering correctly,HD-1199,Software,Low,Resolved,<agent-7>,<requester-199>,Marketing,2025-01-20,2025-01-25,24,18.5,Yes,Reset app configuration
+Jira plugin not syncing,HD-1200,Software,Low,Closed,<agent-2>,<requester-200>,Legal,2025-02-27,2025-02-28,24,8.8,Yes,Applied hotfix from vendor
+Headset mic not working,HD-1201,Hardware,Low,Closed,<agent-8>,<requester-201>,HR,2025-02-26,2025-02-27,24,4.8,Yes,Ordered replacement; installed
+Network drive mapping lost,HD-1202,Network,High,Waiting on User,<agent-4>,<requester-202>,Operations,2025-02-20,,4,,No,Awaiting user response
+OneDrive sync stuck,HD-1203,Software,Low,Resolved,<agent-7>,<requester-203>,Engineering,2025-01-07,2025-01-08,24,24.8,No,Reset app configuration
+Guest Wi-Fi access for vendor,HD-1204,Network,Medium,Resolved,<agent-6>,<requester-204>,Engineering,2025-03-08,2025-03-08,8,9.6,No,Updated firmware on switch
+VPN split tunnel not routing correctly,HD-1205,Network,Medium,Resolved,<agent-2>,<requester-205>,Finance,2025-03-04,2025-03-05,8,7.6,Yes,Rebooted access point
+Service principal certificate expiring,HD-1206,Access & Permissions,High,Closed,<agent-4>,<requester-206>,HR,2025-01-28,2025-01-28,4,5.2,No,Reset credentials via portal
+Laptop screen cracked,HD-1207,Hardware,Medium,Resolved,<agent-7>,<requester-207>,Engineering,2025-03-25,2025-03-26,8,12.3,No,Replaced component under warranty
+DNS resolution failing intermittently,HD-1208,Network,Low,Closed,<agent-3>,<requester-208>,Marketing,2025-02-16,2025-02-16,24,19.2,Yes,Adjusted firewall rule
+Python environment broken,HD-1209,Software,Medium,Closed,<agent-2>,<requester-209>,Marketing,2025-02-20,2025-02-21,8,5.1,Yes,Reset app configuration
+Conference phone echo issue,HD-1210,Hardware,High,Resolved,<agent-5>,<requester-210>,Engineering,2025-01-29,2025-01-29,4,2.8,Yes,Firmware updated
+DHCP not assigning IP on floor 3,HD-1211,Network,Medium,Closed,<agent-3>,<requester-211>,HR,2025-01-27,2025-01-27,8,2.8,Yes,Rebooted access point
+DHCP not assigning IP on floor 4,HD-1212,Network,High,Closed,<agent-7>,<requester-212>,HR,2025-03-11,2025-03-11,4,3.6,Yes,Rebooted access point
+Service principal certificate expiring,HD-1213,Access & Permissions,Medium,Closed,<agent-1>,<requester-213>,Marketing,2025-02-03,2025-02-03,8,6.7,Yes,Updated group membership
+Java runtime version conflict,HD-1214,Software,Medium,New,<agent-6>,<requester-214>,HR,2025-01-11,,8,,No,Awaiting user response
+Out-of-office not activating,HD-1215,Email,Low,Resolved,<agent-5>,<requester-215>,Legal,2025-01-10,2025-01-13,24,14.6,Yes,Re-enabled auto-mapping
+Cannot connect to VDI,HD-1216,Network,Medium,Waiting on User,<agent-7>,<requester-216>,Sales,2025-03-25,,8,,No,Awaiting manager approval
+Latency spike on video calls,HD-1217,Network,High,Closed,<agent-5>,<requester-217>,Marketing,2025-03-20,2025-03-21,4,1.2,Yes,Flushed DNS cache
+Wireless mouse not pairing,HD-1218,Hardware,Low,Closed,<agent-4>,<requester-218>,Sales,2025-02-16,2025-02-17,24,14.9,Yes,Replaced component under warranty
+Latency spike on video calls,HD-1219,Network,Low,Resolved,<agent-2>,<requester-219>,Finance,2025-03-12,2025-03-17,24,7.9,Yes,Rebooted access point
+Service principal certificate expiring,HD-1220,Access & Permissions,Medium,Closed,<agent-6>,<requester-220>,Legal,2025-01-14,2025-01-14,8,13.2,No,Approved by manager; provisioned
+Slow internet in building A,HD-1221,Network,High,Closed,<agent-8>,<requester-221>,Legal,2025-02-18,2025-02-19,4,4.0,Yes,Updated firmware on switch
+Power BI desktop crashes on open,HD-1222,Software,Critical,Closed,<agent-7>,<requester-222>,Sales,2025-01-22,2025-01-22,2,2.6,No,Reset app configuration
+External monitor no signal,HD-1223,Hardware,Medium,Closed,<agent-5>,<requester-223>,Operations,2025-02-04,2025-02-05,8,9.2,No,Ordered replacement; installed
+GitHub org membership needed,HD-1224,Access & Permissions,Critical,Resolved,<agent-6>,<requester-224>,Legal,2025-01-21,2025-01-21,2,1.4,Yes,Approved by manager; provisioned
+Power BI desktop crashes on open,HD-1225,Software,Medium,Resolved,<agent-7>,<requester-225>,Legal,2025-01-23,2025-01-23,8,9.1,No,Reset app configuration
+Password reset request,HD-1226,Access & Permissions,Low,Closed,<agent-8>,<requester-226>,Legal,2025-02-02,2025-02-03,24,29.8,No,Reset credentials via portal
+Office 365 activation error,HD-1227,Software,Medium,New,<agent-4>,<requester-227>,HR,2025-03-23,,8,,No,
+Email signature not displaying,HD-1228,Email,Low,Resolved,<agent-4>,<requester-228>,HR,2025-03-24,2025-03-27,24,4.9,Yes,Fixed DNS record
+Wi-Fi not connecting in conf room,HD-1229,Network,High,New,<agent-8>,<requester-229>,Operations,2025-03-23,,4,,No,Escalated to vendor
+Meeting room calendar double-booked,HD-1230,Email,Medium,Resolved,<agent-6>,<requester-230>,HR,2025-01-28,2025-01-28,8,8.1,No,Rebuilt Outlook profile
+Building access after hours,HD-1231,Other,Medium,Resolved,<agent-5>,<requester-231>,Operations,2025-03-11,2025-03-11,8,9.9,No,Resolved with vendor
+Building access after hours,HD-1232,Other,Low,Resolved,<agent-3>,<requester-232>,HR,2025-02-16,2025-02-18,24,31.2,No,Submitted facilities request
+Docking station not charging laptop,HD-1233,Hardware,High,Resolved,<agent-7>,<requester-233>,Engineering,2025-03-05,2025-03-05,4,5.3,No,Cleaned and tested
+Touchscreen unresponsive,HD-1234,Hardware,Medium,Closed,<agent-6>,<requester-234>,HR,2025-03-13,2025-03-13,8,5.6,Yes,Replaced component under warranty
+Power BI desktop crashes on open,HD-1235,Software,Medium,Resolved,<agent-2>,<requester-235>,Marketing,2025-03-20,2025-03-20,8,7.2,Yes,Updated to latest version
+Laptop won't boot after update,HD-1236,Hardware,Low,Closed,<agent-2>,<requester-236>,Sales,2025-03-12,2025-03-14,24,25.3,No,Replaced component under warranty
+Cannot reach internal wiki,HD-1237,Network,Low,Resolved,<agent-7>,<requester-237>,Sales,2025-02-16,2025-02-18,24,19.5,Yes,Flushed DNS cache
+Junk filter too aggressive,HD-1238,Email,High,Closed,<agent-1>,<requester-238>,Finance,2025-01-14,2025-01-14,4,4.5,No,Adjusted transport rule
+Cannot install approved software,HD-1239,Software,Medium,New,<agent-5>,<requester-239>,Operations,2025-03-26,,8,,No,Awaiting user response
+Junk filter too aggressive,HD-1240,Email,Low,Resolved,<agent-4>,<requester-240>,Sales,2025-01-06,2025-01-09,24,21.4,Yes,Re-enabled auto-mapping
+Git push failing with auth error,HD-1241,Software,Low,New,<agent-5>,<requester-241>,Engineering,2025-02-01,,24,,No,Awaiting user response
+Slow performance after patch,HD-1242,Software,Critical,Resolved,<agent-4>,<requester-242>,Legal,2025-03-13,2025-03-13,2,1.8,Yes,Applied hotfix from vendor
+Wireless mouse not pairing,HD-1243,Hardware,Medium,In Progress,<agent-7>,<requester-243>,Operations,2025-01-22,,8,,No,Awaiting user response
+Email forwarding rule not working,HD-1244,Email,Medium,Resolved,<agent-8>,<requester-244>,Marketing,2025-02-04,2025-02-05,8,8.8,No,Cleared mailbox quota
+Python environment broken,HD-1245,Software,High,Resolved,<agent-6>,<requester-245>,Legal,2025-02-01,2025-02-01,4,5.6,No,Reset app configuration
+SSO login loop on internal app,HD-1246,Access & Permissions,Critical,Closed,<agent-6>,<requester-246>,Sales,2025-01-17,2025-01-17,2,4.2,No,Updated group membership
+Desk phone not ringing,HD-1247,Other,Low,Resolved,<agent-4>,<requester-247>,Engineering,2025-03-06,2025-03-11,24,34.7,No,Replaced equipment
+Need access to analytics dashboard,HD-1248,Access & Permissions,Low,Closed,<agent-2>,<requester-248>,HR,2025-03-22,2025-03-25,24,17.7,Yes,Approved by manager; provisioned
+External monitor no signal,HD-1249,Hardware,Low,Closed,<agent-1>,<requester-249>,Sales,2025-03-20,2025-03-23,24,27.5,No,Reimaged device
+Office 365 activation error,HD-1250,Software,Medium,Closed,<agent-3>,<requester-250>,Engineering,2025-03-25,2025-03-26,8,4.7,Yes,Reinstalled application
+Cannot install approved software,HD-1251,Software,High,Closed,<agent-4>,<requester-251>,Operations,2025-03-14,2025-03-14,4,4.0,Yes,Updated to latest version
+Cannot send emails to external,HD-1252,Email,Medium,Closed,<agent-7>,<requester-252>,Marketing,2025-01-29,2025-01-31,8,10.8,No,Blocked malicious sender
+Cannot install approved software,HD-1253,Software,Medium,Resolved,<agent-4>,<requester-253>,Sales,2025-01-18,2025-01-19,8,0.5,Yes,Renewed license
+Shared mailbox not showing,HD-1254,Email,Low,Closed,<agent-6>,<requester-254>,Legal,2025-01-28,2025-01-31,24,20.4,Yes,Re-enabled auto-mapping
+Docker desktop not starting,HD-1255,Software,Medium,Resolved,<agent-3>,<requester-255>,HR,2025-01-30,2025-01-31,8,8.7,No,Reinstalled application
+VPN split tunnel not routing correctly,HD-1256,Network,Critical,Resolved,<agent-4>,<requester-256>,Legal,2025-01-22,2025-01-22,2,0.5,Yes,Reconfigured routing rule
+Conference room AV not working,HD-1257,Other,Medium,Waiting on User,<agent-7>,<requester-257>,HR,2025-01-18,,8,,No,Escalated to vendor
+Badge access request for lab,HD-1258,Access & Permissions,Low,New,<agent-6>,<requester-258>,Sales,2025-03-18,,24,,No,Escalated to vendor
+VS Code freezing on large files,HD-1259,Software,Medium,New,<agent-3>,<requester-259>,Sales,2025-01-06,,8,,No,Waiting for replacement part
+Guest Wi-Fi access for vendor,HD-1260,Network,Low,New,<agent-4>,<requester-260>,Operations,2025-03-19,,24,,No,Awaiting manager approval
+UPS battery replacement needed,HD-1261,Other,High,Resolved,<agent-2>,<requester-261>,Legal,2025-03-28,2025-03-28,4,2.2,Yes,Re-provisioned badge
+Service account password expired,HD-1262,Access & Permissions,Critical,Closed,<agent-8>,<requester-262>,Operations,2025-02-28,2025-02-28,2,2.3,No,Re-enrolled MFA device
+Need admin rights for dev tool,HD-1263,Access & Permissions,Medium,Resolved,<agent-3>,<requester-263>,Finance,2025-01-15,2025-01-16,8,8.1,No,Fixed ACL inheritance
+Docking station not charging laptop,HD-1264,Hardware,High,Resolved,<agent-2>,<requester-264>,Marketing,2025-03-23,2025-03-23,4,2.5,Yes,Replaced component under warranty
+Touchscreen unresponsive,HD-1265,Hardware,Medium,Resolved,<agent-4>,<requester-265>,Finance,2025-03-17,2025-03-18,8,9.0,No,Ordered replacement; installed
+Email forwarding rule not working,HD-1266,Email,High,Resolved,<agent-6>,<requester-266>,Engineering,2025-03-01,2025-03-01,4,4.2,No,Re-enabled auto-mapping
+Docker desktop not starting,HD-1267,Software,High,Closed,<agent-2>,<requester-267>,Marketing,2025-02-25,2025-02-25,4,6.7,No,Updated to latest version
+Wireless mouse not pairing,HD-1268,Hardware,Critical,Resolved,<agent-8>,<requester-268>,Finance,2025-02-08,2025-02-08,2,2.2,No,Ordered replacement; installed
+App update failed,HD-1269,Software,Low,Closed,<agent-4>,<requester-269>,HR,2025-01-13,2025-01-14,24,18.5,Yes,Updated to latest version
+Webcam not detected,HD-1270,Hardware,Low,Closed,<agent-1>,<requester-270>,HR,2025-03-20,2025-03-25,24,46.1,No,Reimaged device
+Calendar invites not syncing,HD-1271,Email,High,Resolved,<agent-7>,<requester-271>,Engineering,2025-03-02,2025-03-02,4,4.7,No,Blocked malicious sender
+VS Code freezing on large files,HD-1272,Software,Medium,Resolved,<agent-8>,<requester-272>,Legal,2025-01-07,2025-01-07,8,8.1,No,Renewed license
+Guest Wi-Fi access for vendor,HD-1273,Network,Low,In Progress,<agent-2>,<requester-273>,Engineering,2025-03-19,,24,,No,Escalated to vendor
+Need access to analytics dashboard,HD-1274,Access & Permissions,Medium,Closed,<agent-8>,<requester-274>,Engineering,2025-01-28,2025-01-30,8,8.8,No,Approved by manager; provisioned
+Cannot access shared drive,HD-1275,Access & Permissions,Critical,Closed,<agent-8>,<requester-275>,Marketing,2025-02-22,2025-02-22,2,0.9,Yes,Reset credentials via portal
+Printer paper jam on floor 4,HD-1276,Hardware,Low,Closed,<agent-8>,<requester-276>,Legal,2025-02-16,2025-02-19,24,39.0,No,Cleaned and tested
+Packet loss on conference bridge,HD-1277,Network,Medium,Closed,<agent-6>,<requester-277>,Legal,2025-01-13,2025-01-14,8,11.9,No,Adjusted firewall rule
+Wireless mouse not pairing,HD-1278,Hardware,High,Waiting on User,<agent-4>,<requester-278>,Legal,2025-01-13,,4,,No,Waiting for replacement part
+Jira plugin not syncing,HD-1279,Software,Low,Closed,<agent-7>,<requester-279>,Operations,2025-01-21,2025-01-25,24,39.0,No,Renewed license
+Wired connection not working at desk,HD-1280,Network,Medium,Resolved,<agent-5>,<requester-280>,Operations,2025-01-17,2025-01-18,8,3.6,Yes,Flushed DNS cache
+Docker desktop not starting,HD-1281,Software,Medium,Resolved,<agent-1>,<requester-281>,Legal,2025-01-07,2025-01-08,8,11.5,No,Updated to latest version
+Cannot access CI/CD pipeline,HD-1282,Access & Permissions,Low,Closed,<agent-5>,<requester-282>,Finance,2025-02-23,2025-02-25,24,21.0,Yes,Rotated secret and updated vault
+Parking gate not opening with badge,HD-1283,Other,Low,Closed,<agent-5>,<requester-283>,Marketing,2025-01-19,2025-01-21,24,36.7,No,Completed checklist
+App update failed,HD-1284,Software,High,Waiting on User,<agent-4>,<requester-284>,Engineering,2025-03-23,,4,,No,Escalated to vendor
+UPS battery replacement needed,HD-1285,Other,Medium,New,<agent-7>,<requester-285>,Finance,2025-02-24,,8,,No,Awaiting manager approval
+Need elevated permissions for deployment,HD-1286,Access & Permissions,Medium,Resolved,<agent-8>,<requester-286>,Operations,2025-02-20,2025-02-20,8,10.7,No,Rotated secret and updated vault
+Power BI desktop crashes on open,HD-1287,Software,Low,Closed,<agent-3>,<requester-287>,Operations,2025-02-17,2025-02-17,24,31.2,No,Updated to latest version
+Power BI desktop crashes on open,HD-1288,Software,Medium,Resolved,<agent-2>,<requester-288>,Finance,2025-01-12,2025-01-12,8,7.2,Yes,Applied hotfix from vendor
+VPN split tunnel not routing correctly,HD-1289,Network,Medium,Resolved,<agent-3>,<requester-289>,Sales,2025-01-31,2025-02-01,8,3.6,Yes,Flushed DNS cache
+Ergonomic equipment request,HD-1290,Other,Medium,Closed,<agent-1>,<requester-290>,Engineering,2025-03-04,2025-03-05,8,1.8,Yes,Submitted facilities request
+Wireless drops in parking garage,HD-1291,Network,Medium,Closed,<agent-7>,<requester-291>,Finance,2025-03-08,2025-03-10,8,5.1,Yes,Adjusted firewall rule
+New hire laptop setup,HD-1292,Hardware,Medium,Closed,<agent-4>,<requester-292>,Sales,2025-02-19,2025-02-20,8,12.4,No,Swapped with spare unit
+Conference room AV not working,HD-1293,Other,Medium,Closed,<agent-6>,<requester-293>,Finance,2025-01-23,2025-01-24,8,7.5,Yes,Submitted facilities request
+VS Code freezing on large files,HD-1294,Software,Critical,Resolved,<agent-3>,<requester-294>,Engineering,2025-02-21,2025-02-21,2,1.7,Yes,Reinstalled application
+AWS console access request,HD-1295,Access & Permissions,Critical,Resolved,<agent-2>,<requester-295>,Finance,2025-03-03,2025-03-03,2,3.0,No,Updated group membership
+VS Code freezing on large files,HD-1296,Software,Medium,Resolved,<agent-5>,<requester-296>,HR,2025-03-24,2025-03-24,8,12.7,No,Applied hotfix from vendor
+Laptop screen cracked,HD-1297,Hardware,High,Resolved,<agent-5>,<requester-297>,Legal,2025-03-13,2025-03-13,4,2.6,Yes,Cleaned and tested
+Desk phone not ringing,HD-1298,Other,Medium,Resolved,<agent-1>,<requester-298>,Engineering,2025-01-17,2025-01-18,8,6.0,Yes,Completed checklist
+Printer paper jam on floor 4,HD-1299,Hardware,Medium,Resolved,<agent-4>,<requester-299>,Finance,2025-02-12,2025-02-13,8,4.8,Yes,Cleaned and tested
+Outlook keeps crashing,HD-1300,Software,Low,Closed,<agent-2>,<requester-300>,Legal,2025-01-11,2025-01-17,24,6.9,Yes,Updated to latest version
+Attachment size limit too small,HD-1301,Email,High,Closed,<agent-6>,<requester-301>,Sales,2025-01-20,2025-01-20,4,1.4,Yes,Fixed DNS record
+Laptop keyboard keys sticking,HD-1302,Hardware,Medium,Closed,<agent-1>,<requester-302>,Legal,2025-01-26,2025-01-27,8,10.0,No,Swapped with spare unit
+Guest Wi-Fi access for vendor,HD-1303,Network,Low,Closed,<agent-3>,<requester-303>,Finance,2025-03-09,2025-03-16,24,23.1,Yes,Adjusted firewall rule
+Need elevated permissions for deployment,HD-1304,Access & Permissions,Medium,Closed,<agent-4>,<requester-304>,Operations,2025-02-18,2025-02-18,8,5.1,Yes,Approved by manager; provisioned
+Badge access request for lab,HD-1305,Access & Permissions,Medium,Waiting on User,<agent-3>,<requester-305>,Legal,2025-03-18,,8,,No,
+VPN split tunnel not routing correctly,HD-1306,Network,Medium,Resolved,<agent-3>,<requester-306>,Engineering,2025-03-09,2025-03-09,8,6.2,Yes,Updated firmware on switch
+Laptop fan running loud,HD-1307,Hardware,Medium,Resolved,<agent-8>,<requester-307>,Engineering,2025-03-10,2025-03-11,8,9.2,No,Ordered replacement; installed
+DNS resolution failing intermittently,HD-1308,Network,Low,New,<agent-5>,<requester-308>,HR,2025-03-18,,24,,No,
+Proxy blocking legitimate site,HD-1309,Network,Medium,Resolved,<agent-8>,<requester-309>,Operations,2025-02-21,2025-02-21,8,12.3,No,Reconfigured routing rule
+DHCP not assigning IP on floor 2,HD-1310,Network,Medium,Resolved,<agent-2>,<requester-310>,Engineering,2025-01-27,2025-01-27,8,9.3,No,Rebooted access point
+UPS battery replacement needed,HD-1311,Other,Medium,Resolved,<agent-8>,<requester-311>,Legal,2025-01-30,2025-01-31,8,3.7,Yes,Completed checklist
+Slow internet in building B,HD-1312,Network,Medium,Resolved,<agent-8>,<requester-312>,Engineering,2025-03-14,2025-03-14,8,5.4,Yes,Updated firmware on switch
+External monitor no signal,HD-1313,Hardware,Medium,Closed,<agent-6>,<requester-313>,HR,2025-02-24,2025-02-26,8,5.3,Yes,Firmware updated
+Delayed email delivery,HD-1314,Email,High,Waiting on User,<agent-5>,<requester-314>,Legal,2025-03-17,,4,,No,Waiting for replacement part
+Jira plugin not syncing,HD-1315,Software,Medium,New,<agent-5>,<requester-315>,Operations,2025-02-19,,8,,No,Scheduled for next maintenance window
+Cannot connect to dev environment,HD-1316,Network,Medium,Waiting on User,<agent-2>,<requester-316>,Legal,2025-02-20,,8,,No,Escalated to vendor
+Cannot access shared drive,HD-1317,Access & Permissions,Low,Resolved,<agent-5>,<requester-317>,Legal,2025-03-01,2025-03-03,24,16.0,Yes,Reset credentials via portal
+UPS battery replacement needed,HD-1318,Other,Medium,Closed,<agent-3>,<requester-318>,Legal,2025-01-13,2025-01-14,8,5.8,Yes,Completed checklist
+Data loss prevention alert,HD-1319,Access & Permissions,Low,Closed,<agent-7>,<requester-319>,Sales,2025-03-12,2025-03-15,24,20.9,Yes,Rotated secret and updated vault
+Power BI desktop crashes on open,HD-1320,Software,Medium,Resolved,<agent-8>,<requester-320>,Legal,2025-02-03,2025-02-04,8,0.5,Yes,Updated to latest version
+Chrome tabs crashing repeatedly,HD-1321,Software,Low,Closed,<agent-2>,<requester-321>,Sales,2025-01-28,2025-01-30,24,19.8,Yes,Renewed license
+Cannot send emails to external,HD-1322,Email,Critical,Closed,<agent-8>,<requester-322>,Operations,2025-01-25,2025-01-25,2,1.9,Yes,Adjusted transport rule
+Docking station USB ports dead,HD-1323,Hardware,Low,Closed,<agent-4>,<requester-323>,Sales,2025-03-13,2025-03-17,24,25.3,No,Reimaged device
+Need elevated permissions for deployment,HD-1324,Access & Permissions,Medium,New,<agent-5>,<requester-324>,Sales,2025-03-26,,8,,No,Investigating root cause
+AWS console access request,HD-1325,Access & Permissions,Medium,Closed,<agent-4>,<requester-325>,Engineering,2025-02-16,2025-02-17,8,7.8,Yes,Approved by manager; provisioned
+DNS resolution failing intermittently,HD-1326,Network,Medium,New,<agent-8>,<requester-326>,Engineering,2025-02-12,,8,,No,
+DNS resolution failing intermittently,HD-1327,Network,Critical,Closed,<agent-2>,<requester-327>,Sales,2025-03-27,2025-03-27,2,0.5,Yes,Flushed DNS cache
+Password reset request,HD-1328,Access & Permissions,Critical,Resolved,<agent-6>,<requester-328>,Engineering,2025-01-17,2025-01-17,2,1.5,Yes,Approved by manager; provisioned
+Outlook keeps crashing,HD-1329,Software,Medium,Resolved,<agent-7>,<requester-329>,Finance,2025-02-15,2025-02-16,8,3.0,Yes,Reset app configuration
+Mailbox over quota,HD-1330,Email,Medium,In Progress,<agent-2>,<requester-330>,Marketing,2025-02-13,,8,,No,Escalated to vendor
+Shared mailbox not showing,HD-1331,Email,Critical,New,<agent-3>,<requester-331>,HR,2025-02-03,,2,,No,Awaiting manager approval
+Service principal certificate expiring,HD-1332,Access & Permissions,Low,Closed,<agent-6>,<requester-332>,Engineering,2025-03-17,2025-03-17,24,16.2,Yes,Approved by manager; provisioned
+Power BI desktop crashes on open,HD-1333,Software,Low,Closed,<agent-6>,<requester-333>,Sales,2025-02-27,2025-03-02,24,27.3,No,Renewed license
+Email forwarding rule not working,HD-1334,Email,Low,Resolved,<agent-8>,<requester-334>,Operations,2025-03-17,2025-03-19,24,10.6,Yes,Adjusted transport rule
+Office 365 activation error,HD-1335,Software,Medium,Closed,<agent-4>,<requester-335>,Engineering,2025-02-11,2025-02-11,8,5.4,Yes,Renewed license
+Laptop won't boot after update,HD-1336,Hardware,Medium,Closed,<agent-6>,<requester-336>,Finance,2025-01-27,2025-01-27,8,10.2,No,Cleaned and tested
+Data loss prevention alert,HD-1337,Access & Permissions,Low,Resolved,<agent-8>,<requester-337>,Finance,2025-02-20,2025-02-25,24,5.7,Yes,Reset credentials via portal
+Junk filter too aggressive,HD-1338,Email,High,Closed,<agent-2>,<requester-338>,Operations,2025-01-15,2025-01-15,4,2.5,Yes,Rebuilt Outlook profile
+Cannot access cloud console from office,HD-1339,Network,Medium,Closed,<agent-8>,<requester-339>,Operations,2025-01-25,2025-01-26,8,10.0,No,Rebooted access point
+Jira plugin not syncing,HD-1340,Software,Medium,Resolved,<agent-4>,<requester-340>,Legal,2025-03-25,2025-03-25,8,5.5,Yes,Cleared cache and restarted
+Account locked after failed attempts,HD-1341,Access & Permissions,Medium,Resolved,<agent-6>,<requester-341>,Engineering,2025-02-03,2025-02-03,8,3.8,Yes,Approved by manager; provisioned
+OneDrive sync stuck,HD-1342,Software,Low,Closed,<agent-1>,<requester-342>,Engineering,2025-02-16,2025-02-16,24,15.7,Yes,Applied hotfix from vendor
+AWS console access request,HD-1343,Access & Permissions,Medium,Closed,<agent-2>,<requester-343>,HR,2025-02-07,2025-02-07,8,7.5,Yes,Re-enrolled MFA device
+Docking station USB ports dead,HD-1344,Hardware,Low,Resolved,<agent-8>,<requester-344>,Sales,2025-02-04,2025-02-08,24,32.5,No,Replaced component under warranty
+Account locked after failed attempts,HD-1345,Access & Permissions,Medium,Closed,<agent-6>,<requester-345>,Operations,2025-01-20,2025-01-21,8,7.3,Yes,Re-enrolled MFA device
+Slow internet in building B,HD-1346,Network,High,Closed,<agent-1>,<requester-346>,HR,2025-01-24,2025-01-24,4,2.4,Yes,Rebooted access point
+Out-of-office not activating,HD-1347,Email,Low,Closed,<agent-5>,<requester-347>,Engineering,2025-02-02,2025-02-02,24,11.5,Yes,Fixed DNS record
+Proxy blocking legitimate site,HD-1348,Network,Medium,Closed,<agent-3>,<requester-348>,Operations,2025-02-18,2025-02-19,8,7.6,Yes,Adjusted firewall rule
+Mailbox over quota,HD-1349,Email,Medium,Waiting on User,<agent-7>,<requester-349>,Legal,2025-01-25,,8,,No,Investigating root cause
+Encrypted email cannot be opened,HD-1350,Email,Medium,Closed,<agent-2>,<requester-350>,Engineering,2025-03-08,2025-03-08,8,6.8,Yes,Rebuilt Outlook profile
+Cannot access CI/CD pipeline,HD-1351,Access & Permissions,Medium,Resolved,<agent-8>,<requester-351>,Legal,2025-02-23,2025-02-23,8,8.3,No,Reset credentials via portal
+Cannot send emails to external,HD-1352,Email,High,Resolved,<agent-7>,<requester-352>,Marketing,2025-01-30,2025-01-30,4,4.4,No,Adjusted transport rule
+Teams notifications not appearing,HD-1353,Software,High,Waiting on User,<agent-7>,<requester-353>,Operations,2025-03-21,,4,,No,Awaiting manager approval
+Need standing desk converter,HD-1354,Other,Medium,In Progress,<agent-4>,<requester-354>,Finance,2025-03-17,,8,,No,Awaiting manager approval
+Fire drill IT checklist,HD-1355,Other,Medium,Resolved,<agent-7>,<requester-355>,Operations,2025-01-23,2025-01-24,8,9.4,No,Replaced equipment
+Encrypted email cannot be opened,HD-1356,Email,Medium,Closed,<agent-1>,<requester-356>,Sales,2025-02-24,2025-02-25,8,8.5,No,Adjusted transport rule
+Second monitor not extending display,HD-1357,Hardware,Critical,New,<agent-7>,<requester-357>,Finance,2025-03-25,,2,,No,
+Delayed email delivery,HD-1358,Email,Medium,Resolved,<agent-8>,<requester-358>,Engineering,2025-01-31,2025-01-31,8,4.0,Yes,Adjusted transport rule
+Java runtime version conflict,HD-1359,Software,Critical,Resolved,<agent-3>,<requester-359>,Engineering,2025-02-10,2025-02-10,2,1.7,Yes,Reinstalled application
+Calendar invites not syncing,HD-1360,Email,Medium,Waiting on User,<agent-6>,<requester-360>,Marketing,2025-02-10,,8,,No,Investigating root cause
+Git push failing with auth error,HD-1361,Software,Medium,Closed,<agent-2>,<requester-361>,HR,2025-01-15,2025-01-16,8,3.1,Yes,Renewed license
+Java runtime version conflict,HD-1362,Software,Medium,Closed,<agent-7>,<requester-362>,HR,2025-03-08,2025-03-10,8,3.3,Yes,Applied hotfix from vendor
+Projector not detected in room 364,HD-1363,Hardware,High,Closed,<agent-4>,<requester-363>,Operations,2025-02-04,2025-02-04,4,4.3,No,Cleaned and tested
+Cannot access CI/CD pipeline,HD-1364,Access & Permissions,Medium,Resolved,<agent-3>,<requester-364>,Finance,2025-02-15,2025-02-15,8,7.2,Yes,Rotated secret and updated vault
+Office 365 activation error,HD-1365,Software,Medium,Resolved,<agent-4>,<requester-365>,Sales,2025-02-06,2025-02-06,8,3.0,Yes,Renewed license
+Conference phone echo issue,HD-1366,Hardware,Low,Waiting on User,<agent-1>,<requester-366>,Legal,2025-03-08,,24,,No,
+Java runtime version conflict,HD-1367,Software,High,Closed,<agent-5>,<requester-367>,Finance,2025-02-03,2025-02-03,4,3.9,Yes,Renewed license
+VS Code freezing on large files,HD-1368,Software,Low,Resolved,<agent-3>,<requester-368>,Finance,2025-01-21,2025-01-23,24,13.3,Yes,Reinstalled application
+Teams notifications not appearing,HD-1369,Software,Medium,In Progress,<agent-5>,<requester-369>,Sales,2025-03-17,,8,,No,Awaiting manager approval
+Conference phone echo issue,HD-1370,Hardware,Medium,Resolved,<agent-7>,<requester-370>,Operations,2025-02-22,2025-02-24,8,6.6,Yes,Replaced component under warranty
+Bulk user provisioning request,HD-1371,Access & Permissions,Low,Resolved,<agent-7>,<requester-371>,Legal,2025-02-23,2025-02-27,24,31.7,No,Rotated secret and updated vault
+Cannot connect to dev environment,HD-1372,Network,Low,Resolved,<agent-8>,<requester-372>,Marketing,2025-02-07,2025-02-13,24,28.1,No,Replaced faulty cable
+Phishing email reported,HD-1373,Email,High,Closed,<agent-6>,<requester-373>,Marketing,2025-02-21,2025-02-21,4,5.8,No,Blocked malicious sender
+Conference phone echo issue,HD-1374,Hardware,Medium,Closed,<agent-3>,<requester-374>,Legal,2025-02-11,2025-02-12,8,5.2,Yes,Swapped with spare unit
+Site-to-site VPN tunnel down,HD-1375,Network,Low,Resolved,<agent-3>,<requester-375>,Operations,2025-02-18,2025-02-22,24,25.8,No,Reconfigured routing rule
+Teams notifications not appearing,HD-1376,Software,Medium,Closed,<agent-5>,<requester-376>,HR,2025-02-25,2025-02-25,8,8.2,No,Reinstalled application
+Laptop screen cracked,HD-1377,Hardware,Medium,Closed,<agent-5>,<requester-377>,Operations,2025-01-16,2025-01-16,8,7.0,Yes,Firmware updated
+Cannot connect to VDI,HD-1378,Network,Low,Resolved,<agent-2>,<requester-378>,Marketing,2025-03-26,2025-03-28,24,11.2,Yes,Updated firmware on switch
+Projector not detected in room 376,HD-1379,Hardware,Low,Waiting on User,<agent-1>,<requester-379>,Engineering,2025-02-20,,24,,No,Escalated to vendor
+Laptop fan running loud,HD-1380,Hardware,Low,Waiting on User,<agent-3>,<requester-380>,HR,2025-03-23,,24,,No,Awaiting manager approval
+Out-of-office not activating,HD-1381,Email,Medium,Closed,<agent-4>,<requester-381>,Legal,2025-01-17,2025-01-18,8,7.5,Yes,Fixed DNS record
+Java runtime version conflict,HD-1382,Software,Medium,Closed,<agent-1>,<requester-382>,Operations,2025-03-09,2025-03-09,8,3.9,Yes,Renewed license
+IDE plugin compatibility issue,HD-1383,Software,Medium,Closed,<agent-7>,<requester-383>,Finance,2025-02-06,2025-02-06,8,4.5,Yes,Renewed license
+Meeting room calendar double-booked,HD-1384,Email,Medium,New,<agent-5>,<requester-384>,Operations,2025-03-15,,8,,No,Waiting for replacement part
+Docker desktop not starting,HD-1385,Software,Medium,Resolved,<agent-8>,<requester-385>,Marketing,2025-03-26,2025-03-27,8,8.6,No,Updated to latest version
+Broken trackpad on laptop,HD-1386,Hardware,Medium,Closed,<agent-1>,<requester-386>,Sales,2025-01-17,2025-01-18,8,3.5,Yes,Swapped with spare unit
+Slow internet in building B,HD-1387,Network,Low,Resolved,<agent-6>,<requester-387>,Engineering,2025-01-24,2025-01-28,24,38.8,No,Replaced faulty cable
+Calendar invites not syncing,HD-1388,Email,High,Resolved,<agent-4>,<requester-388>,Finance,2025-03-03,2025-03-03,4,3.0,Yes,Cleared mailbox quota
+Chrome tabs crashing repeatedly,HD-1389,Software,Low,Closed,<agent-6>,<requester-389>,Sales,2025-03-27,2025-03-28,24,22.6,Yes,Updated to latest version
+Encrypted email cannot be opened,HD-1390,Email,Low,Closed,<agent-4>,<requester-390>,Engineering,2025-02-05,2025-02-06,24,16.7,Yes,Fixed DNS record
+Broken trackpad on laptop,HD-1391,Hardware,Critical,Resolved,<agent-8>,<requester-391>,Operations,2025-03-23,2025-03-23,2,1.1,Yes,Cleaned and tested
+Laptop keyboard keys sticking,HD-1392,Hardware,Medium,Closed,<agent-3>,<requester-392>,Operations,2025-03-15,2025-03-16,8,4.0,Yes,Reimaged device
+Keyboard not responding after sleep,HD-1393,Hardware,Medium,Closed,<agent-3>,<requester-393>,Marketing,2025-01-11,2025-01-12,8,9.1,No,Swapped with spare unit
+Antivirus blocking dev tool,HD-1394,Software,Medium,Closed,<agent-3>,<requester-394>,Engineering,2025-03-14,2025-03-15,8,7.2,Yes,Applied hotfix from vendor
+SSO login loop on internal app,HD-1395,Access & Permissions,Low,Waiting on User,<agent-6>,<requester-395>,Legal,2025-03-26,,24,,No,
+Antivirus blocking dev tool,HD-1396,Software,Medium,Closed,<agent-8>,<requester-396>,Legal,2025-03-17,2025-03-18,8,9.7,No,Reinstalled application
+Laptop screen cracked,HD-1397,Hardware,Low,Closed,<agent-3>,<requester-397>,Legal,2025-01-10,2025-01-11,24,11.8,Yes,Cleaned and tested
+VPN disconnects every 10 minutes,HD-1398,Network,Critical,New,<agent-4>,<requester-398>,HR,2025-01-15,,2,,No,Escalated to vendor
+Meeting room calendar double-booked,HD-1399,Email,High,Resolved,<agent-7>,<requester-399>,Legal,2025-02-22,2025-02-22,4,3.0,Yes,Fixed DNS record
+Office temperature too cold,HD-1400,Other,High,Resolved,<agent-4>,<requester-400>,HR,2025-02-24,2025-02-24,4,2.9,Yes,Completed checklist
+Laptop hinge loose,HD-1401,Hardware,Medium,Closed,<agent-6>,<requester-401>,Operations,2025-03-05,2025-03-05,8,7.1,Yes,Ordered replacement; installed
+Conference room AV not working,HD-1402,Other,Medium,Waiting on User,<agent-6>,<requester-402>,Marketing,2025-03-17,,8,,No,Awaiting manager approval
+Latency spike on video calls,HD-1403,Network,Medium,New,<agent-4>,<requester-403>,Finance,2025-03-17,,8,,No,Awaiting user response
+New hire laptop setup,HD-1404,Hardware,Medium,Closed,<agent-1>,<requester-404>,HR,2025-01-23,2025-01-25,8,8.0,Yes,Cleaned and tested
+Out-of-office not activating,HD-1405,Email,Low,Resolved,<agent-3>,<requester-405>,Engineering,2025-01-10,2025-01-13,24,39.0,No,Rebuilt Outlook profile
+VPN split tunnel not routing correctly,HD-1406,Network,Medium,Resolved,<agent-4>,<requester-406>,Operations,2025-01-15,2025-01-15,8,5.7,Yes,Flushed DNS cache
+Phishing email reported,HD-1407,Email,Medium,Resolved,<agent-1>,<requester-407>,Legal,2025-02-17,2025-02-17,8,1.0,Yes,Rebuilt Outlook profile
+Slow internet in building C,HD-1408,Network,Medium,Resolved,<agent-1>,<requester-408>,Marketing,2025-03-14,2025-03-15,8,11.1,No,Replaced faulty cable
+Ergonomic equipment request,HD-1409,Other,Low,Closed,<agent-2>,<requester-409>,Sales,2025-03-02,2025-03-04,24,20.3,Yes,Coordinated with building ops
+Java runtime version conflict,HD-1410,Software,Medium,Closed,<agent-7>,<requester-410>,Legal,2025-01-22,2025-01-22,8,5.5,Yes,Renewed license
+Building access after hours,HD-1411,Other,Medium,Closed,<agent-4>,<requester-411>,Engineering,2025-02-09,2025-02-09,8,8.6,No,Replaced equipment
+Office 365 activation error,HD-1412,Software,Medium,Resolved,<agent-5>,<requester-412>,Sales,2025-02-19,2025-02-20,8,10.1,No,Reset app configuration
+Junk filter too aggressive,HD-1413,Email,High,Resolved,<agent-1>,<requester-413>,Sales,2025-03-26,2025-03-26,4,5.3,No,Adjusted transport rule
+Java runtime version conflict,HD-1414,Software,Medium,Resolved,<agent-4>,<requester-414>,HR,2025-03-13,2025-03-13,8,2.7,Yes,Applied hotfix from vendor
+Slow internet in building A,HD-1415,Network,Medium,Closed,<agent-1>,<requester-415>,Marketing,2025-01-27,2025-01-28,8,8.7,No,Rebooted access point
+Laptop won't boot after update,HD-1416,Hardware,Medium,Closed,<agent-6>,<requester-416>,Legal,2025-01-19,2025-01-19,8,6.9,Yes,Swapped with spare unit
+Packet loss on conference bridge,HD-1417,Network,Medium,Resolved,<agent-2>,<requester-417>,Sales,2025-01-31,2025-02-01,8,5.9,Yes,Replaced faulty cable
+Browser extension causing crashes,HD-1418,Software,High,Resolved,<agent-6>,<requester-418>,Operations,2025-02-20,2025-02-20,4,1.3,Yes,Reinstalled application
+Building access after hours,HD-1419,Other,Low,Resolved,<agent-4>,<requester-419>,Sales,2025-02-18,2025-02-18,24,27.8,No,Coordinated with building ops
+Power outage in server room,HD-1420,Other,Low,Waiting on User,<agent-6>,<requester-420>,Finance,2025-03-16,,24,,No,
+Power BI desktop crashes on open,HD-1421,Software,High,Resolved,<agent-3>,<requester-421>,Finance,2025-01-24,2025-01-24,4,6.4,No,Cleared cache and restarted
+Shared folder read-only unexpectedly,HD-1422,Access & Permissions,Low,Resolved,<agent-7>,<requester-422>,Finance,2025-02-13,2025-02-17,24,36.5,No,Re-enrolled MFA device
+Cannot reach internal wiki,HD-1423,Network,Medium,Closed,<agent-4>,<requester-423>,HR,2025-02-04,2025-02-05,8,11.8,No,Replaced faulty cable
+MFA setup for new phone,HD-1424,Access & Permissions,Medium,Resolved,<agent-7>,<requester-424>,Finance,2025-03-07,2025-03-09,8,3.7,Yes,Reset credentials via portal
+Shared folder read-only unexpectedly,HD-1425,Access & Permissions,Low,Closed,<agent-4>,<requester-425>,Engineering,2025-01-28,2025-02-01,24,15.0,Yes,Updated group membership
+Firewall blocking API calls,HD-1426,Network,Low,Waiting on User,<agent-6>,<requester-426>,Finance,2025-03-25,,24,,No,
+Wireless mouse not pairing,HD-1427,Hardware,High,New,<agent-8>,<requester-427>,Legal,2025-01-11,,4,,No,Scheduled for next maintenance window
+Python environment broken,HD-1428,Software,Low,Closed,<agent-1>,<requester-428>,Sales,2025-02-12,2025-02-15,24,28.5,No,Reinstalled application
+Password reset request,HD-1429,Access & Permissions,Low,Resolved,<agent-8>,<requester-429>,Legal,2025-03-04,2025-03-05,24,26.9,No,Updated group membership
+Printer paper jam on floor 3,HD-1430,Hardware,Medium,New,<agent-4>,<requester-430>,Finance,2025-01-17,,8,,No,Awaiting user response
+Password reset request,HD-1431,Access & Permissions,High,Resolved,<agent-8>,<requester-431>,Operations,2025-02-21,2025-02-21,4,4.7,No,Reset credentials via portal
+Shared mailbox not showing,HD-1432,Email,Medium,Closed,<agent-3>,<requester-432>,Sales,2025-01-24,2025-01-24,8,9.2,No,Fixed DNS record
+Parking gate not opening with badge,HD-1433,Other,Critical,Closed,<agent-5>,<requester-433>,Engineering,2025-03-05,2025-03-05,2,2.9,No,Coordinated with building ops
+Latency spike on video calls,HD-1434,Network,Medium,New,<agent-1>,<requester-434>,Sales,2025-03-17,,8,,No,Investigating root cause
+Monitor flickering on dock,HD-1435,Hardware,High,Resolved,<agent-6>,<requester-435>,Engineering,2025-01-24,2025-01-24,4,4.1,No,Reimaged device
+Conference phone echo issue,HD-1436,Hardware,Medium,Closed,<agent-3>,<requester-436>,Finance,2025-03-21,2025-03-22,8,3.6,Yes,Firmware updated
+Reply-all storm on DL,HD-1437,Email,High,Resolved,<agent-8>,<requester-437>,Sales,2025-01-21,2025-01-21,4,1.5,Yes,Rebuilt Outlook profile
+Wired connection not working at desk,HD-1438,Network,Low,Closed,<agent-2>,<requester-438>,Finance,2025-03-24,2025-03-28,24,15.7,Yes,Replaced faulty cable
+Bandwidth throttled on guest network,HD-1439,Network,Medium,New,<agent-8>,<requester-439>,Legal,2025-01-29,,8,,No,Investigating root cause
+Docking station not charging laptop,HD-1440,Hardware,Medium,Resolved,<agent-2>,<requester-440>,Operations,2025-02-01,2025-02-02,8,7.4,Yes,Swapped with spare unit
+Software license expired,HD-1441,Software,High,Closed,<agent-5>,<requester-441>,HR,2025-03-17,2025-03-17,4,1.4,Yes,Reinstalled application
+Junk filter too aggressive,HD-1442,Email,High,Resolved,<agent-6>,<requester-442>,Operations,2025-03-08,2025-03-08,4,1.2,Yes,Blocked malicious sender
+Delayed email delivery,HD-1443,Email,Medium,Closed,<agent-7>,<requester-443>,Operations,2025-01-13,2025-01-13,8,7.0,Yes,Blocked malicious sender
+Need access to analytics dashboard,HD-1444,Access & Permissions,Low,Resolved,<agent-6>,<requester-444>,Engineering,2025-01-25,2025-01-26,24,17.5,Yes,Re-enrolled MFA device
+Laptop hinge loose,HD-1445,Hardware,Low,Resolved,<agent-5>,<requester-445>,Operations,2025-02-15,2025-02-15,24,34.6,No,Swapped with spare unit
+Java runtime version conflict,HD-1446,Software,Medium,Closed,<agent-2>,<requester-446>,Marketing,2025-01-10,2025-01-11,8,6.2,Yes,Updated to latest version
+Power outage in server room,HD-1447,Other,Low,New,<agent-5>,<requester-447>,Legal,2025-02-16,,24,,No,Awaiting user response
+Monitor flickering on dock,HD-1448,Hardware,Medium,Resolved,<agent-2>,<requester-448>,Engineering,2025-02-14,2025-02-15,8,10.5,No,Cleaned and tested
+Software license expired,HD-1449,Software,Medium,Closed,<agent-5>,<requester-449>,Operations,2025-02-01,2025-02-02,8,2.5,Yes,Updated to latest version
+Webcam not detected,HD-1450,Hardware,Medium,Closed,<agent-1>,<requester-450>,HR,2025-03-18,2025-03-18,8,14.8,No,Swapped with spare unit
+Cannot connect to dev environment,HD-1451,Network,High,Resolved,<agent-5>,<requester-451>,HR,2025-02-18,2025-02-18,4,3.9,Yes,Replaced faulty cable
+Zoom audio not working,HD-1452,Software,Low,Resolved,<agent-8>,<requester-452>,HR,2025-02-20,2025-02-26,24,18.9,Yes,Applied hotfix from vendor
+Wired connection not working at desk,HD-1453,Network,High,New,<agent-8>,<requester-453>,Engineering,2025-03-05,,4,,No,
+Reply-all storm on DL,HD-1454,Email,Medium,Resolved,<agent-6>,<requester-454>,Finance,2025-01-29,2025-01-29,8,7.7,Yes,Cleared mailbox quota
+Shared mailbox not showing,HD-1455,Email,Medium,New,<agent-6>,<requester-455>,HR,2025-03-20,,8,,No,Awaiting manager approval
+Wireless drops in parking garage,HD-1456,Network,High,Resolved,<agent-5>,<requester-456>,HR,2025-03-06,2025-03-06,4,3.3,Yes,Reconfigured routing rule
+PDF viewer not rendering correctly,HD-1457,Software,Medium,Resolved,<agent-7>,<requester-457>,Legal,2025-03-02,2025-03-02,8,2.2,Yes,Applied hotfix from vendor
+Laptop fan running loud,HD-1458,Hardware,Medium,Resolved,<agent-6>,<requester-458>,HR,2025-01-18,2025-01-18,8,3.2,Yes,Firmware updated
+Antivirus blocking dev tool,HD-1459,Software,Medium,Resolved,<agent-1>,<requester-459>,Engineering,2025-02-02,2025-02-02,8,8.0,Yes,Renewed license
+Wired connection not working at desk,HD-1460,Network,High,Waiting on User,<agent-6>,<requester-460>,Marketing,2025-03-19,,4,,No,Investigating root cause
+Slow internet in building C,HD-1461,Network,Medium,Closed,<agent-3>,<requester-461>,Legal,2025-02-12,2025-02-13,8,8.9,No,Rebooted access point
+VS Code freezing on large files,HD-1462,Software,Low,Resolved,<agent-7>,<requester-462>,Operations,2025-02-15,2025-02-16,24,12.3,Yes,Cleared cache and restarted
+Cannot connect to VDI,HD-1463,Network,Low,Resolved,<agent-6>,<requester-463>,Legal,2025-02-28,2025-03-02,24,17.3,Yes,Replaced faulty cable
+GitHub org membership needed,HD-1464,Access & Permissions,Low,Waiting on User,<agent-3>,<requester-464>,Engineering,2025-01-23,,24,,No,Waiting for replacement part
+Cannot reach internal wiki,HD-1465,Network,Medium,Closed,<agent-8>,<requester-465>,Finance,2025-02-20,2025-02-21,8,5.3,Yes,Adjusted firewall rule
+PDF viewer not rendering correctly,HD-1466,Software,Low,Closed,<agent-6>,<requester-466>,Engineering,2025-01-10,2025-01-13,24,20.7,Yes,Reset app configuration
+Password reset request,HD-1467,Access & Permissions,Low,Resolved,<agent-5>,<requester-467>,Finance,2025-03-13,2025-03-14,24,10.7,Yes,Re-enrolled MFA device
+Docker desktop not starting,HD-1468,Software,High,Closed,<agent-6>,<requester-468>,HR,2025-01-07,2025-01-07,4,5.5,No,Updated to latest version
+Teams notifications not appearing,HD-1469,Software,Critical,Waiting on User,<agent-5>,<requester-469>,Operations,2025-03-19,,2,,No,Investigating root cause
+Password reset request,HD-1470,Access & Permissions,Medium,Closed,<agent-1>,<requester-470>,Marketing,2025-03-09,2025-03-09,8,11.6,No,Approved by manager; provisioned
+Junk filter too aggressive,HD-1471,Email,Critical,Closed,<agent-2>,<requester-471>,HR,2025-01-28,2025-01-28,2,1.2,Yes,Re-enabled auto-mapping
+Antivirus blocking dev tool,HD-1472,Software,High,Closed,<agent-1>,<requester-472>,Marketing,2025-01-16,2025-01-16,4,2.4,Yes,Applied hotfix from vendor
+File share permissions error,HD-1473,Access & Permissions,High,Closed,<agent-6>,<requester-473>,Engineering,2025-02-08,2025-02-08,4,4.2,No,Re-enrolled MFA device
+Antivirus blocking dev tool,HD-1474,Software,Medium,Closed,<agent-7>,<requester-474>,Finance,2025-02-08,2025-02-08,8,9.1,No,Renewed license
+Badge access request for lab,HD-1475,Access & Permissions,Critical,Resolved,<agent-6>,<requester-475>,Legal,2025-03-02,2025-03-02,2,2.9,No,Fixed ACL inheritance
+Service account password expired,HD-1476,Access & Permissions,Low,Resolved,<agent-4>,<requester-476>,HR,2025-02-18,2025-02-21,24,21.9,Yes,Updated group membership
+Need admin rights for dev tool,HD-1477,Access & Permissions,Medium,Resolved,<agent-5>,<requester-477>,Marketing,2025-01-30,2025-01-31,8,5.8,Yes,Rotated secret and updated vault
+Power outage in server room,HD-1478,Other,High,Closed,<agent-3>,<requester-478>,Finance,2025-03-19,2025-03-19,4,3.1,Yes,Coordinated with building ops
+Ergonomic equipment request,HD-1479,Other,Medium,Closed,<agent-7>,<requester-479>,Operations,2025-02-16,2025-02-16,8,14.0,No,Replaced equipment
+Office temperature too cold,HD-1480,Other,Medium,Resolved,<agent-8>,<requester-480>,Engineering,2025-03-09,2025-03-10,8,11.5,No,Submitted facilities request
+Guest Wi-Fi access for vendor,HD-1481,Network,High,Closed,<agent-8>,<requester-481>,Operations,2025-02-08,2025-02-08,4,3.3,Yes,Replaced faulty cable
+Printer paper jam on floor 2,HD-1482,Hardware,Medium,Waiting on User,<agent-1>,<requester-482>,Operations,2025-02-24,,8,,No,Investigating root cause
+Wireless drops in parking garage,HD-1483,Network,Low,Closed,<agent-8>,<requester-483>,Finance,2025-03-02,2025-03-06,24,29.8,No,Reconfigured routing rule
+Browser extension causing crashes,HD-1484,Software,Medium,Closed,<agent-1>,<requester-484>,Operations,2025-01-17,2025-01-17,8,5.6,Yes,Reinstalled application
+Desk phone not ringing,HD-1485,Other,Medium,In Progress,<agent-5>,<requester-485>,Operations,2025-02-24,,8,,No,Awaiting user response
+Wireless mouse not pairing,HD-1486,Hardware,Critical,Waiting on User,<agent-1>,<requester-486>,Operations,2025-03-22,,2,,No,Awaiting manager approval
+VPN split tunnel not routing correctly,HD-1487,Network,Low,Closed,<agent-8>,<requester-487>,Engineering,2025-01-10,2025-01-15,24,33.4,No,Flushed DNS cache
+Cannot reach internal wiki,HD-1488,Network,Low,Resolved,<agent-3>,<requester-488>,Operations,2025-03-21,2025-03-21,24,25.5,No,Rebooted access point
+Excel macro throws error,HD-1489,Software,Medium,Waiting on User,<agent-1>,<requester-489>,Sales,2025-03-27,,8,,No,Investigating root cause
+Calendar invites not syncing,HD-1490,Email,High,Closed,<agent-8>,<requester-490>,HR,2025-03-25,2025-03-25,4,7.5,No,Blocked malicious sender
+Firewall blocking API calls,HD-1491,Network,Medium,Resolved,<agent-4>,<requester-491>,Legal,2025-01-11,2025-01-12,8,5.3,Yes,Reconfigured routing rule
+Bandwidth throttled on guest network,HD-1492,Network,Medium,Resolved,<agent-1>,<requester-492>,Sales,2025-01-18,2025-01-19,8,7.3,Yes,Rebooted access point
+MFA setup for new phone,HD-1493,Access & Permissions,Medium,Closed,<agent-5>,<requester-493>,Finance,2025-03-07,2025-03-07,8,11.2,No,Re-enrolled MFA device
+Data loss prevention alert,HD-1494,Access & Permissions,Medium,Resolved,<agent-8>,<requester-494>,HR,2025-01-17,2025-01-18,8,9.8,No,Updated group membership
+DNS resolution failing intermittently,HD-1495,Network,Low,Resolved,<agent-4>,<requester-495>,Finance,2025-03-27,2025-03-27,24,0.5,Yes,Replaced faulty cable
+Wired connection not working at desk,HD-1496,Network,High,Closed,<agent-1>,<requester-496>,Engineering,2025-02-21,2025-02-22,4,4.3,No,Adjusted firewall rule
+Docking station USB ports dead,HD-1497,Hardware,Low,Closed,<agent-8>,<requester-497>,HR,2025-01-20,2025-01-20,24,29.4,No,Swapped with spare unit
+Chrome tabs crashing repeatedly,HD-1498,Software,High,New,<agent-4>,<requester-498>,Engineering,2025-02-05,,4,,No,Escalated to vendor
+Bandwidth throttled on guest network,HD-1499,Network,High,Closed,<agent-7>,<requester-499>,Sales,2025-02-02,2025-02-02,4,1.4,Yes,Reconfigured routing rule
+OneDrive sync stuck,HD-1500,Software,High,Closed,<agent-1>,<requester-500>,Marketing,2025-01-23,2025-01-23,4,4.9,No,Cleared cache and restarted
+SSO login loop on internal app,HD-1501,Access & Permissions,Medium,Resolved,<agent-3>,<requester-501>,HR,2025-03-17,2025-03-17,8,3.9,Yes,Approved by manager; provisioned
+External monitor no signal,HD-1502,Hardware,Medium,Waiting on User,<agent-4>,<requester-502>,Sales,2025-02-16,,8,,No,Investigating root cause
+Excel macro throws error,HD-1503,Software,Critical,Resolved,<agent-8>,<requester-503>,Operations,2025-03-11,2025-03-11,2,2.0,Yes,Renewed license
+Cannot access CI/CD pipeline,HD-1504,Access & Permissions,Medium,New,<agent-7>,<requester-504>,Sales,2025-01-22,,8,,No,Escalated to vendor
+Cannot access HR portal,HD-1505,Access & Permissions,High,Waiting on User,<agent-8>,<requester-505>,Legal,2025-03-20,,4,,No,Escalated to vendor
+Laptop won't boot after update,HD-1506,Hardware,Low,Resolved,<agent-8>,<requester-506>,Operations,2025-03-28,2025-03-28,24,37.0,No,Cleaned and tested
+Whiteboard markers dried out in room 128,HD-1507,Other,Medium,Closed,<agent-4>,<requester-507>,Legal,2025-01-16,2025-01-17,8,6.2,Yes,Replaced equipment
+Wi-Fi not connecting in conf room,HD-1508,Network,Critical,Closed,<agent-6>,<requester-508>,Sales,2025-03-18,2025-03-18,2,2.2,No,Replaced faulty cable
+Role assignment missing in app,HD-1509,Access & Permissions,Low,Closed,<agent-4>,<requester-509>,Legal,2025-02-03,2025-02-07,24,24.7,No,Fixed ACL inheritance
+Cannot connect to dev environment,HD-1510,Network,Medium,Resolved,<agent-2>,<requester-510>,Finance,2025-03-15,2025-03-16,8,13.3,No,Rebooted access point
+Laptop battery draining fast,HD-1511,Hardware,Low,Resolved,<agent-5>,<requester-511>,Engineering,2025-01-19,2025-01-23,24,13.4,Yes,Cleaned and tested
+External monitor no signal,HD-1512,Hardware,Medium,Resolved,<agent-3>,<requester-512>,Finance,2025-02-19,2025-02-21,8,9.7,No,Reimaged device
+Phishing email reported,HD-1513,Email,Medium,Waiting on User,<agent-6>,<requester-513>,Finance,2025-03-21,,8,,No,
+Network drive mapping lost,HD-1514,Network,Medium,Closed,<agent-3>,<requester-514>,Legal,2025-02-14,2025-02-15,8,6.2,Yes,Reconfigured routing rule
+Zoom audio not working,HD-1515,Software,Low,Waiting on User,<agent-3>,<requester-515>,Operations,2025-03-15,,24,,No,
+Broken trackpad on laptop,HD-1516,Hardware,Medium,Resolved,<agent-1>,<requester-516>,Marketing,2025-03-20,2025-03-20,8,0.5,Yes,Reimaged device
+OneDrive sync stuck,HD-1517,Software,Medium,Closed,<agent-3>,<requester-517>,HR,2025-02-13,2025-02-14,8,6.4,Yes,Reset app configuration
+Firewall blocking API calls,HD-1518,Network,Medium,In Progress,<agent-5>,<requester-518>,Finance,2025-02-12,,8,,No,Awaiting manager approval
+File share permissions error,HD-1519,Access & Permissions,Low,New,<agent-1>,<requester-519>,Sales,2025-03-17,,24,,No,Escalated to vendor
+Cannot install approved software,HD-1520,Software,Medium,Closed,<agent-4>,<requester-520>,HR,2025-03-14,2025-03-14,8,0.5,Yes,Renewed license
+App update failed,HD-1521,Software,Medium,Closed,<agent-1>,<requester-521>,Operations,2025-02-21,2025-02-22,8,7.4,Yes,Updated to latest version
+UPS battery replacement needed,HD-1522,Other,Low,Closed,<agent-2>,<requester-522>,Sales,2025-03-03,2025-03-05,24,11.8,Yes,Resolved with vendor
+VPN split tunnel not routing correctly,HD-1523,Network,High,Resolved,<agent-5>,<requester-523>,Finance,2025-03-14,2025-03-14,4,5.5,No,Replaced faulty cable
+Desk phone not ringing,HD-1524,Hardware,Medium,Closed,<agent-3>,<requester-524>,Sales,2025-01-29,2025-01-30,8,4.9,Yes,Ordered replacement; installed
+Data loss prevention alert,HD-1525,Access & Permissions,Medium,Closed,<agent-1>,<requester-525>,Sales,2025-02-08,2025-02-08,8,9.1,No,Rotated secret and updated vault
+Bandwidth throttled on guest network,HD-1526,Network,Critical,Closed,<agent-5>,<requester-526>,Finance,2025-01-14,2025-01-14,2,1.1,Yes,Flushed DNS cache
+Shared mailbox not showing,HD-1527,Email,Medium,Resolved,<agent-1>,<requester-527>,Legal,2025-02-08,2025-02-08,8,8.0,Yes,Adjusted transport rule
+Zoom audio not working,HD-1528,Software,Low,Resolved,<agent-6>,<requester-528>,Engineering,2025-02-12,2025-02-15,24,8.7,Yes,Cleared cache and restarted
+Guest Wi-Fi access for vendor,HD-1529,Network,Low,Resolved,<agent-5>,<requester-529>,Marketing,2025-02-21,2025-02-25,24,27.5,No,Replaced faulty cable
+Antivirus blocking dev tool,HD-1530,Software,Low,Resolved,<agent-3>,<requester-530>,Engineering,2025-02-02,2025-02-02,24,32.2,No,Reinstalled application
+Reply-all storm on DL,HD-1531,Email,Low,Waiting on User,<agent-8>,<requester-531>,Marketing,2025-02-14,,24,,No,Scheduled for next maintenance window
+SSO login loop on internal app,HD-1532,Access & Permissions,Medium,Closed,<agent-5>,<requester-532>,Engineering,2025-01-21,2025-01-22,8,8.4,No,Updated group membership
+Java runtime version conflict,HD-1533,Software,Low,Resolved,<agent-2>,<requester-533>,Engineering,2025-01-08,2025-01-11,24,10.5,Yes,Reinstalled application
+VPN disconnects every 10 minutes,HD-1534,Network,Low,Resolved,<agent-1>,<requester-534>,Engineering,2025-02-13,2025-02-16,24,29.8,No,Rebooted access point
+Conference phone echo issue,HD-1535,Hardware,Low,Resolved,<agent-5>,<requester-535>,HR,2025-02-19,2025-02-21,24,21.5,Yes,Ordered replacement; installed
+Service principal certificate expiring,HD-1536,Access & Permissions,Medium,Waiting on User,<agent-4>,<requester-536>,Marketing,2025-01-27,,8,,No,
+Service account password expired,HD-1537,Access & Permissions,Medium,Resolved,<agent-3>,<requester-537>,Finance,2025-01-19,2025-01-19,8,10.2,No,Approved by manager; provisioned
+Laptop hinge loose,HD-1538,Hardware,High,Closed,<agent-3>,<requester-538>,Finance,2025-02-21,2025-02-21,4,3.7,Yes,Firmware updated
+Site-to-site VPN tunnel down,HD-1539,Network,Medium,In Progress,<agent-8>,<requester-539>,Sales,2025-03-17,,8,,No,Awaiting user response
+App update failed,HD-1540,Software,Critical,Resolved,<agent-8>,<requester-540>,Operations,2025-01-19,2025-01-19,2,2.4,No,Renewed license
+Office temperature too cold,HD-1541,Other,Low,Closed,<agent-3>,<requester-541>,Engineering,2025-02-21,2025-02-26,24,34.4,No,Completed checklist
+Cannot access cloud console from office,HD-1542,Network,Low,In Progress,<agent-5>,<requester-542>,Legal,2025-02-26,,24,,No,Scheduled for next maintenance window
+Docker desktop not starting,HD-1543,Software,Low,New,<agent-2>,<requester-543>,Engineering,2025-02-07,,24,,No,Investigating root cause
+Service account password expired,HD-1544,Access & Permissions,Low,Closed,<agent-8>,<requester-544>,Operations,2025-01-09,2025-01-11,24,18.6,Yes,Updated group membership
+Bulk user provisioning request,HD-1545,Access & Permissions,Medium,Closed,<agent-8>,<requester-545>,Legal,2025-03-06,2025-03-06,8,5.7,Yes,Re-enrolled MFA device
+Wireless drops in parking garage,HD-1546,Network,Low,Resolved,<agent-1>,<requester-546>,Finance,2025-01-21,2025-01-26,24,24.1,No,Reconfigured routing rule
+Reply-all storm on DL,HD-1547,Email,High,Closed,<agent-7>,<requester-547>,Sales,2025-02-14,2025-02-14,4,1.5,Yes,Blocked malicious sender
+Wireless drops in parking garage,HD-1548,Network,Medium,Waiting on User,<agent-3>,<requester-548>,HR,2025-01-13,,8,,No,Awaiting user response
+PDF viewer not rendering correctly,HD-1549,Software,Low,Resolved,<agent-6>,<requester-549>,Engineering,2025-01-09,2025-01-12,24,8.2,Yes,Applied hotfix from vendor
+Monitor flickering on dock,HD-1550,Hardware,Medium,Resolved,<agent-6>,<requester-550>,Finance,2025-02-19,2025-02-20,8,6.6,Yes,Swapped with spare unit
+USB-C adapter not recognized,HD-1551,Hardware,High,In Progress,<agent-6>,<requester-551>,Engineering,2025-03-05,,4,,No,Investigating root cause
+AWS console access request,HD-1552,Access & Permissions,Medium,New,<agent-6>,<requester-552>,Finance,2025-03-20,,8,,No,Awaiting user response
+Data loss prevention alert,HD-1553,Access & Permissions,Medium,Resolved,<agent-6>,<requester-553>,Sales,2025-03-25,2025-03-26,8,3.9,Yes,Approved by manager; provisioned
+Office 365 activation error,HD-1554,Software,Medium,Closed,<agent-7>,<requester-554>,Legal,2025-02-03,2025-02-03,8,11.3,No,Renewed license
+Packet loss on conference bridge,HD-1555,Network,Medium,Resolved,<agent-2>,<requester-555>,Operations,2025-02-13,2025-02-13,8,8.4,No,Adjusted firewall rule
+Packet loss on conference bridge,HD-1556,Network,Low,Closed,<agent-3>,<requester-556>,Engineering,2025-03-27,2025-03-28,24,35.2,No,Adjusted firewall rule
+Phishing email reported,HD-1557,Email,Low,Closed,<agent-1>,<requester-557>,HR,2025-01-31,2025-02-04,24,13.4,Yes,Rebuilt Outlook profile
+Network drive mapping lost,HD-1558,Network,Low,Resolved,<agent-5>,<requester-558>,Legal,2025-02-11,2025-02-14,24,25.7,No,Updated firmware on switch
+GitHub org membership needed,HD-1559,Access & Permissions,Medium,Resolved,<agent-8>,<requester-559>,HR,2025-03-02,2025-03-02,8,13.0,No,Rotated secret and updated vault
+VPN disconnects every 10 minutes,HD-1560,Network,Medium,Resolved,<agent-1>,<requester-560>,Operations,2025-03-09,2025-03-10,8,5.3,Yes,Reconfigured routing rule
+SSO login loop on internal app,HD-1561,Access & Permissions,Low,Resolved,<agent-7>,<requester-561>,Legal,2025-01-23,2025-01-23,24,19.1,Yes,Re-enrolled MFA device
+Java runtime version conflict,HD-1562,Software,Low,Resolved,<agent-4>,<requester-562>,HR,2025-01-21,2025-01-25,24,18.9,Yes,Reinstalled application
+Laptop overheating during meetings,HD-1563,Hardware,Low,Resolved,<agent-8>,<requester-563>,Finance,2025-02-07,2025-02-09,24,30.8,No,Cleaned and tested
+VS Code freezing on large files,HD-1564,Software,Medium,Resolved,<agent-3>,<requester-564>,Marketing,2025-03-07,2025-03-08,8,3.2,Yes,Reinstalled application
+AWS console access request,HD-1565,Access & Permissions,Low,Resolved,<agent-4>,<requester-565>,Marketing,2025-03-17,2025-03-18,24,20.1,Yes,Fixed ACL inheritance
+Adobe Acrobat license issue,HD-1566,Software,Low,Resolved,<agent-7>,<requester-566>,Marketing,2025-02-13,2025-02-18,24,14.8,Yes,Reset app configuration
+Docker desktop not starting,HD-1567,Software,Critical,Resolved,<agent-2>,<requester-567>,Legal,2025-03-09,2025-03-09,2,0.7,Yes,Renewed license
+Printer offline on floor 1,HD-1568,Hardware,Medium,Closed,<agent-6>,<requester-568>,Finance,2025-01-09,2025-01-10,8,5.5,Yes,Firmware updated
+Cannot install approved software,HD-1569,Software,Medium,Resolved,<agent-2>,<requester-569>,Engineering,2025-01-26,2025-01-27,8,3.2,Yes,Updated to latest version
+Firewall blocking API calls,HD-1570,Network,Low,Closed,<agent-3>,<requester-570>,Marketing,2025-01-28,2025-02-01,24,39.5,No,Adjusted firewall rule
+SharePoint page won't load,HD-1571,Software,Low,Closed,<agent-4>,<requester-571>,Engineering,2025-03-06,2025-03-08,24,18.4,Yes,Updated to latest version
+External monitor no signal,HD-1572,Hardware,Medium,Resolved,<agent-1>,<requester-572>,Operations,2025-03-14,2025-03-15,8,13.1,No,Swapped with spare unit
+Office 365 activation error,HD-1573,Software,Medium,Closed,<agent-3>,<requester-573>,Finance,2025-02-01,2025-02-02,8,12.3,No,Reinstalled application
+PDF viewer not rendering correctly,HD-1574,Software,Medium,Closed,<agent-8>,<requester-574>,Sales,2025-02-22,2025-02-23,8,6.7,Yes,Cleared cache and restarted
+Service principal certificate expiring,HD-1575,Access & Permissions,Low,In Progress,<agent-5>,<requester-575>,Engineering,2025-01-18,,24,,No,Awaiting manager approval
+Need standing desk converter,HD-1576,Other,Low,Waiting on User,<agent-1>,<requester-576>,Engineering,2025-02-07,,24,,No,Awaiting manager approval
+Printer paper jam on floor 2,HD-1577,Hardware,Low,In Progress,<agent-1>,<requester-577>,HR,2025-01-28,,24,,No,Waiting for replacement part
+Laptop keyboard keys sticking,HD-1578,Hardware,Low,Closed,<agent-7>,<requester-578>,Sales,2025-02-08,2025-02-10,24,0.5,Yes,Swapped with spare unit
+Attachment size limit too small,HD-1579,Email,Medium,New,<agent-5>,<requester-579>,HR,2025-02-15,,8,,No,Scheduled for next maintenance window
+Shared mailbox not showing,HD-1580,Email,Medium,Closed,<agent-8>,<requester-580>,Engineering,2025-01-30,2025-01-31,8,10.3,No,Rebuilt Outlook profile
+UPS battery replacement needed,HD-1581,Other,Low,Resolved,<agent-1>,<requester-581>,Finance,2025-02-20,2025-02-23,24,24.6,No,Replaced equipment
+Laptop screen cracked,HD-1582,Hardware,High,New,<agent-5>,<requester-582>,HR,2025-03-21,,4,,No,Escalated to vendor
+Conference room AV not working,HD-1583,Other,Medium,New,<agent-8>,<requester-583>,Operations,2025-01-18,,8,,No,Escalated to vendor
+Antivirus blocking dev tool,HD-1584,Software,Low,Closed,<agent-2>,<requester-584>,Legal,2025-02-16,2025-02-16,24,28.4,No,Renewed license
+Shared folder read-only unexpectedly,HD-1585,Access & Permissions,Medium,Waiting on User,<agent-1>,<requester-585>,Operations,2025-03-26,,8,,No,Waiting for replacement part
+Chrome tabs crashing repeatedly,HD-1586,Software,Critical,Closed,<agent-5>,<requester-586>,Marketing,2025-01-13,2025-01-13,2,2.4,No,Applied hotfix from vendor
+New hire laptop setup,HD-1587,Hardware,Low,Closed,<agent-3>,<requester-587>,Finance,2025-02-26,2025-02-28,24,0.5,Yes,Cleaned and tested
+Packet loss on conference bridge,HD-1588,Network,Medium,In Progress,<agent-2>,<requester-588>,Legal,2025-02-22,,8,,No,Awaiting manager approval
+Bandwidth throttled on guest network,HD-1589,Network,Medium,Resolved,<agent-7>,<requester-589>,Legal,2025-02-22,2025-02-22,8,6.5,Yes,Flushed DNS cache
+Power BI desktop crashes on open,HD-1590,Software,Medium,Resolved,<agent-3>,<requester-590>,Finance,2025-03-14,2025-03-15,8,5.2,Yes,Cleared cache and restarted
+Need standing desk converter,HD-1591,Other,Medium,Resolved,<agent-5>,<requester-591>,Legal,2025-02-06,2025-02-07,8,5.3,Yes,Resolved with vendor
+PDF viewer not rendering correctly,HD-1592,Software,High,Closed,<agent-5>,<requester-592>,Marketing,2025-02-07,2025-02-07,4,4.5,No,Applied hotfix from vendor
+Touchscreen unresponsive,HD-1593,Hardware,Medium,In Progress,<agent-5>,<requester-593>,Marketing,2025-03-22,,8,,No,Awaiting manager approval
+Desk phone not ringing,HD-1594,Other,Low,Resolved,<agent-3>,<requester-594>,Sales,2025-01-29,2025-02-01,24,21.8,Yes,Submitted facilities request
+Account locked after failed attempts,HD-1595,Access & Permissions,Medium,Closed,<agent-7>,<requester-595>,Legal,2025-03-24,2025-03-25,8,5.9,Yes,Reset credentials via portal
+Laptop won't boot after update,HD-1596,Hardware,High,Resolved,<agent-1>,<requester-596>,Operations,2025-01-30,2025-01-30,4,4.5,No,Ordered replacement; installed
+External monitor no signal,HD-1597,Hardware,Medium,Waiting on User,<agent-8>,<requester-597>,Sales,2025-03-07,,8,,No,Awaiting user response
+PDF viewer not rendering correctly,HD-1598,Software,Medium,Closed,<agent-1>,<requester-598>,Legal,2025-03-04,2025-03-05,8,7.3,Yes,Reset app configuration
+Reply-all storm on DL,HD-1599,Email,Medium,Closed,<agent-7>,<requester-599>,Legal,2025-03-10,2025-03-11,8,7.9,Yes,Blocked malicious sender
+Packet loss on conference bridge,HD-1600,Network,Medium,Resolved,<agent-8>,<requester-600>,Sales,2025-01-13,2025-01-13,8,11.8,No,Replaced faulty cable
+Laptop won't boot after update,HD-1601,Hardware,Medium,Closed,<agent-6>,<requester-601>,Finance,2025-03-02,2025-03-02,8,8.6,No,Ordered replacement; installed
+Reply-all storm on DL,HD-1602,Email,Medium,Closed,<agent-8>,<requester-602>,Sales,2025-02-12,2025-02-13,8,1.7,Yes,Fixed DNS record
+Cannot connect to VDI,HD-1603,Network,Medium,Resolved,<agent-2>,<requester-603>,Operations,2025-03-08,2025-03-09,8,0.5,Yes,Replaced faulty cable
+Teams notifications not appearing,HD-1604,Software,Medium,Resolved,<agent-1>,<requester-604>,Engineering,2025-02-20,2025-02-21,8,4.5,Yes,Reinstalled application
+VPN split tunnel not routing correctly,HD-1605,Network,High,Closed,<agent-4>,<requester-605>,Finance,2025-02-08,2025-02-09,4,1.7,Yes,Adjusted firewall rule
+Guest Wi-Fi access for vendor,HD-1606,Network,High,Resolved,<agent-1>,<requester-606>,Finance,2025-03-05,2025-03-05,4,3.2,Yes,Rebooted access point
+Touchscreen unresponsive,HD-1607,Hardware,High,Closed,<agent-4>,<requester-607>,Marketing,2025-01-26,2025-01-26,4,2.9,Yes,Cleaned and tested
+Python environment broken,HD-1608,Software,Low,Closed,<agent-2>,<requester-608>,Legal,2025-01-31,2025-02-01,24,31.2,No,Reinstalled application
+Jira plugin not syncing,HD-1609,Software,Low,In Progress,<agent-7>,<requester-609>,Marketing,2025-03-27,,24,,No,
+Git push failing with auth error,HD-1610,Software,Low,Resolved,<agent-7>,<requester-610>,Finance,2025-03-05,2025-03-07,24,10.3,Yes,Reinstalled application
+Desk phone not ringing,HD-1611,Hardware,Medium,Resolved,<agent-3>,<requester-611>,Finance,2025-01-13,2025-01-15,8,6.0,Yes,Cleaned and tested
+Delayed email delivery,HD-1612,Email,Low,Closed,<agent-7>,<requester-612>,Finance,2025-03-17,2025-03-21,24,22.0,Yes,Blocked malicious sender
+Cannot connect to dev environment,HD-1613,Network,High,Closed,<agent-7>,<requester-613>,Finance,2025-02-01,2025-02-01,4,1.8,Yes,Replaced faulty cable
+Role assignment missing in app,HD-1614,Access & Permissions,Low,New,<agent-2>,<requester-614>,Engineering,2025-03-15,,24,,No,Scheduled for next maintenance window
+Ergonomic equipment request,HD-1615,Other,Medium,New,<agent-2>,<requester-615>,HR,2025-03-17,,8,,No,Investigating root cause
+Reply-all storm on DL,HD-1616,Email,Medium,Closed,<agent-5>,<requester-616>,Sales,2025-02-13,2025-02-13,8,11.0,No,Rebuilt Outlook profile
+Laptop overheating during meetings,HD-1617,Hardware,Medium,Waiting on User,<agent-2>,<requester-617>,Finance,2025-02-13,,8,,No,Scheduled for next maintenance window
+Wired connection not working at desk,HD-1618,Network,Low,Resolved,<agent-4>,<requester-618>,Marketing,2025-02-13,2025-02-17,24,28.7,No,Updated firmware on switch
+Delayed email delivery,HD-1619,Email,Medium,Resolved,<agent-2>,<requester-619>,Sales,2025-03-01,2025-03-01,8,7.7,Yes,Adjusted transport rule
+Cannot access HR portal,HD-1620,Access & Permissions,Medium,Waiting on User,<agent-7>,<requester-620>,Legal,2025-02-08,,8,,No,Escalated to vendor
+MFA setup for new phone,HD-1621,Access & Permissions,Medium,Resolved,<agent-3>,<requester-621>,Sales,2025-03-11,2025-03-11,8,3.9,Yes,Updated group membership
+GitHub org membership needed,HD-1622,Access & Permissions,Low,New,<agent-6>,<requester-622>,Engineering,2025-03-24,,24,,No,Scheduled for next maintenance window
+Keyboard not responding after sleep,HD-1623,Hardware,Medium,Closed,<agent-6>,<requester-623>,Marketing,2025-02-12,2025-02-14,8,9.2,No,Swapped with spare unit
+Slack not loading messages,HD-1624,Software,Low,Closed,<agent-8>,<requester-624>,Engineering,2025-01-21,2025-01-21,24,13.3,Yes,Applied hotfix from vendor
+Packet loss on conference bridge,HD-1625,Network,Low,Closed,<agent-3>,<requester-625>,Legal,2025-01-23,2025-01-28,24,28.8,No,Adjusted firewall rule
+Excel macro throws error,HD-1626,Software,Medium,New,<agent-7>,<requester-626>,Marketing,2025-03-16,,8,,No,Awaiting user response
+Second monitor not extending display,HD-1627,Hardware,Medium,Waiting on User,<agent-5>,<requester-627>,HR,2025-01-21,,8,,No,Scheduled for next maintenance window
+Need elevated permissions for deployment,HD-1628,Access & Permissions,Low,New,<agent-4>,<requester-628>,Legal,2025-03-07,,24,,No,Investigating root cause
+Office 365 activation error,HD-1629,Software,Medium,Resolved,<agent-8>,<requester-629>,Engineering,2025-03-15,2025-03-15,8,8.9,No,Reinstalled application
+Email forwarding rule not working,HD-1630,Email,Medium,Closed,<agent-5>,<requester-630>,Engineering,2025-01-20,2025-01-21,8,5.4,Yes,Cleared mailbox quota
+Need admin rights for dev tool,HD-1631,Access & Permissions,High,Closed,<agent-6>,<requester-631>,Sales,2025-01-09,2025-01-09,4,2.8,Yes,Updated group membership
+Printer offline on floor 5,HD-1632,Hardware,Medium,Closed,<agent-4>,<requester-632>,Finance,2025-03-12,2025-03-12,8,7.9,Yes,Firmware updated
+Laptop overheating during meetings,HD-1633,Hardware,Medium,New,<agent-1>,<requester-633>,Marketing,2025-03-17,,8,,No,Awaiting manager approval
+Cannot access cloud console from office,HD-1634,Network,Medium,Closed,<agent-4>,<requester-634>,Legal,2025-01-24,2025-01-25,8,6.2,Yes,Rebooted access point
+Laptop won't boot after update,HD-1635,Hardware,Medium,Closed,<agent-5>,<requester-635>,Operations,2025-01-27,2025-01-29,8,7.2,Yes,Reimaged device
+Firewall blocking API calls,HD-1636,Network,Medium,Resolved,<agent-1>,<requester-636>,Sales,2025-03-15,2025-03-16,8,2.7,Yes,Reconfigured routing rule
+Encrypted email cannot be opened,HD-1637,Email,Medium,Closed,<agent-6>,<requester-637>,Operations,2025-02-18,2025-02-18,8,10.2,No,Blocked malicious sender
+Office 365 activation error,HD-1638,Software,Low,Closed,<agent-3>,<requester-638>,Operations,2025-01-06,2025-01-06,24,16.5,Yes,Applied hotfix from vendor
+Shared folder read-only unexpectedly,HD-1639,Access & Permissions,Medium,Closed,<agent-2>,<requester-639>,HR,2025-01-09,2025-01-09,8,11.2,No,Rotated secret and updated vault
+Badge not working at entrance,HD-1640,Other,High,Closed,<agent-6>,<requester-640>,Sales,2025-03-03,2025-03-03,4,6.3,No,Completed checklist
+Excel macro throws error,HD-1641,Software,Low,Resolved,<agent-4>,<requester-641>,Finance,2025-02-21,2025-03-01,24,22.8,Yes,Reset app configuration
+SharePoint page won't load,HD-1642,Software,Low,New,<agent-8>,<requester-642>,Sales,2025-03-17,,24,,No,Investigating root cause
+Cannot reach internal wiki,HD-1643,Network,Low,Resolved,<agent-3>,<requester-643>,Marketing,2025-03-19,2025-03-25,24,20.9,Yes,Adjusted firewall rule
+Slow internet in building B,HD-1644,Network,Medium,Closed,<agent-8>,<requester-644>,Engineering,2025-03-01,2025-03-01,8,7.3,Yes,Rebooted access point
+Out-of-office not activating,HD-1645,Email,Medium,Resolved,<agent-5>,<requester-645>,Finance,2025-03-15,2025-03-16,8,3.2,Yes,Re-enabled auto-mapping
+IDE plugin compatibility issue,HD-1646,Software,Medium,Resolved,<agent-2>,<requester-646>,Sales,2025-01-31,2025-02-01,8,7.8,Yes,Reinstalled application
+Cannot reach internal wiki,HD-1647,Network,Medium,New,<agent-6>,<requester-647>,Legal,2025-02-07,,8,,No,
+Office 365 activation error,HD-1648,Software,Low,Resolved,<agent-2>,<requester-648>,Legal,2025-03-23,2025-03-26,24,23.3,Yes,Reinstalled application
+Excel macro throws error,HD-1649,Software,Low,Closed,<agent-2>,<requester-649>,Legal,2025-01-22,2025-01-27,24,27.4,No,Renewed license
+Printer offline on floor 4,HD-1650,Hardware,Low,Waiting on User,<agent-7>,<requester-650>,Engineering,2025-03-26,,24,,No,Investigating root cause
+Guest Wi-Fi access for vendor,HD-1651,Network,Medium,In Progress,<agent-7>,<requester-651>,HR,2025-03-26,,8,,No,Scheduled for next maintenance window
+VS Code freezing on large files,HD-1652,Software,High,Waiting on User,<agent-2>,<requester-652>,Engineering,2025-03-23,,4,,No,Waiting for replacement part
+Proxy blocking legitimate site,HD-1653,Network,Medium,New,<agent-7>,<requester-653>,Finance,2025-03-26,,8,,No,Waiting for replacement part
+Slack not loading messages,HD-1654,Software,Medium,Closed,<agent-6>,<requester-654>,Marketing,2025-03-21,2025-03-21,8,15.4,No,Renewed license
+Cannot connect to dev environment,HD-1655,Network,Medium,Resolved,<agent-1>,<requester-655>,Sales,2025-03-11,2025-03-11,8,5.5,Yes,Rebooted access point
+PDF viewer not rendering correctly,HD-1656,Software,Medium,Closed,<agent-8>,<requester-656>,HR,2025-02-17,2025-02-18,8,10.2,No,Reinstalled application
+Proxy blocking legitimate site,HD-1657,Network,Low,Closed,<agent-4>,<requester-657>,Operations,2025-02-04,2025-02-07,24,12.9,Yes,Replaced faulty cable
+Conference phone echo issue,HD-1658,Hardware,Low,Closed,<agent-6>,<requester-658>,Engineering,2025-01-15,2025-01-18,24,33.6,No,Swapped with spare unit
+Wireless mouse not pairing,HD-1659,Hardware,Critical,Resolved,<agent-4>,<requester-659>,Marketing,2025-01-28,2025-01-28,2,2.0,Yes,Swapped with spare unit
+Phishing email reported,HD-1660,Email,Critical,Closed,<agent-3>,<requester-660>,Finance,2025-01-20,2025-01-20,2,0.5,Yes,Blocked malicious sender
+Junk filter too aggressive,HD-1661,Email,Low,Closed,<agent-2>,<requester-661>,Engineering,2025-01-24,2025-01-26,24,30.9,No,Re-enabled auto-mapping
+Zoom audio not working,HD-1662,Software,Critical,Closed,<agent-4>,<requester-662>,Legal,2025-03-15,2025-03-15,2,0.7,Yes,Renewed license
+Meeting room calendar double-booked,HD-1663,Email,Medium,Closed,<agent-2>,<requester-663>,Legal,2025-03-07,2025-03-07,8,7.2,Yes,Adjusted transport rule
+Account locked after failed attempts,HD-1664,Access & Permissions,Medium,Resolved,<agent-8>,<requester-664>,Operations,2025-03-10,2025-03-11,8,13.7,No,Fixed ACL inheritance
+Mailbox over quota,HD-1665,Email,Medium,Resolved,<agent-5>,<requester-665>,Finance,2025-02-23,2025-02-24,8,4.5,Yes,Blocked malicious sender
+Software license expired,HD-1666,Software,Medium,Closed,<agent-8>,<requester-666>,HR,2025-03-26,2025-03-27,8,4.6,Yes,Applied hotfix from vendor
+Conference phone echo issue,HD-1667,Hardware,Medium,Resolved,<agent-5>,<requester-667>,Operations,2025-01-15,2025-01-16,8,0.5,Yes,Replaced component under warranty
+USB-C adapter not recognized,HD-1668,Hardware,Medium,Closed,<agent-4>,<requester-668>,Marketing,2025-01-31,2025-02-01,8,11.3,No,Reimaged device
+Ergonomic equipment request,HD-1669,Other,Low,Resolved,<agent-5>,<requester-669>,Engineering,2025-02-13,2025-02-13,24,23.6,Yes,Submitted facilities request
+Email signature not displaying,HD-1670,Email,Medium,Closed,<agent-4>,<requester-670>,Finance,2025-02-04,2025-02-04,8,8.3,No,Fixed DNS record
+Python environment broken,HD-1671,Software,Low,Resolved,<agent-7>,<requester-671>,Sales,2025-03-03,2025-03-04,24,36.4,No,Applied hotfix from vendor
+Attachment size limit too small,HD-1672,Email,Low,Resolved,<agent-6>,<requester-672>,Sales,2025-02-28,2025-03-02,24,20.6,Yes,Fixed DNS record
+Docking station not charging laptop,HD-1673,Hardware,Low,New,<agent-6>,<requester-673>,HR,2025-03-27,,24,,No,Escalated to vendor
+Laptop overheating during meetings,HD-1674,Hardware,Medium,Resolved,<agent-8>,<requester-674>,Engineering,2025-02-17,2025-02-17,8,5.4,Yes,Cleaned and tested
+Wired connection not working at desk,HD-1675,Network,Critical,Resolved,<agent-4>,<requester-675>,Engineering,2025-02-24,2025-02-24,2,2.0,Yes,Rebooted access point
+Laptop keyboard keys sticking,HD-1676,Hardware,Low,Resolved,<agent-7>,<requester-676>,Finance,2025-01-26,2025-01-26,24,34.9,No,Reimaged device
+Laptop battery draining fast,HD-1677,Hardware,Medium,Closed,<agent-7>,<requester-677>,Legal,2025-03-07,2025-03-07,8,7.6,Yes,Reimaged device
+PDF viewer not rendering correctly,HD-1678,Software,Low,Resolved,<agent-4>,<requester-678>,HR,2025-02-17,2025-02-19,24,40.8,No,Applied hotfix from vendor
+IDE plugin compatibility issue,HD-1679,Software,Low,Waiting on User,<agent-5>,<requester-679>,Finance,2025-03-25,,24,,No,Escalated to vendor
+Guest Wi-Fi access for vendor,HD-1680,Network,Low,Resolved,<agent-3>,<requester-680>,Operations,2025-03-19,2025-03-21,24,35.0,No,Reconfigured routing rule
+Service principal certificate expiring,HD-1681,Access & Permissions,High,Closed,<agent-4>,<requester-681>,Finance,2025-02-27,2025-02-27,4,4.1,No,Reset credentials via portal
+Wireless drops in parking garage,HD-1682,Network,Medium,Closed,<agent-2>,<requester-682>,Operations,2025-03-06,2025-03-07,8,7.8,Yes,Flushed DNS cache
+Email forwarding rule not working,HD-1683,Email,Medium,Closed,<agent-8>,<requester-683>,Finance,2025-03-06,2025-03-07,8,11.8,No,Fixed DNS record
+Laptop keyboard keys sticking,HD-1684,Hardware,Critical,Resolved,<agent-2>,<requester-684>,Sales,2025-02-12,2025-02-12,2,1.4,Yes,Swapped with spare unit
+Second monitor not extending display,HD-1685,Hardware,Low,Resolved,<agent-4>,<requester-685>,Finance,2025-01-12,2025-01-13,24,26.8,No,Replaced component under warranty
+Cannot reach internal wiki,HD-1686,Network,Critical,Closed,<agent-7>,<requester-686>,Legal,2025-01-31,2025-01-31,2,1.8,Yes,Updated firmware on switch
+Service account password expired,HD-1687,Access & Permissions,High,Closed,<agent-2>,<requester-687>,Legal,2025-01-27,2025-01-27,4,5.6,No,Re-enrolled MFA device
+SharePoint page won't load,HD-1688,Software,Medium,Closed,<agent-7>,<requester-688>,Engineering,2025-02-04,2025-02-04,8,6.8,Yes,Cleared cache and restarted
+Cannot access cloud console from office,HD-1689,Network,High,Closed,<agent-5>,<requester-689>,Operations,2025-03-26,2025-03-26,4,3.5,Yes,Adjusted firewall rule
+Badge access request for lab,HD-1690,Access & Permissions,Low,Resolved,<agent-3>,<requester-690>,Marketing,2025-01-18,2025-01-19,24,33.5,No,Rotated secret and updated vault
+Outlook keeps crashing,HD-1691,Software,Low,Resolved,<agent-8>,<requester-691>,Engineering,2025-02-17,2025-02-17,24,21.3,Yes,Reinstalled application
+Chrome tabs crashing repeatedly,HD-1692,Software,Medium,Resolved,<agent-2>,<requester-692>,Marketing,2025-02-05,2025-02-05,8,9.1,No,Cleared cache and restarted
+Python environment broken,HD-1693,Software,Medium,Resolved,<agent-4>,<requester-693>,Operations,2025-03-23,2025-03-23,8,6.0,Yes,Reset app configuration
+Phishing email reported,HD-1694,Email,Low,Resolved,<agent-4>,<requester-694>,Legal,2025-02-17,2025-02-20,24,7.5,Yes,Fixed DNS record
+VPN disconnects every 10 minutes,HD-1695,Network,Medium,New,<agent-6>,<requester-695>,Sales,2025-03-03,,8,,No,Awaiting user response
+Whiteboard markers dried out in room 220,HD-1696,Other,Low,Closed,<agent-3>,<requester-696>,Engineering,2025-01-28,2025-01-30,24,13.4,Yes,Completed checklist
+Laptop overheating during meetings,HD-1697,Hardware,Medium,Closed,<agent-4>,<requester-697>,Marketing,2025-02-11,2025-02-13,8,11.3,No,Firmware updated
+Chrome tabs crashing repeatedly,HD-1698,Software,Medium,Closed,<agent-7>,<requester-698>,HR,2025-03-25,2025-03-25,8,7.8,Yes,Updated to latest version
+Proxy blocking legitimate site,HD-1699,Network,High,Closed,<agent-3>,<requester-699>,Marketing,2025-02-23,2025-02-23,4,4.0,Yes,Replaced faulty cable
+Touchscreen unresponsive,HD-1700,Hardware,Low,In Progress,<agent-1>,<requester-700>,Engineering,2025-03-11,,24,,No,Awaiting user response
+OneDrive sync stuck,HD-1701,Software,Medium,Closed,<agent-2>,<requester-701>,Finance,2025-01-10,2025-01-12,8,5.7,Yes,Reset app configuration
+Power BI desktop crashes on open,HD-1702,Software,Low,Closed,<agent-6>,<requester-702>,Operations,2025-01-13,2025-01-19,24,25.4,No,Reset app configuration
+Shared folder read-only unexpectedly,HD-1703,Access & Permissions,Critical,Waiting on User,<agent-3>,<requester-703>,Marketing,2025-03-24,,2,,No,
+Desk phone not ringing,HD-1704,Hardware,High,In Progress,<agent-2>,<requester-704>,Operations,2025-02-24,,4,,No,Waiting for replacement part
+Encrypted email cannot be opened,HD-1705,Email,Medium,Waiting on User,<agent-5>,<requester-705>,HR,2025-03-15,,8,,No,
+Printer paper jam on floor 2,HD-1706,Hardware,Medium,Resolved,<agent-6>,<requester-706>,Legal,2025-01-24,2025-01-26,8,6.7,Yes,Replaced component under warranty
+Second monitor not extending display,HD-1707,Hardware,Low,Closed,<agent-7>,<requester-707>,HR,2025-02-28,2025-03-03,24,26.4,No,Firmware updated
+Laptop battery draining fast,HD-1708,Hardware,Low,Resolved,<agent-8>,<requester-708>,HR,2025-02-02,2025-02-04,24,42.3,No,Firmware updated
+IDE plugin compatibility issue,HD-1709,Software,Low,Closed,<agent-2>,<requester-709>,Legal,2025-03-28,2025-03-28,24,22.5,Yes,Cleared cache and restarted
+Latency spike on video calls,HD-1710,Network,Medium,Resolved,<agent-2>,<requester-710>,Engineering,2025-01-13,2025-01-14,8,9.4,No,Rebooted access point
+Java runtime version conflict,HD-1711,Software,Medium,Closed,<agent-5>,<requester-711>,Finance,2025-03-07,2025-03-09,8,7.2,Yes,Updated to latest version
+File share permissions error,HD-1712,Access & Permissions,Medium,Resolved,<agent-1>,<requester-712>,Marketing,2025-02-17,2025-02-18,8,7.5,Yes,Re-enrolled MFA device
+Office 365 activation error,HD-1713,Software,Medium,Resolved,<agent-4>,<requester-713>,Marketing,2025-03-04,2025-03-06,8,6.5,Yes,Updated to latest version
+USB-C adapter not recognized,HD-1714,Hardware,Medium,Resolved,<agent-1>,<requester-714>,Legal,2025-02-16,2025-02-16,8,13.4,No,Firmware updated
+Ergonomic equipment request,HD-1715,Other,Low,Resolved,<agent-2>,<requester-715>,Operations,2025-02-24,2025-03-01,24,33.9,No,Replaced equipment
+Email forwarding rule not working,HD-1716,Email,Low,Resolved,<agent-8>,<requester-716>,Sales,2025-03-04,2025-03-09,24,41.8,No,Re-enabled auto-mapping
+Desk phone not ringing,HD-1717,Hardware,Medium,Closed,<agent-1>,<requester-717>,Sales,2025-02-16,2025-02-17,8,5.8,Yes,Cleaned and tested
+Wireless mouse not pairing,HD-1718,Hardware,Medium,Closed,<agent-8>,<requester-718>,Engineering,2025-02-17,2025-02-18,8,4.4,Yes,Cleaned and tested
+Cannot install approved software,HD-1719,Software,Medium,Resolved,<agent-7>,<requester-719>,Legal,2025-02-04,2025-02-04,8,10.8,No,Cleared cache and restarted
+AWS console access request,HD-1720,Access & Permissions,High,Resolved,<agent-6>,<requester-720>,Sales,2025-02-15,2025-02-16,4,0.5,Yes,Approved by manager; provisioned
+Cannot access HR portal,HD-1721,Access & Permissions,Low,Closed,<agent-3>,<requester-721>,HR,2025-03-24,2025-03-25,24,37.8,No,Approved by manager; provisioned
+Distribution list not receiving mail,HD-1722,Email,Medium,Waiting on User,<agent-8>,<requester-722>,Sales,2025-03-23,,8,,No,Investigating root cause
+DHCP not assigning IP on floor 2,HD-1723,Network,Medium,In Progress,<agent-2>,<requester-723>,Marketing,2025-03-20,,8,,No,Investigating root cause
+UPS battery replacement needed,HD-1724,Other,Medium,Closed,<agent-4>,<requester-724>,Legal,2025-02-03,2025-02-04,8,6.7,Yes,Submitted facilities request
+Conference room AV not working,HD-1725,Other,Medium,Closed,<agent-6>,<requester-725>,Finance,2025-03-07,2025-03-07,8,14.3,No,Completed checklist
+Delayed email delivery,HD-1726,Email,Medium,Resolved,<agent-3>,<requester-726>,Marketing,2025-03-21,2025-03-21,8,5.6,Yes,Cleared mailbox quota
+Chrome tabs crashing repeatedly,HD-1727,Software,High,Resolved,<agent-4>,<requester-727>,Legal,2025-01-31,2025-01-31,4,0.5,Yes,Cleared cache and restarted
+Browser extension causing crashes,HD-1728,Software,Low,Closed,<agent-3>,<requester-728>,Engineering,2025-01-18,2025-01-18,24,7.5,Yes,Reset app configuration
+Account locked after failed attempts,HD-1729,Access & Permissions,Medium,Waiting on User,<agent-2>,<requester-729>,Sales,2025-02-25,,8,,No,Awaiting user response
+Power BI desktop crashes on open,HD-1730,Software,Medium,Closed,<agent-2>,<requester-730>,Legal,2025-03-06,2025-03-07,8,7.3,Yes,Reinstalled application
+Firewall blocking API calls,HD-1731,Network,Medium,New,<agent-4>,<requester-731>,Engineering,2025-03-22,,8,,No,
+Cannot connect to VDI,HD-1732,Network,Medium,Waiting on User,<agent-7>,<requester-732>,Marketing,2025-03-20,,8,,No,Waiting for replacement part
+Git push failing with auth error,HD-1733,Software,Low,Waiting on User,<agent-7>,<requester-733>,HR,2025-03-15,,24,,No,Awaiting user response
+Shared mailbox not showing,HD-1734,Email,Medium,Closed,<agent-4>,<requester-734>,Operations,2025-01-21,2025-01-22,8,5.6,Yes,Fixed DNS record
+Slow internet in building A,HD-1735,Network,Medium,Resolved,<agent-2>,<requester-735>,HR,2025-02-07,2025-02-07,8,10.8,No,Rebooted access point
+Python environment broken,HD-1736,Software,Critical,Waiting on User,<agent-5>,<requester-736>,Operations,2025-03-15,,2,,No,Awaiting manager approval
+Cannot reach internal wiki,HD-1737,Network,Medium,Resolved,<agent-2>,<requester-737>,Operations,2025-01-11,2025-01-12,8,6.1,Yes,Updated firmware on switch
+Latency spike on video calls,HD-1738,Network,Medium,In Progress,<agent-7>,<requester-738>,Engineering,2025-03-17,,8,,No,Escalated to vendor
+Headset mic not working,HD-1739,Hardware,Medium,Resolved,<agent-7>,<requester-739>,Operations,2025-01-24,2025-01-24,8,3.2,Yes,Cleaned and tested
+Phishing email reported,HD-1740,Email,Medium,New,<agent-7>,<requester-740>,Legal,2025-01-25,,8,,No,Investigating root cause
+Power BI desktop crashes on open,HD-1741,Software,Medium,Resolved,<agent-7>,<requester-741>,Engineering,2025-02-17,2025-02-18,8,5.5,Yes,Reinstalled application
+Laptop keyboard keys sticking,HD-1742,Hardware,Low,Closed,<agent-4>,<requester-742>,Finance,2025-01-19,2025-01-23,24,26.6,No,Ordered replacement; installed
+Phishing email reported,HD-1743,Email,Medium,Closed,<agent-2>,<requester-743>,Engineering,2025-01-27,2025-01-27,8,7.4,Yes,Rebuilt Outlook profile
+Cannot access HR portal,HD-1744,Access & Permissions,Low,Closed,<agent-3>,<requester-744>,Sales,2025-02-23,2025-02-25,24,14.6,Yes,Re-enrolled MFA device
+Git push failing with auth error,HD-1745,Software,Medium,Resolved,<agent-8>,<requester-745>,Marketing,2025-03-06,2025-03-06,8,13.1,No,Updated to latest version
+Adobe Acrobat license issue,HD-1746,Software,Medium,Resolved,<agent-2>,<requester-746>,Operations,2025-01-16,2025-01-16,8,3.1,Yes,Applied hotfix from vendor
+Junk filter too aggressive,HD-1747,Email,Critical,Resolved,<agent-7>,<requester-747>,Operations,2025-03-12,2025-03-12,2,2.4,No,Re-enabled auto-mapping
+USB-C adapter not recognized,HD-1748,Hardware,Medium,Resolved,<agent-6>,<requester-748>,Sales,2025-03-14,2025-03-14,8,1.3,Yes,Ordered replacement; installed
+Email signature not displaying,HD-1749,Email,High,Resolved,<agent-6>,<requester-749>,Legal,2025-01-23,2025-01-23,4,4.2,No,Re-enabled auto-mapping
+Docker desktop not starting,HD-1750,Software,Medium,Closed,<agent-2>,<requester-750>,Marketing,2025-02-13,2025-02-14,8,9.9,No,Reset app configuration
+Slow internet in building A,HD-1751,Network,Low,Closed,<agent-8>,<requester-751>,HR,2025-03-09,2025-03-11,24,22.4,Yes,Flushed DNS cache
+Laptop screen cracked,HD-1752,Hardware,Medium,In Progress,<agent-2>,<requester-752>,Finance,2025-03-09,,8,,No,Investigating root cause
+Attachment size limit too small,HD-1753,Email,Critical,Resolved,<agent-5>,<requester-753>,Sales,2025-03-07,2025-03-07,2,1.7,Yes,Cleared mailbox quota
+Cannot access shared drive,HD-1754,Access & Permissions,Medium,Closed,<agent-3>,<requester-754>,Marketing,2025-03-02,2025-03-03,8,8.0,Yes,Rotated secret and updated vault
+OneDrive sync stuck,HD-1755,Software,Critical,Resolved,<agent-4>,<requester-755>,Finance,2025-02-09,2025-02-09,2,3.0,No,Applied hotfix from vendor
+Guest Wi-Fi access for vendor,HD-1756,Network,Low,Resolved,<agent-7>,<requester-756>,Sales,2025-01-20,2025-01-23,24,14.6,Yes,Flushed DNS cache
+Distribution list not receiving mail,HD-1757,Email,Medium,Resolved,<agent-1>,<requester-757>,Finance,2025-03-08,2025-03-08,8,3.7,Yes,Fixed DNS record
+Jira plugin not syncing,HD-1758,Software,Low,Resolved,<agent-5>,<requester-758>,Operations,2025-02-06,2025-02-08,24,10.8,Yes,Cleared cache and restarted
+Broken trackpad on laptop,HD-1759,Hardware,Low,New,<agent-3>,<requester-759>,Sales,2025-01-21,,24,,No,Escalated to vendor
+Webcam not detected,HD-1760,Hardware,High,New,<agent-1>,<requester-760>,Finance,2025-02-27,,4,,No,Awaiting manager approval
+Zoom audio not working,HD-1761,Software,High,Closed,<agent-7>,<requester-761>,Operations,2025-01-12,2025-01-12,4,2.4,Yes,Reinstalled application
+Keyboard not responding after sleep,HD-1762,Hardware,Critical,Closed,<agent-6>,<requester-762>,Sales,2025-02-11,2025-02-11,2,1.6,Yes,Swapped with spare unit
+Touchscreen unresponsive,HD-1763,Hardware,Medium,Closed,<agent-3>,<requester-763>,Marketing,2025-02-21,2025-02-22,8,9.8,No,Ordered replacement; installed
+OneDrive sync stuck,HD-1764,Software,Low,New,<agent-3>,<requester-764>,Operations,2025-03-24,,24,,No,Awaiting user response
+Java runtime version conflict,HD-1765,Software,High,Resolved,<agent-6>,<requester-765>,Marketing,2025-03-07,2025-03-07,4,5.5,No,Updated to latest version
+Encrypted email cannot be opened,HD-1766,Email,Low,Resolved,<agent-6>,<requester-766>,Marketing,2025-03-04,2025-03-07,24,28.3,No,Fixed DNS record
+Chrome tabs crashing repeatedly,HD-1767,Software,Low,Resolved,<agent-1>,<requester-767>,Legal,2025-01-30,2025-02-03,24,35.4,No,Applied hotfix from vendor
+VPN disconnects every 10 minutes,HD-1768,Network,Medium,Resolved,<agent-5>,<requester-768>,Sales,2025-01-29,2025-01-30,8,3.3,Yes,Replaced faulty cable
+Wired connection not working at desk,HD-1769,Network,Low,Resolved,<agent-5>,<requester-769>,Marketing,2025-02-03,2025-02-04,24,19.9,Yes,Flushed DNS cache
+Second monitor not extending display,HD-1770,Hardware,Low,Closed,<agent-3>,<requester-770>,Marketing,2025-01-12,2025-01-12,24,2.6,Yes,Swapped with spare unit
+External monitor no signal,HD-1771,Hardware,Low,Waiting on User,<agent-5>,<requester-771>,Operations,2025-01-23,,24,,No,
+Laptop won't boot after update,HD-1772,Hardware,Medium,Waiting on User,<agent-5>,<requester-772>,Sales,2025-02-07,,8,,No,Investigating root cause
+Badge access request for lab,HD-1773,Access & Permissions,Medium,Closed,<agent-5>,<requester-773>,Legal,2025-03-27,2025-03-28,8,11.5,No,Fixed ACL inheritance
+Keyboard not responding after sleep,HD-1774,Hardware,Medium,Resolved,<agent-7>,<requester-774>,Marketing,2025-01-24,2025-01-25,8,10.6,No,Cleaned and tested
+Desk phone not ringing,HD-1775,Hardware,Medium,Closed,<agent-5>,<requester-775>,Sales,2025-01-28,2025-01-29,8,14.2,No,Firmware updated
+Desk phone not ringing,HD-1776,Hardware,Medium,Resolved,<agent-1>,<requester-776>,HR,2025-01-18,2025-01-19,8,11.3,No,Swapped with spare unit
+Laptop keyboard keys sticking,HD-1777,Hardware,Medium,Resolved,<agent-1>,<requester-777>,Legal,2025-01-07,2025-01-08,8,10.7,No,Ordered replacement; installed
+Shared mailbox not showing,HD-1778,Email,Low,Resolved,<agent-5>,<requester-778>,Marketing,2025-03-08,2025-03-11,24,22.0,Yes,Blocked malicious sender
+Cannot install approved software,HD-1779,Software,Medium,Closed,<agent-7>,<requester-779>,Sales,2025-01-06,2025-01-06,8,5.3,Yes,Reset app configuration
+OneDrive sync stuck,HD-1780,Software,Low,Closed,<agent-2>,<requester-780>,Finance,2025-01-27,2025-02-02,24,36.3,No,Reinstalled application
+Phishing email reported,HD-1781,Email,Medium,Closed,<agent-3>,<requester-781>,Finance,2025-03-14,2025-03-14,8,5.3,Yes,Rebuilt Outlook profile
+Outlook keeps crashing,HD-1782,Software,Medium,Closed,<agent-6>,<requester-782>,Marketing,2025-01-15,2025-01-15,8,9.1,No,Applied hotfix from vendor
+Shared mailbox not showing,HD-1783,Email,High,Closed,<agent-7>,<requester-783>,Operations,2025-02-10,2025-02-10,4,5.1,No,Cleared mailbox quota
+AWS console access request,HD-1784,Access & Permissions,Medium,Closed,<agent-6>,<requester-784>,Sales,2025-02-06,2025-02-06,8,6.0,Yes,Fixed ACL inheritance
+Wireless mouse not pairing,HD-1785,Hardware,Low,New,<agent-4>,<requester-785>,Operations,2025-01-17,,24,,No,Awaiting manager approval
+Cannot access cloud console from office,HD-1786,Network,Low,Closed,<agent-2>,<requester-786>,Engineering,2025-02-19,2025-02-22,24,39.6,No,Rebooted access point
+GitHub org membership needed,HD-1787,Access & Permissions,High,Resolved,<agent-3>,<requester-787>,Finance,2025-01-09,2025-01-09,4,3.9,Yes,Reset credentials via portal
+Laptop won't boot after update,HD-1788,Hardware,Medium,Closed,<agent-2>,<requester-788>,Sales,2025-01-15,2025-01-15,8,1.9,Yes,Cleaned and tested
+Ergonomic equipment request,HD-1789,Other,Medium,New,<agent-6>,<requester-789>,Finance,2025-01-07,,8,,No,Scheduled for next maintenance window
+Shared folder read-only unexpectedly,HD-1790,Access & Permissions,Medium,Waiting on User,<agent-1>,<requester-790>,Finance,2025-03-01,,8,,No,Awaiting manager approval
+Need elevated permissions for deployment,HD-1791,Access & Permissions,Medium,Resolved,<agent-3>,<requester-791>,Marketing,2025-01-17,2025-01-18,8,9.2,No,Rotated secret and updated vault
+Parking gate not opening with badge,HD-1792,Other,Medium,Closed,<agent-2>,<requester-792>,Legal,2025-03-06,2025-03-07,8,12.2,No,Completed checklist
+Office 365 activation error,HD-1793,Software,Medium,Resolved,<agent-2>,<requester-793>,Engineering,2025-02-21,2025-02-22,8,8.9,No,Updated to latest version
+Docking station USB ports dead,HD-1794,Hardware,Medium,Closed,<agent-1>,<requester-794>,Sales,2025-02-09,2025-02-10,8,8.0,Yes,Swapped with spare unit
+Laptop screen cracked,HD-1795,Hardware,Medium,Resolved,<agent-5>,<requester-795>,Finance,2025-03-11,2025-03-11,8,5.8,Yes,Firmware updated
+Meeting room calendar double-booked,HD-1796,Email,Medium,New,<agent-3>,<requester-796>,Engineering,2025-03-22,,8,,No,Awaiting manager approval
+Laptop hinge loose,HD-1797,Hardware,Medium,Resolved,<agent-2>,<requester-797>,Operations,2025-01-17,2025-01-18,8,7.0,Yes,Cleaned and tested
+VPN split tunnel not routing correctly,HD-1798,Network,Medium,Closed,<agent-6>,<requester-798>,Finance,2025-01-22,2025-01-24,8,8.5,No,Flushed DNS cache
+Power BI desktop crashes on open,HD-1799,Software,Medium,Closed,<agent-2>,<requester-799>,Sales,2025-03-19,2025-03-19,8,4.7,Yes,Reinstalled application
+Wi-Fi not connecting in conf room,HD-1800,Network,Medium,Resolved,<agent-3>,<requester-800>,Marketing,2025-01-26,2025-01-27,8,12.2,No,Reconfigured routing rule
+Desk phone not ringing,HD-1801,Other,Low,Closed,<agent-8>,<requester-801>,Operations,2025-01-23,2025-01-23,24,32.6,No,Completed checklist
+USB-C adapter not recognized,HD-1802,Hardware,Medium,Resolved,<agent-6>,<requester-802>,Marketing,2025-01-16,2025-01-16,8,4.0,Yes,Cleaned and tested
+Data loss prevention alert,HD-1803,Access & Permissions,Medium,Resolved,<agent-1>,<requester-803>,Sales,2025-01-19,2025-01-20,8,13.6,No,Rotated secret and updated vault
+Laptop battery draining fast,HD-1804,Hardware,Medium,Closed,<agent-8>,<requester-804>,Engineering,2025-01-16,2025-01-16,8,9.7,No,Ordered replacement; installed
+Proxy blocking legitimate site,HD-1805,Network,Low,New,<agent-8>,<requester-805>,Engineering,2025-02-10,,24,,No,Awaiting user response
+Slow performance after patch,HD-1806,Software,Medium,Resolved,<agent-7>,<requester-806>,Engineering,2025-02-21,2025-02-22,8,5.8,Yes,Updated to latest version
+App update failed,HD-1807,Software,High,Closed,<agent-3>,<requester-807>,Engineering,2025-02-10,2025-02-10,4,3.2,Yes,Updated to latest version
+Laptop battery draining fast,HD-1808,Hardware,High,Resolved,<agent-7>,<requester-808>,Marketing,2025-02-13,2025-02-13,4,3.2,Yes,Cleaned and tested
+Bandwidth throttled on guest network,HD-1809,Network,Low,Waiting on User,<agent-4>,<requester-809>,Engineering,2025-03-21,,24,,No,Awaiting user response
+Junk filter too aggressive,HD-1810,Email,Low,Closed,<agent-1>,<requester-810>,Sales,2025-03-05,2025-03-07,24,36.9,No,Cleared mailbox quota
+Desk phone not ringing,HD-1811,Other,Low,In Progress,<agent-8>,<requester-811>,Operations,2025-03-21,,24,,No,Awaiting user response
+DNS resolution failing intermittently,HD-1812,Network,High,In Progress,<agent-7>,<requester-812>,Sales,2025-02-19,,4,,No,
+VS Code freezing on large files,HD-1813,Software,Medium,Closed,<agent-5>,<requester-813>,HR,2025-01-21,2025-01-21,8,10.4,No,Renewed license
+Conference room AV not working,HD-1814,Other,Medium,Closed,<agent-3>,<requester-814>,Finance,2025-03-01,2025-03-01,8,11.4,No,Completed checklist
+Password reset request,HD-1815,Access & Permissions,Medium,Resolved,<agent-2>,<requester-815>,Engineering,2025-01-19,2025-01-19,8,4.4,Yes,Updated group membership
+Service principal certificate expiring,HD-1816,Access & Permissions,Low,Resolved,<agent-4>,<requester-816>,Sales,2025-03-05,2025-03-05,24,35.4,No,Fixed ACL inheritance
+Cannot install approved software,HD-1817,Software,Low,Closed,<agent-7>,<requester-817>,Engineering,2025-02-22,2025-02-23,24,41.0,No,Applied hotfix from vendor
+Cannot access shared drive,HD-1818,Access & Permissions,Critical,Closed,<agent-7>,<requester-818>,Engineering,2025-01-07,2025-01-07,2,3.5,No,Fixed ACL inheritance
+Excel macro throws error,HD-1819,Software,Low,In Progress,<agent-4>,<requester-819>,HR,2025-02-25,,24,,No,Awaiting user response
+Laptop keyboard keys sticking,HD-1820,Hardware,Low,Closed,<agent-3>,<requester-820>,Finance,2025-02-04,2025-02-08,24,10.4,Yes,Swapped with spare unit
+Email forwarding rule not working,HD-1821,Email,High,Resolved,<agent-6>,<requester-821>,Sales,2025-01-17,2025-01-18,4,4.0,Yes,Rebuilt Outlook profile
+Cannot access cloud console from office,HD-1822,Network,Critical,In Progress,<agent-3>,<requester-822>,Finance,2025-03-28,,2,,No,Waiting for replacement part
+Slow internet in building A,HD-1823,Network,Medium,Resolved,<agent-7>,<requester-823>,Legal,2025-02-08,2025-02-10,8,11.9,No,Rebooted access point
+Keyboard not responding after sleep,HD-1824,Hardware,Medium,Resolved,<agent-3>,<requester-824>,Engineering,2025-01-15,2025-01-15,8,9.1,No,Cleaned and tested
+Laptop fan running loud,HD-1825,Hardware,Medium,Resolved,<agent-7>,<requester-825>,Marketing,2025-03-28,2025-03-28,8,3.4,Yes,Replaced component under warranty
+Docking station not charging laptop,HD-1826,Hardware,Medium,Closed,<agent-6>,<requester-826>,Finance,2025-03-25,2025-03-26,8,6.3,Yes,Replaced component under warranty
+Guest Wi-Fi access for vendor,HD-1827,Network,Medium,Resolved,<agent-3>,<requester-827>,Sales,2025-02-21,2025-02-21,8,0.5,Yes,Reconfigured routing rule
+Power BI desktop crashes on open,HD-1828,Software,High,In Progress,<agent-2>,<requester-828>,Marketing,2025-03-17,,4,,No,Scheduled for next maintenance window
+Fire drill IT checklist,HD-1829,Other,Low,Closed,<agent-5>,<requester-829>,Sales,2025-01-31,2025-02-03,24,27.2,No,Completed checklist
+VPN split tunnel not routing correctly,HD-1830,Network,Low,Resolved,<agent-7>,<requester-830>,HR,2025-02-09,2025-02-10,24,17.8,Yes,Flushed DNS cache
+Mailbox over quota,HD-1831,Email,Medium,Closed,<agent-1>,<requester-831>,HR,2025-02-07,2025-02-07,8,8.1,No,Adjusted transport rule
+Jira plugin not syncing,HD-1832,Software,High,Resolved,<agent-4>,<requester-832>,Engineering,2025-02-02,2025-02-03,4,3.7,Yes,Reset app configuration
+Adobe Acrobat license issue,HD-1833,Software,Medium,Resolved,<agent-6>,<requester-833>,Sales,2025-03-18,2025-03-19,8,8.8,No,Renewed license
+Fire drill IT checklist,HD-1834,Other,Low,Resolved,<agent-2>,<requester-834>,HR,2025-02-28,2025-03-03,24,10.9,Yes,Replaced equipment
+PDF viewer not rendering correctly,HD-1835,Software,High,Resolved,<agent-3>,<requester-835>,HR,2025-02-16,2025-02-16,4,1.1,Yes,Reinstalled application
+Junk filter too aggressive,HD-1836,Email,Medium,New,<agent-7>,<requester-836>,Engineering,2025-03-15,,8,,No,Escalated to vendor
+Printer offline on floor 3,HD-1837,Hardware,Low,Closed,<agent-5>,<requester-837>,Marketing,2025-02-15,2025-02-17,24,21.7,Yes,Swapped with spare unit
+Badge access request for lab,HD-1838,Access & Permissions,Medium,Resolved,<agent-2>,<requester-838>,Legal,2025-02-22,2025-02-24,8,15.0,No,Rotated secret and updated vault
+Service principal certificate expiring,HD-1839,Access & Permissions,Medium,Resolved,<agent-2>,<requester-839>,Sales,2025-02-22,2025-02-24,8,12.2,No,Updated group membership
+Antivirus blocking dev tool,HD-1840,Software,Medium,Resolved,<agent-7>,<requester-840>,Marketing,2025-01-27,2025-01-28,8,0.5,Yes,Applied hotfix from vendor
+DHCP not assigning IP on floor 3,HD-1841,Network,Medium,Resolved,<agent-4>,<requester-841>,HR,2025-03-08,2025-03-09,8,10.2,No,Flushed DNS cache
+Laptop hinge loose,HD-1842,Hardware,Medium,Resolved,<agent-4>,<requester-842>,Operations,2025-02-01,2025-02-01,8,4.0,Yes,Firmware updated
+Printer offline on floor 5,HD-1843,Hardware,High,In Progress,<agent-4>,<requester-843>,Legal,2025-03-22,,4,,No,Awaiting user response
+Cannot access cloud console from office,HD-1844,Network,High,Closed,<agent-2>,<requester-844>,Sales,2025-02-03,2025-02-03,4,4.8,No,Updated firmware on switch
+File share permissions error,HD-1845,Access & Permissions,Low,New,<agent-2>,<requester-845>,Sales,2025-03-06,,24,,No,Awaiting manager approval
+Laptop keyboard keys sticking,HD-1846,Hardware,Medium,Resolved,<agent-8>,<requester-846>,Marketing,2025-02-08,2025-02-08,8,9.2,No,Swapped with spare unit
+Touchscreen unresponsive,HD-1847,Hardware,Medium,Resolved,<agent-2>,<requester-847>,Engineering,2025-02-23,2025-02-23,8,5.0,Yes,Firmware updated
+Guest Wi-Fi access for vendor,HD-1848,Network,High,Waiting on User,<agent-1>,<requester-848>,Operations,2025-02-06,,4,,No,Awaiting manager approval
+VS Code freezing on large files,HD-1849,Software,Medium,Closed,<agent-5>,<requester-849>,Sales,2025-03-26,2025-03-26,8,7.3,Yes,Cleared cache and restarted
+OneDrive sync stuck,HD-1850,Software,Medium,Closed,<agent-5>,<requester-850>,Operations,2025-01-06,2025-01-07,8,3.3,Yes,Cleared cache and restarted
+Antivirus blocking dev tool,HD-1851,Software,High,Resolved,<agent-3>,<requester-851>,Marketing,2025-03-05,2025-03-05,4,4.7,No,Reinstalled application
+Keyboard not responding after sleep,HD-1852,Hardware,Low,Closed,<agent-1>,<requester-852>,HR,2025-02-20,2025-02-25,24,32.9,No,Ordered replacement; installed
+Service account password expired,HD-1853,Access & Permissions,Medium,Closed,<agent-4>,<requester-853>,HR,2025-03-11,2025-03-11,8,8.7,No,Re-enrolled MFA device
+Browser extension causing crashes,HD-1854,Software,Medium,Waiting on User,<agent-6>,<requester-854>,Finance,2025-01-07,,8,,No,
+Encrypted email cannot be opened,HD-1855,Email,Low,Closed,<agent-8>,<requester-855>,Engineering,2025-02-09,2025-02-13,24,10.5,Yes,Fixed DNS record
+Chrome tabs crashing repeatedly,HD-1856,Software,Critical,Closed,<agent-7>,<requester-856>,Marketing,2025-02-01,2025-02-01,2,1.0,Yes,Applied hotfix from vendor
+Conference room AV not working,HD-1857,Other,Low,In Progress,<agent-3>,<requester-857>,Marketing,2025-02-19,,24,,No,Awaiting manager approval
+Laptop keyboard keys sticking,HD-1858,Hardware,Medium,In Progress,<agent-6>,<requester-858>,Legal,2025-03-25,,8,,No,Awaiting manager approval
+Webcam not detected,HD-1859,Hardware,Critical,Closed,<agent-3>,<requester-859>,Finance,2025-01-25,2025-01-25,2,1.8,Yes,Swapped with spare unit
+Laptop keyboard keys sticking,HD-1860,Hardware,Critical,Closed,<agent-5>,<requester-860>,Legal,2025-03-22,2025-03-22,2,1.8,Yes,Swapped with spare unit
+Broken trackpad on laptop,HD-1861,Hardware,Low,In Progress,<agent-3>,<requester-861>,Engineering,2025-02-09,,24,,No,Waiting for replacement part
+Desk phone not ringing,HD-1862,Hardware,Low,In Progress,<agent-4>,<requester-862>,Legal,2025-03-28,,24,,No,Scheduled for next maintenance window
+Antivirus blocking dev tool,HD-1863,Software,Medium,Resolved,<agent-6>,<requester-863>,Legal,2025-03-21,2025-03-21,8,8.5,No,Renewed license
+Desk phone not ringing,HD-1864,Other,Medium,Closed,<agent-3>,<requester-864>,Finance,2025-03-02,2025-03-02,8,7.9,Yes,Coordinated with building ops
+Desk phone not ringing,HD-1865,Other,Medium,Closed,<agent-1>,<requester-865>,Legal,2025-02-28,2025-03-01,8,10.1,No,Resolved with vendor
+Encrypted email cannot be opened,HD-1866,Email,High,Closed,<agent-7>,<requester-866>,Sales,2025-02-26,2025-02-26,4,3.0,Yes,Adjusted transport rule
+Delayed email delivery,HD-1867,Email,Medium,Resolved,<agent-6>,<requester-867>,HR,2025-01-18,2025-01-19,8,10.1,No,Blocked malicious sender
+Service principal certificate expiring,HD-1868,Access & Permissions,High,Waiting on User,<agent-4>,<requester-868>,HR,2025-01-24,,4,,No,
+Docking station not charging laptop,HD-1869,Hardware,Medium,Resolved,<agent-1>,<requester-869>,Legal,2025-03-09,2025-03-09,8,6.9,Yes,Replaced component under warranty
+Guest Wi-Fi access for vendor,HD-1870,Network,Low,New,<agent-8>,<requester-870>,Finance,2025-01-13,,24,,No,
+Email forwarding rule not working,HD-1871,Email,Medium,Resolved,<agent-8>,<requester-871>,Legal,2025-03-25,2025-03-26,8,2.9,Yes,Fixed DNS record
+Wired connection not working at desk,HD-1872,Network,Medium,In Progress,<agent-4>,<requester-872>,Finance,2025-03-08,,8,,No,Awaiting manager approval
+GitHub org membership needed,HD-1873,Access & Permissions,Medium,Closed,<agent-2>,<requester-873>,Finance,2025-02-28,2025-03-01,8,7.4,Yes,Rotated secret and updated vault
+MFA setup for new phone,HD-1874,Access & Permissions,Medium,Resolved,<agent-8>,<requester-874>,Engineering,2025-02-20,2025-02-20,8,12.1,No,Re-enrolled MFA device
+IDE plugin compatibility issue,HD-1875,Software,Low,Closed,<agent-7>,<requester-875>,HR,2025-01-14,2025-01-14,24,26.4,No,Cleared cache and restarted
+Power BI desktop crashes on open,HD-1876,Software,Low,Resolved,<agent-5>,<requester-876>,Finance,2025-01-14,2025-01-14,24,11.5,Yes,Reset app configuration
+Cannot access cloud console from office,HD-1877,Network,High,Resolved,<agent-6>,<requester-877>,HR,2025-03-21,2025-03-21,4,2.8,Yes,Rebooted access point
+SSO login loop on internal app,HD-1878,Access & Permissions,Medium,In Progress,<agent-8>,<requester-878>,Marketing,2025-02-04,,8,,No,Investigating root cause
+Laptop fan running loud,HD-1879,Hardware,Medium,Resolved,<agent-1>,<requester-879>,Legal,2025-01-15,2025-01-15,8,11.7,No,Firmware updated
+Keyboard not responding after sleep,HD-1880,Hardware,Medium,Resolved,<agent-4>,<requester-880>,Sales,2025-02-07,2025-02-07,8,8.8,No,Reimaged device
+Broken trackpad on laptop,HD-1881,Hardware,Critical,Resolved,<agent-2>,<requester-881>,Sales,2025-01-10,2025-01-10,2,2.8,No,Cleaned and tested
+Packet loss on conference bridge,HD-1882,Network,Medium,New,<agent-4>,<requester-882>,HR,2025-03-07,,8,,No,
+Laptop overheating during meetings,HD-1883,Hardware,Medium,Resolved,<agent-7>,<requester-883>,Legal,2025-01-15,2025-01-16,8,8.8,No,Ordered replacement; installed
+Wireless drops in parking garage,HD-1884,Network,Critical,New,<agent-5>,<requester-884>,Legal,2025-02-07,,2,,No,Scheduled for next maintenance window
+Slow internet in building C,HD-1885,Network,Low,In Progress,<agent-5>,<requester-885>,Finance,2025-03-26,,24,,No,Awaiting user response
+Printer offline on floor 1,HD-1886,Hardware,Medium,Closed,<agent-5>,<requester-886>,Sales,2025-02-17,2025-02-18,8,5.0,Yes,Replaced component under warranty
+Slow performance after patch,HD-1887,Software,High,Waiting on User,<agent-1>,<requester-887>,Marketing,2025-01-15,,4,,No,Escalated to vendor
+Parking gate not opening with badge,HD-1888,Other,Medium,Closed,<agent-1>,<requester-888>,Engineering,2025-01-10,2025-01-10,8,13.1,No,Submitted facilities request
+Desk phone not ringing,HD-1889,Hardware,High,Closed,<agent-4>,<requester-889>,HR,2025-03-24,2025-03-24,4,2.0,Yes,Firmware updated
+Cannot access cloud console from office,HD-1890,Network,High,New,<agent-2>,<requester-890>,HR,2025-02-22,,4,,No,Waiting for replacement part
+Laptop overheating during meetings,HD-1891,Hardware,Critical,Resolved,<agent-7>,<requester-891>,Operations,2025-03-15,2025-03-15,2,2.0,Yes,Reimaged device
+Office 365 activation error,HD-1892,Software,Medium,Resolved,<agent-4>,<requester-892>,Marketing,2025-01-22,2025-01-24,8,10.7,No,Cleared cache and restarted
+Proxy blocking legitimate site,HD-1893,Network,Low,Resolved,<agent-6>,<requester-893>,Legal,2025-02-03,2025-02-04,24,20.3,Yes,Flushed DNS cache
+DHCP not assigning IP on floor 3,HD-1894,Network,High,Waiting on User,<agent-6>,<requester-894>,Finance,2025-03-26,,4,,No,Waiting for replacement part
+Excel macro throws error,HD-1895,Software,Medium,Closed,<agent-2>,<requester-895>,Marketing,2025-01-24,2025-01-25,8,7.0,Yes,Reinstalled application
+Excel macro throws error,HD-1896,Software,Medium,Closed,<agent-5>,<requester-896>,Legal,2025-01-16,2025-01-16,8,7.8,Yes,Cleared cache and restarted
+Excel macro throws error,HD-1897,Software,Medium,In Progress,<agent-1>,<requester-897>,Operations,2025-02-14,,8,,No,
+Phishing email reported,HD-1898,Email,Low,Resolved,<agent-4>,<requester-898>,Legal,2025-01-09,2025-01-12,24,10.2,Yes,Re-enabled auto-mapping
+UPS battery replacement needed,HD-1899,Other,Medium,Closed,<agent-8>,<requester-899>,Finance,2025-03-20,2025-03-20,8,9.2,No,Submitted facilities request
+Printer offline on floor 5,HD-1900,Hardware,Critical,Resolved,<agent-5>,<requester-900>,Engineering,2025-02-06,2025-02-06,2,1.3,Yes,Cleaned and tested
+PDF viewer not rendering correctly,HD-1901,Software,Medium,Resolved,<agent-1>,<requester-901>,Engineering,2025-02-14,2025-02-14,8,8.5,No,Updated to latest version
+Firewall blocking API calls,HD-1902,Network,Low,Resolved,<agent-4>,<requester-902>,Finance,2025-01-13,2025-01-14,24,24.3,No,Reconfigured routing rule
+Antivirus blocking dev tool,HD-1903,Software,Medium,Resolved,<agent-4>,<requester-903>,Operations,2025-01-28,2025-01-29,8,10.7,No,Applied hotfix from vendor
+Latency spike on video calls,HD-1904,Network,Critical,Resolved,<agent-4>,<requester-904>,Engineering,2025-02-08,2025-02-08,2,1.4,Yes,Rebooted access point
+VPN split tunnel not routing correctly,HD-1905,Network,High,Closed,<agent-2>,<requester-905>,Sales,2025-02-01,2025-02-01,4,3.0,Yes,Reconfigured routing rule
+DHCP not assigning IP on floor 3,HD-1906,Network,Medium,Resolved,<agent-7>,<requester-906>,Operations,2025-02-22,2025-02-22,8,9.0,No,Adjusted firewall rule
+Laptop overheating during meetings,HD-1907,Hardware,Medium,Resolved,<agent-6>,<requester-907>,HR,2025-03-12,2025-03-12,8,5.7,Yes,Cleaned and tested
+Laptop overheating during meetings,HD-1908,Hardware,High,Resolved,<agent-4>,<requester-908>,HR,2025-03-11,2025-03-11,4,2.0,Yes,Replaced component under warranty
+DNS resolution failing intermittently,HD-1909,Network,Medium,Closed,<agent-8>,<requester-909>,Marketing,2025-02-09,2025-02-10,8,10.0,No,Rebooted access point
+Cannot access CI/CD pipeline,HD-1910,Access & Permissions,Medium,Waiting on User,<agent-7>,<requester-910>,Marketing,2025-01-16,,8,,No,Escalated to vendor
+Cannot connect to VDI,HD-1911,Network,Medium,Waiting on User,<agent-7>,<requester-911>,Sales,2025-03-19,,8,,No,Scheduled for next maintenance window
+File share permissions error,HD-1912,Access & Permissions,Medium,Resolved,<agent-5>,<requester-912>,Marketing,2025-02-15,2025-02-15,8,5.1,Yes,Reset credentials via portal
+Attachment size limit too small,HD-1913,Email,Low,Waiting on User,<agent-1>,<requester-913>,Sales,2025-01-21,,24,,No,Investigating root cause
+Docking station USB ports dead,HD-1914,Hardware,Critical,In Progress,<agent-7>,<requester-914>,Engineering,2025-01-27,,2,,No,Awaiting manager approval
+Laptop keyboard keys sticking,HD-1915,Hardware,Medium,Resolved,<agent-4>,<requester-915>,Operations,2025-02-12,2025-02-13,8,7.2,Yes,Cleaned and tested
+UPS battery replacement needed,HD-1916,Other,Low,Resolved,<agent-7>,<requester-916>,Operations,2025-03-04,2025-03-06,24,6.3,Yes,Resolved with vendor
+Mailbox over quota,HD-1917,Email,Low,Closed,<agent-2>,<requester-917>,Sales,2025-01-06,2025-01-08,24,27.0,No,Re-enabled auto-mapping
+DHCP not assigning IP on floor 3,HD-1918,Network,Low,Closed,<agent-2>,<requester-918>,Sales,2025-02-13,2025-02-15,24,30.8,No,Updated firmware on switch
+Ergonomic equipment request,HD-1919,Other,Critical,Closed,<agent-4>,<requester-919>,Finance,2025-03-13,2025-03-13,2,2.4,No,Coordinated with building ops
+Java runtime version conflict,HD-1920,Software,Low,Resolved,<agent-5>,<requester-920>,Marketing,2025-03-24,2025-03-28,24,39.3,No,Cleared cache and restarted
+Laptop won't boot after update,HD-1921,Hardware,Low,Waiting on User,<agent-4>,<requester-921>,Engineering,2025-03-09,,24,,No,Escalated to vendor
+File share permissions error,HD-1922,Access & Permissions,Medium,Resolved,<agent-8>,<requester-922>,Marketing,2025-01-20,2025-01-22,8,7.0,Yes,Updated group membership
+Conference room AV not working,HD-1923,Other,Low,Resolved,<agent-4>,<requester-923>,Operations,2025-01-15,2025-01-17,24,13.6,Yes,Re-provisioned badge
+Jira plugin not syncing,HD-1924,Software,Low,Resolved,<agent-6>,<requester-924>,Sales,2025-03-18,2025-03-18,24,11.5,Yes,Cleared cache and restarted
+Account locked after failed attempts,HD-1925,Access & Permissions,Medium,Resolved,<agent-3>,<requester-925>,Finance,2025-01-29,2025-01-31,8,5.3,Yes,Rotated secret and updated vault
+SharePoint page won't load,HD-1926,Software,Medium,Waiting on User,<agent-8>,<requester-926>,HR,2025-03-25,,8,,No,Escalated to vendor
+Network drive mapping lost,HD-1927,Network,Medium,Closed,<agent-6>,<requester-927>,Finance,2025-03-14,2025-03-15,8,4.1,Yes,Reconfigured routing rule
+Site-to-site VPN tunnel down,HD-1928,Network,Medium,Resolved,<agent-4>,<requester-928>,Engineering,2025-02-11,2025-02-12,8,14.4,No,Flushed DNS cache
+Keyboard not responding after sleep,HD-1929,Hardware,Medium,Closed,<agent-3>,<requester-929>,Legal,2025-03-08,2025-03-08,8,9.4,No,Firmware updated
+External monitor no signal,HD-1930,Hardware,Low,Resolved,<agent-5>,<requester-930>,Operations,2025-02-15,2025-02-17,24,37.0,No,Swapped with spare unit
+Firewall blocking API calls,HD-1931,Network,Critical,Resolved,<agent-8>,<requester-931>,Finance,2025-02-03,2025-02-03,2,1.4,Yes,Reconfigured routing rule
+Docking station USB ports dead,HD-1932,Hardware,Medium,Resolved,<agent-1>,<requester-932>,Legal,2025-02-23,2025-02-23,8,4.0,Yes,Swapped with spare unit
+Wired connection not working at desk,HD-1933,Network,Low,Resolved,<agent-7>,<requester-933>,Legal,2025-02-04,2025-02-07,24,20.6,Yes,Rebooted access point
+Need admin rights for dev tool,HD-1934,Access & Permissions,Medium,Resolved,<agent-7>,<requester-934>,Legal,2025-03-09,2025-03-11,8,8.3,No,Fixed ACL inheritance
+Password reset request,HD-1935,Access & Permissions,High,Closed,<agent-5>,<requester-935>,Legal,2025-01-16,2025-01-17,4,3.9,Yes,Re-enrolled MFA device
+Wired connection not working at desk,HD-1936,Network,High,In Progress,<agent-7>,<requester-936>,Sales,2025-03-24,,4,,No,Awaiting manager approval
+Site-to-site VPN tunnel down,HD-1937,Network,High,Closed,<agent-8>,<requester-937>,Finance,2025-02-12,2025-02-12,4,6.0,No,Adjusted firewall rule
+Browser extension causing crashes,HD-1938,Software,Critical,Resolved,<agent-8>,<requester-938>,Operations,2025-02-25,2025-02-25,2,2.1,No,Updated to latest version
+Wi-Fi not connecting in conf room,HD-1939,Network,High,Closed,<agent-5>,<requester-939>,Marketing,2025-01-24,2025-01-24,4,3.2,Yes,Replaced faulty cable
+Latency spike on video calls,HD-1940,Network,Medium,Resolved,<agent-4>,<requester-940>,Engineering,2025-03-10,2025-03-11,8,8.3,No,Adjusted firewall rule
+Docker desktop not starting,HD-1941,Software,Critical,New,<agent-4>,<requester-941>,Legal,2025-03-18,,2,,No,Awaiting manager approval
+Wi-Fi not connecting in conf room,HD-1942,Network,Medium,Resolved,<agent-2>,<requester-942>,Engineering,2025-03-01,2025-03-02,8,10.2,No,Rebooted access point
+Keyboard not responding after sleep,HD-1943,Hardware,Medium,Resolved,<agent-3>,<requester-943>,Operations,2025-03-14,2025-03-14,8,10.5,No,Swapped with spare unit
+Badge access request for lab,HD-1944,Access & Permissions,Low,Closed,<agent-5>,<requester-944>,HR,2025-02-16,2025-02-17,24,20.7,Yes,Re-enrolled MFA device
+Office temperature too cold,HD-1945,Other,Medium,New,<agent-5>,<requester-945>,Finance,2025-03-06,,8,,No,Waiting for replacement part
+Network drive mapping lost,HD-1946,Network,Low,New,<agent-1>,<requester-946>,Marketing,2025-02-28,,24,,No,Awaiting manager approval
+Role assignment missing in app,HD-1947,Access & Permissions,High,Resolved,<agent-2>,<requester-947>,HR,2025-03-05,2025-03-05,4,4.5,No,Reset credentials via portal
+Slow performance after patch,HD-1948,Software,Critical,Closed,<agent-4>,<requester-948>,Marketing,2025-02-11,2025-02-11,2,1.4,Yes,Reset app configuration
+Need access to analytics dashboard,HD-1949,Access & Permissions,High,Closed,<agent-3>,<requester-949>,Engineering,2025-02-02,2025-02-02,4,6.0,No,Re-enrolled MFA device
+VPN disconnects every 10 minutes,HD-1950,Network,Low,Waiting on User,<agent-8>,<requester-950>,Sales,2025-01-27,,24,,No,Waiting for replacement part
+Monitor flickering on dock,HD-1951,Hardware,Medium,Closed,<agent-1>,<requester-951>,Marketing,2025-01-15,2025-01-15,8,10.5,No,Replaced component under warranty
+Browser extension causing crashes,HD-1952,Software,Medium,Resolved,<agent-7>,<requester-952>,Operations,2025-03-07,2025-03-09,8,5.1,Yes,Updated to latest version
+File share permissions error,HD-1953,Access & Permissions,Low,Resolved,<agent-8>,<requester-953>,Finance,2025-02-07,2025-02-12,24,7.5,Yes,Rotated secret and updated vault
+IDE plugin compatibility issue,HD-1954,Software,Medium,Resolved,<agent-4>,<requester-954>,Finance,2025-02-22,2025-02-23,8,7.3,Yes,Reinstalled application
+Cannot send emails to external,HD-1955,Email,Low,Closed,<agent-1>,<requester-955>,HR,2025-02-09,2025-02-11,24,24.9,No,Blocked malicious sender
+Out-of-office not activating,HD-1956,Email,Low,Waiting on User,<agent-8>,<requester-956>,HR,2025-03-27,,24,,No,
+Cannot connect to VDI,HD-1957,Network,High,Resolved,<agent-6>,<requester-957>,Engineering,2025-03-25,2025-03-25,4,4.4,No,Rebooted access point
+Power BI desktop crashes on open,HD-1958,Software,Low,Closed,<agent-5>,<requester-958>,Legal,2025-01-30,2025-02-02,24,18.1,Yes,Renewed license
+GitHub org membership needed,HD-1959,Access & Permissions,Medium,Resolved,<agent-1>,<requester-959>,Operations,2025-02-26,2025-02-26,8,5.9,Yes,Fixed ACL inheritance
+Touchscreen unresponsive,HD-1960,Hardware,Medium,New,<agent-7>,<requester-960>,Sales,2025-03-28,,8,,No,Awaiting manager approval
+Wi-Fi not connecting in conf room,HD-1961,Network,Low,Resolved,<agent-2>,<requester-961>,HR,2025-03-06,2025-03-07,24,33.9,No,Rebooted access point
+Shared folder read-only unexpectedly,HD-1962,Access & Permissions,Low,Resolved,<agent-4>,<requester-962>,Operations,2025-02-22,2025-02-24,24,5.9,Yes,Approved by manager; provisioned
+Laptop overheating during meetings,HD-1963,Hardware,Low,Closed,<agent-3>,<requester-963>,Marketing,2025-01-23,2025-01-26,24,17.6,Yes,Swapped with spare unit
+PDF viewer not rendering correctly,HD-1964,Software,Medium,Closed,<agent-2>,<requester-964>,Finance,2025-02-20,2025-02-21,8,2.9,Yes,Cleared cache and restarted
+Laptop overheating during meetings,HD-1965,Hardware,Low,Closed,<agent-7>,<requester-965>,Sales,2025-03-15,2025-03-18,24,36.0,No,Ordered replacement; installed
+DNS resolution failing intermittently,HD-1966,Network,Low,Resolved,<agent-5>,<requester-966>,Engineering,2025-03-12,2025-03-12,24,20.2,Yes,Replaced faulty cable
+USB-C adapter not recognized,HD-1967,Hardware,Medium,Closed,<agent-6>,<requester-967>,HR,2025-02-23,2025-02-24,8,6.9,Yes,Firmware updated
+Wired connection not working at desk,HD-1968,Network,Medium,Resolved,<agent-2>,<requester-968>,Sales,2025-02-20,2025-02-20,8,8.9,No,Adjusted firewall rule
+Latency spike on video calls,HD-1969,Network,Medium,Closed,<agent-7>,<requester-969>,Finance,2025-02-06,2025-02-06,8,15.3,No,Updated firmware on switch
+Need access to analytics dashboard,HD-1970,Access & Permissions,Low,Resolved,<agent-2>,<requester-970>,Finance,2025-03-01,2025-03-07,24,12.2,Yes,Rotated secret and updated vault
+Badge not working at entrance,HD-1971,Other,High,Closed,<agent-3>,<requester-971>,Sales,2025-02-17,2025-02-17,4,3.8,Yes,Re-provisioned badge
+Password reset request,HD-1972,Access & Permissions,Medium,Resolved,<agent-3>,<requester-972>,Marketing,2025-02-14,2025-02-15,8,10.6,No,Approved by manager; provisioned
+USB-C adapter not recognized,HD-1973,Hardware,High,Waiting on User,<agent-2>,<requester-973>,Finance,2025-03-17,,4,,No,Escalated to vendor
+Phishing email reported,HD-1974,Email,Low,Closed,<agent-2>,<requester-974>,Finance,2025-01-22,2025-01-26,24,7.5,Yes,Cleared mailbox quota
+VPN disconnects every 10 minutes,HD-1975,Network,Medium,In Progress,<agent-6>,<requester-975>,Finance,2025-03-22,,8,,No,Awaiting manager approval
+Antivirus blocking dev tool,HD-1976,Software,Low,Closed,<agent-7>,<requester-976>,Engineering,2025-02-04,2025-02-08,24,26.8,No,Cleared cache and restarted
+Excel macro throws error,HD-1977,Software,Medium,Resolved,<agent-7>,<requester-977>,Operations,2025-03-08,2025-03-08,8,7.5,Yes,Reset app configuration
+Service account password expired,HD-1978,Access & Permissions,Medium,Closed,<agent-7>,<requester-978>,Legal,2025-01-07,2025-01-08,8,7.5,Yes,Rotated secret and updated vault
+Chrome tabs crashing repeatedly,HD-1979,Software,Low,Waiting on User,<agent-5>,<requester-979>,Finance,2025-02-08,,24,,No,Awaiting manager approval
+GitHub org membership needed,HD-1980,Access & Permissions,Low,Resolved,<agent-6>,<requester-980>,Engineering,2025-01-28,2025-01-28,24,40.7,No,Re-enrolled MFA device
+Python environment broken,HD-1981,Software,Medium,Closed,<agent-8>,<requester-981>,Finance,2025-01-12,2025-01-12,8,12.2,No,Reset app configuration
+Slack not loading messages,HD-1982,Software,Medium,Resolved,<agent-5>,<requester-982>,Legal,2025-01-09,2025-01-09,8,8.1,No,Reinstalled application
+Cannot reach internal wiki,HD-1983,Network,Medium,Resolved,<agent-1>,<requester-983>,HR,2025-02-25,2025-02-25,8,4.7,Yes,Reconfigured routing rule
+PDF viewer not rendering correctly,HD-1984,Software,Medium,Resolved,<agent-4>,<requester-984>,Legal,2025-03-14,2025-03-16,8,14.2,No,Reset app configuration
+Reply-all storm on DL,HD-1985,Email,High,Closed,<agent-2>,<requester-985>,Marketing,2025-03-28,2025-03-28,4,1.0,Yes,Rebuilt Outlook profile
+Mailbox over quota,HD-1986,Email,Medium,Resolved,<agent-2>,<requester-986>,Legal,2025-01-30,2025-01-30,8,6.2,Yes,Blocked malicious sender
+Latency spike on video calls,HD-1987,Network,Low,Resolved,<agent-7>,<requester-987>,Marketing,2025-01-29,2025-01-31,24,14.7,Yes,Replaced faulty cable
+Python environment broken,HD-1988,Software,Low,Resolved,<agent-3>,<requester-988>,Marketing,2025-02-09,2025-02-13,24,22.6,Yes,Reinstalled application
+Bandwidth throttled on guest network,HD-1989,Network,Low,Resolved,<agent-8>,<requester-989>,HR,2025-02-28,2025-03-02,24,28.6,No,Replaced faulty cable
+Laptop hinge loose,HD-1990,Hardware,Low,Resolved,<agent-8>,<requester-990>,Sales,2025-03-15,2025-03-16,24,11.0,Yes,Replaced component under warranty
+Packet loss on conference bridge,HD-1991,Network,Medium,Closed,<agent-6>,<requester-991>,Engineering,2025-02-01,2025-02-01,8,6.5,Yes,Adjusted firewall rule
+Wired connection not working at desk,HD-1992,Network,Medium,In Progress,<agent-7>,<requester-992>,Finance,2025-01-08,,8,,No,Scheduled for next maintenance window
+Laptop screen cracked,HD-1993,Hardware,Medium,Resolved,<agent-2>,<requester-993>,Engineering,2025-02-25,2025-02-26,8,0.5,Yes,Firmware updated
+Latency spike on video calls,HD-1994,Network,Medium,Closed,<agent-4>,<requester-994>,Finance,2025-03-23,2025-03-23,8,7.1,Yes,Updated firmware on switch
+Shared mailbox not showing,HD-1995,Email,Medium,Closed,<agent-8>,<requester-995>,Marketing,2025-03-04,2025-03-05,8,2.5,Yes,Re-enabled auto-mapping
+Calendar invites not syncing,HD-1996,Email,Medium,Resolved,<agent-7>,<requester-996>,Finance,2025-02-27,2025-02-27,8,4.2,Yes,Rebuilt Outlook profile
+Browser extension causing crashes,HD-1997,Software,Medium,Waiting on User,<agent-8>,<requester-997>,Operations,2025-01-17,,8,,No,Escalated to vendor
+Cannot reach internal wiki,HD-1998,Network,Low,In Progress,<agent-3>,<requester-998>,Finance,2025-02-22,,24,,No,Waiting for replacement part
+Python environment broken,HD-1999,Software,Low,Resolved,<agent-4>,<requester-999>,HR,2025-03-06,2025-03-10,24,0.5,Yes,Renewed license
+Cannot reach internal wiki,HD-2000,Network,Low,Resolved,<agent-6>,<requester-1000>,Legal,2025-01-26,2025-01-28,24,12.7,Yes,Adjusted firewall rule
